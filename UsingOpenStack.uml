@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_Cqg0YKLbEeOO1PYOwHzT6Q" name="UsingOpenStack">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_27LtQHFHEeOrbLDZJ3pUzQ" name="UsingOpenStack">
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_27LtQXFHEeOrbLDZJ3pUzQ" name="MessageSend" covered="_27LtUnFHEeOrbLDZJ3pUzQ" message="_27LtVXFHEeOrbLDZJ3pUzQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_27LtQnFHEeOrbLDZJ3pUzQ" name="MessageRecv" covered="_27LtUXFHEeOrbLDZJ3pUzQ" message="_27LtVXFHEeOrbLDZJ3pUzQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UN-34HIXEeOrbLDZJ3pUzQ" name="MessageSend7" covered="_27LtUXFHEeOrbLDZJ3pUzQ" message="_UN9pwHIXEeOrbLDZJ3pUzQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UN-34XIXEeOrbLDZJ3pUzQ" name="MessageRecv7" covered="_27LtUnFHEeOrbLDZJ3pUzQ" message="_UN9pwHIXEeOrbLDZJ3pUzQ"/>
+    <fragment xmi:type="uml:CombinedFragment" xmi:id="_3iDiIHIaEeOrbLDZJ3pUzQ" name="CombinedFragment" covered="_27LtUXFHEeOrbLDZJ3pUzQ _27LtU3FHEeOrbLDZJ3pUzQ _27LtUnFHEeOrbLDZJ3pUzQ _27LtVHFHEeOrbLDZJ3pUzQ">
+      <operand xmi:id="_3iEwQHIaEeOrbLDZJ3pUzQ" name="InteractionOperand" covered="_27LtUXFHEeOrbLDZJ3pUzQ _27LtU3FHEeOrbLDZJ3pUzQ _27LtUnFHEeOrbLDZJ3pUzQ _27LtVHFHEeOrbLDZJ3pUzQ">
+        <guard xmi:id="_3iEwQXIaEeOrbLDZJ3pUzQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_41HFcHIaEeOrbLDZJ3pUzQ" value="service"/>
+          <maxint xmi:type="uml:LiteralInteger" xmi:id="_3iFXUXIaEeOrbLDZJ3pUzQ" value="1"/>
+          <minint xmi:type="uml:LiteralInteger" xmi:id="_3iFXUHIaEeOrbLDZJ3pUzQ"/>
+        </guard>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_27LtQ3FHEeOrbLDZJ3pUzQ" name="MessageSend0" message="_27LtVnFHEeOrbLDZJ3pUzQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_27LtRHFHEeOrbLDZJ3pUzQ" name="MessageRecv0" message="_27LtVnFHEeOrbLDZJ3pUzQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_27LtRXFHEeOrbLDZJ3pUzQ" name="MessageSend1" message="_27LtV3FHEeOrbLDZJ3pUzQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_27LtRnFHEeOrbLDZJ3pUzQ" name="MessageRecv1" message="_27LtV3FHEeOrbLDZJ3pUzQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_27LtR3FHEeOrbLDZJ3pUzQ" name="MessageSend3" message="_27LtWHFHEeOrbLDZJ3pUzQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_27LtSHFHEeOrbLDZJ3pUzQ" name="MessageRecv3" message="_27LtWHFHEeOrbLDZJ3pUzQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_27LtSXFHEeOrbLDZJ3pUzQ" name="MessageSend2" message="_27LtWXFHEeOrbLDZJ3pUzQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_27LtSnFHEeOrbLDZJ3pUzQ" name="MessageRecv2" message="_27LtWXFHEeOrbLDZJ3pUzQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_27LtS3FHEeOrbLDZJ3pUzQ" name="MessageSend5" message="_27LtWnFHEeOrbLDZJ3pUzQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_27LtTHFHEeOrbLDZJ3pUzQ" name="MessageRecv5" message="_27LtWnFHEeOrbLDZJ3pUzQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_27LtTXFHEeOrbLDZJ3pUzQ" name="MessageSend4" message="_27LtW3FHEeOrbLDZJ3pUzQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_27LtTnFHEeOrbLDZJ3pUzQ" name="MessageRecv4" message="_27LtW3FHEeOrbLDZJ3pUzQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_27LtT3FHEeOrbLDZJ3pUzQ" name="MessageSend6" message="_27LtXHFHEeOrbLDZJ3pUzQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_27LtUHFHEeOrbLDZJ3pUzQ" name="MessageRecv6" message="_27LtXHFHEeOrbLDZJ3pUzQ"/>
+      </operand>
+    </fragment>
+    <lifeline xmi:id="_27LtUXFHEeOrbLDZJ3pUzQ" name="Horizon:OpenStack" coveredBy="_27LtQnFHEeOrbLDZJ3pUzQ _UN-34HIXEeOrbLDZJ3pUzQ _3iDiIHIaEeOrbLDZJ3pUzQ _3iEwQHIaEeOrbLDZJ3pUzQ"/>
+    <lifeline xmi:id="_27LtUnFHEeOrbLDZJ3pUzQ" name="Technician:Affiliate" coveredBy="_27LtQXFHEeOrbLDZJ3pUzQ _UN-34XIXEeOrbLDZJ3pUzQ _3iDiIHIaEeOrbLDZJ3pUzQ _3iEwQHIaEeOrbLDZJ3pUzQ"/>
+    <lifeline xmi:id="_27LtU3FHEeOrbLDZJ3pUzQ" name="VM:OpenStack" coveredBy="_3iDiIHIaEeOrbLDZJ3pUzQ _3iEwQHIaEeOrbLDZJ3pUzQ"/>
+    <lifeline xmi:id="_27LtVHFHEeOrbLDZJ3pUzQ" name="Internet" coveredBy="_3iDiIHIaEeOrbLDZJ3pUzQ _3iEwQHIaEeOrbLDZJ3pUzQ"/>
+    <message xmi:id="_27LtVXFHEeOrbLDZJ3pUzQ" name="1:login" messageSort="asynchCall" receiveEvent="_27LtQnFHEeOrbLDZJ3pUzQ" sendEvent="_27LtQXFHEeOrbLDZJ3pUzQ"/>
+    <message xmi:id="_UN9pwHIXEeOrbLDZJ3pUzQ" name="2:authorize" messageSort="asynchCall" receiveEvent="_UN-34XIXEeOrbLDZJ3pUzQ" sendEvent="_UN-34HIXEeOrbLDZJ3pUzQ"/>
+    <message xmi:id="_27LtVnFHEeOrbLDZJ3pUzQ" name="select(image)" messageSort="asynchCall" receiveEvent="_27LtRHFHEeOrbLDZJ3pUzQ" sendEvent="_27LtQ3FHEeOrbLDZJ3pUzQ"/>
+    <message xmi:id="_27LtV3FHEeOrbLDZJ3pUzQ" name="launch(image)" messageSort="asynchCall" receiveEvent="_27LtRnFHEeOrbLDZJ3pUzQ" sendEvent="_27LtRXFHEeOrbLDZJ3pUzQ"/>
+    <message xmi:id="_27LtWHFHEeOrbLDZJ3pUzQ" name="launch(instance)" messageSort="asynchCall" receiveEvent="_27LtSHFHEeOrbLDZJ3pUzQ" sendEvent="_27LtR3FHEeOrbLDZJ3pUzQ"/>
+    <message xmi:id="_27LtWXFHEeOrbLDZJ3pUzQ" name="configure(instance)" messageSort="asynchCall" receiveEvent="_27LtSnFHEeOrbLDZJ3pUzQ" sendEvent="_27LtSXFHEeOrbLDZJ3pUzQ"/>
+    <message xmi:id="_27LtWnFHEeOrbLDZJ3pUzQ" name="not_accessible" messageSort="deleteMessage" receiveEvent="_27LtTHFHEeOrbLDZJ3pUzQ" sendEvent="_27LtS3FHEeOrbLDZJ3pUzQ"/>
+    <message xmi:id="_27LtW3FHEeOrbLDZJ3pUzQ" name="configure(firewall)" messageSort="asynchCall" receiveEvent="_27LtTnFHEeOrbLDZJ3pUzQ" sendEvent="_27LtTXFHEeOrbLDZJ3pUzQ"/>
+    <message xmi:id="_27LtXHFHEeOrbLDZJ3pUzQ" name="accessible" messageSort="asynchCall" receiveEvent="_27LtUHFHEeOrbLDZJ3pUzQ" sendEvent="_27LtT3FHEeOrbLDZJ3pUzQ"/>
+  </packagedElement>
+</uml:Package>

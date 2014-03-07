@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_SBKOQKLbEeOO1PYOwHzT6Q" name="ComputingServices">
+  <packagedElement xmi:type="uml:Node" xmi:id="_vaVpcHEwEeOrbLDZJ3pUzQ" name="ComputingServices">
+    <nestedClassifier xmi:type="uml:Node" xmi:id="_8BfhwHExEeOrbLDZJ3pUzQ" name="Object Storage x4 (36T)"/>
+    <nestedClassifier xmi:type="uml:Node" xmi:id="_tWsSgHE3EeOrbLDZJ3pUzQ" name="Frontends 2x">
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_31l-gHEwEeOrbLDZJ3pUzQ" name="Nova-APIs" fileName="Artifact1.file"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_MBTC0HExEeOrbLDZJ3pUzQ" name="Horizon" fileName="Artifact1.file"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_1UzcwHEwEeOrbLDZJ3pUzQ" name="Keystone" fileName="Artifact1.file"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_2H_0QHEwEeOrbLDZJ3pUzQ" name="Glance" fileName="Artifact1.file"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_tXTEkHE5EeOrbLDZJ3pUzQ" name="Quantum" fileName="Artifact1.file"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_IL1NIHExEeOrbLDZJ3pUzQ" name="Cinder" fileName="Artifact1.file"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_9h2cEHFDEeOrbLDZJ3pUzQ" name="Swift" fileName="Artifact1.file"/>
+    </nestedClassifier>
+    <nestedNode xmi:id="_92acAHExEeOrbLDZJ3pUzQ" name="NFS:NAS"/>
+    <nestedNode xmi:id="_FVDX0HEyEeOrbLDZJ3pUzQ" name="Compute x16 (32VCPUs)"/>
+    <nestedNode xmi:id="_Hxyw8HE7EeOrbLDZJ3pUzQ" name="Block Storage RAID (64T)"/>
+  </packagedElement>
+</uml:Package>

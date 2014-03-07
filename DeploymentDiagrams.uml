@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_tXxuMKB3EeO_DNBl9m0-HA" name="DeploymentDiagrams">
+  <packagedElement xmi:type="uml:Package" href="ComputingServices.uml#_SBKOQKLbEeOO1PYOwHzT6Q"/>
+  <packagedElement xmi:type="uml:Package" href="SupportServices.uml#_TNBkcKLbEeOO1PYOwHzT6Q"/>
+  <packagedElement xmi:type="uml:Package" href="UsageExample01.uml#_UD6wMKLbEeOO1PYOwHzT6Q"/>
+</uml:Package>

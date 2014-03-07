@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_tjFLoGM0EeOLd81QbgL2RA" name="model">
+  <packagedElement xmi:type="uml:Package" href="UseCases.uml#_T3a1QHFXEeOrbLDZJ3pUzQ"/>
+  <packagedElement xmi:type="uml:Package" href="SequenceDiagrams.uml#_qYkLEKB3EeO_DNBl9m0-HA"/>
+  <packagedElement xmi:type="uml:Package" href="DeploymentDiagrams.uml#_tXxuMKB3EeO_DNBl9m0-HA"/>
+  <packagedElement xmi:type="uml:Package" href="BusinessProcesses.uml#_B7AtQKLfEeOO1PYOwHzT6Q"/>
+</uml:Model>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_TNBkcKLbEeOO1PYOwHzT6Q" name="SupportServices">
+  <packagedElement xmi:type="uml:Node" xmi:id="_pwczUHExEeOrbLDZJ3pUzQ" name="SupportServices">
+    <nestedClassifier xmi:type="uml:Node" xmi:id="_z0Un0HE4EeOrbLDZJ3pUzQ" name="Support">
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_cTcvwHE-EeOrbLDZJ3pUzQ" name="Redmine" fileName="Artifact1.file"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_de3aAHE-EeOrbLDZJ3pUzQ" name="OpenFire:XMPP" fileName="Artifact1.file"/>
+    </nestedClassifier>
+    <nestedClassifier xmi:type="uml:Node" xmi:id="_msgdAHE4EeOrbLDZJ3pUzQ" name="Plaza">
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_NUlWAHE5EeOrbLDZJ3pUzQ" name="Drupal" fileName="Artifact1.file"/>
+    </nestedClassifier>
+    <nestedClassifier xmi:type="uml:Node" xmi:id="_eLeJsHEwEeOrbLDZJ3pUzQ" name="Git">
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_feDL4HEwEeOrbLDZJ3pUzQ" name="Gitlab" fileName="Artifact1.file"/>
+    </nestedClassifier>
+    <nestedClassifier xmi:type="uml:Node" xmi:id="_D7XxoHE-EeOrbLDZJ3pUzQ" name="Auth">
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_VyjOkHE-EeOrbLDZJ3pUzQ" name="OpenLDAP:LDAP" fileName="Artifact1.file"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_YghQsHE-EeOrbLDZJ3pUzQ" name="Casino:SSO" fileName="Artifact1.file"/>
+    </nestedClassifier>
+    <nestedClassifier xmi:type="uml:Node" xmi:id="_e-xLIH9jEeOmB9H0sdM2Iw" name="Monitoring">
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_VmpsIHOlEeOrbLDZJ3pUzQ" name="Nagios" fileName="Artifact1.file"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_qxpDUHIdEeOrbLDZJ3pUzQ" name="NewRelic" fileName="Artifact1.file"/>
+    </nestedClassifier>
+  </packagedElement>
+</uml:Package>

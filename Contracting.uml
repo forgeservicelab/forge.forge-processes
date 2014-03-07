@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_Bx-ycKCBEeO_DNBl9m0-HA" name="Contracting">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_YEKNUKB8EeO_DNBl9m0-HA" name="Anybody"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_fwMr8KB8EeO_DNBl9m0-HA" name="Initial contract">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_fWyGYKB8EeO_DNBl9m0-HA" name="Visit FORGE WEB"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_s_U_sKB8EeO_DNBl9m0-HA" name="Create contract"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_LYogcKB9EeO_DNBl9m0-HA" name="Accept contract">
+      <generalization xmi:id="_s2eTwKB-EeO_DNBl9m0-HA" general="_ASB_cKB9EeO_DNBl9m0-HA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_zenFYKB-EeO_DNBl9m0-HA" name="A_accept contract_actor" memberEnd="_zenFYaB-EeO_DNBl9m0-HA _zenFZKB-EeO_DNBl9m0-HA">
+      <ownedEnd xmi:id="_zenFYaB-EeO_DNBl9m0-HA" name="accept contract" type="_LYogcKB9EeO_DNBl9m0-HA" association="_zenFYKB-EeO_DNBl9m0-HA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zenFYqB-EeO_DNBl9m0-HA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zenFY6B-EeO_DNBl9m0-HA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_zenFZKB-EeO_DNBl9m0-HA" name="actor" type="_ytOEsKB-EeO_DNBl9m0-HA" association="_zenFYKB-EeO_DNBl9m0-HA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zenFZaB-EeO_DNBl9m0-HA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zenFZqB-EeO_DNBl9m0-HA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_SsQ-wKCAEeO_DNBl9m0-HA" name="Create CRA">
+      <generalization xmi:id="_iDHM8KCAEeO_DNBl9m0-HA" general="_TCbjYKB9EeO_DNBl9m0-HA"/>
+      <generalization xmi:id="_jDXJAKCAEeO_DNBl9m0-HA" general="_9kX0cKB-EeO_DNBl9m0-HA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_9rgCEKB8EeO_DNBl9m0-HA" name="FORGE Prospect"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ASB_cKB9EeO_DNBl9m0-HA" name="FORGE Affiliate Admin"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_TCbjYKB9EeO_DNBl9m0-HA" name="FORGE Affiliate Tech"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_WrWK0KB9EeO_DNBl9m0-HA" name="A_anybody_visit forge web" memberEnd="_WrWK0aB9EeO_DNBl9m0-HA _WrWK1KB9EeO_DNBl9m0-HA">
+    <ownedEnd xmi:id="_WrWK0aB9EeO_DNBl9m0-HA" name="anybody" type="_YEKNUKB8EeO_DNBl9m0-HA" association="_WrWK0KB9EeO_DNBl9m0-HA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WrWK0qB9EeO_DNBl9m0-HA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WrWK06B9EeO_DNBl9m0-HA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_WrWK1KB9EeO_DNBl9m0-HA" name="visit forge web" type="_fWyGYKB8EeO_DNBl9m0-HA" association="_WrWK0KB9EeO_DNBl9m0-HA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WrWK1aB9EeO_DNBl9m0-HA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WrWK1qB9EeO_DNBl9m0-HA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_X-o-sKB9EeO_DNBl9m0-HA" name="A_forge prospect_create contract" memberEnd="_X-o-saB9EeO_DNBl9m0-HA _X-o-tKB9EeO_DNBl9m0-HA">
+    <ownedEnd xmi:id="_X-o-saB9EeO_DNBl9m0-HA" name="forge prospect" type="_9rgCEKB8EeO_DNBl9m0-HA" association="_X-o-sKB9EeO_DNBl9m0-HA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_X-o-sqB9EeO_DNBl9m0-HA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_X-o-s6B9EeO_DNBl9m0-HA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_X-o-tKB9EeO_DNBl9m0-HA" name="create contract" type="_s_U_sKB8EeO_DNBl9m0-HA" association="_X-o-sKB9EeO_DNBl9m0-HA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_X-o-taB9EeO_DNBl9m0-HA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_X-o-tqB9EeO_DNBl9m0-HA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ytOEsKB-EeO_DNBl9m0-HA" name="FORGE Concept Owner"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_9kX0cKB-EeO_DNBl9m0-HA" name="FORGE Affiliate User"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_OUQSIKB_EeO_DNBl9m0-HA" name="Anybody"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_QAw3QKB_EeO_DNBl9m0-HA" name="A_anybody_join contract" memberEnd="_QAw3QaB_EeO_DNBl9m0-HA _QAw3RKB_EeO_DNBl9m0-HA">
+    <ownedEnd xmi:id="_QAw3QaB_EeO_DNBl9m0-HA" name="anybody" type="_OUQSIKB_EeO_DNBl9m0-HA" association="_QAw3QKB_EeO_DNBl9m0-HA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QAw3QqB_EeO_DNBl9m0-HA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QAw3Q6B_EeO_DNBl9m0-HA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_QAw3RKB_EeO_DNBl9m0-HA" name="join contract" type="_Kdk7gKB_EeO_DNBl9m0-HA" association="_QAw3QKB_EeO_DNBl9m0-HA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QAw3RaB_EeO_DNBl9m0-HA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QAw3RqB_EeO_DNBl9m0-HA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_engeMKB_EeO_DNBl9m0-HA" name="Join contract">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Kdk7gKB_EeO_DNBl9m0-HA" name="Join contract"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_nSlX8KB_EeO_DNBl9m0-HA" name="Accept join"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_wMT8QKCAEeO_DNBl9m0-HA" name="Create accounts">
+      <generalization xmi:id="_6csm8KCAEeO_DNBl9m0-HA" general="_Dd7zYKCAEeO_DNBl9m0-HA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wqoscKB_EeO_DNBl9m0-HA" name="A_forge concept owner_accept join" memberEnd="_wqoscaB_EeO_DNBl9m0-HA _wqosdKB_EeO_DNBl9m0-HA">
+    <ownedEnd xmi:id="_wqoscaB_EeO_DNBl9m0-HA" name="forge concept owner" type="_ytOEsKB-EeO_DNBl9m0-HA" association="_wqoscKB_EeO_DNBl9m0-HA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wqoscqB_EeO_DNBl9m0-HA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wqosc6B_EeO_DNBl9m0-HA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_wqosdKB_EeO_DNBl9m0-HA" name="accept join" type="_nSlX8KB_EeO_DNBl9m0-HA" association="_wqoscKB_EeO_DNBl9m0-HA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wqosdaB_EeO_DNBl9m0-HA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wqosdqB_EeO_DNBl9m0-HA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Dd7zYKCAEeO_DNBl9m0-HA" name="FORGE Affiliate User"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_XWSd4KCAEeO_DNBl9m0-HA" name="A_forge concept owner_create cra" memberEnd="_XWSd4aCAEeO_DNBl9m0-HA _XWSd5KCAEeO_DNBl9m0-HA">
+    <ownedEnd xmi:id="_XWSd4aCAEeO_DNBl9m0-HA" name="forge concept owner" type="_ytOEsKB-EeO_DNBl9m0-HA" association="_XWSd4KCAEeO_DNBl9m0-HA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XWSd4qCAEeO_DNBl9m0-HA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XWSd46CAEeO_DNBl9m0-HA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_XWSd5KCAEeO_DNBl9m0-HA" name="create cra" type="_SsQ-wKCAEeO_DNBl9m0-HA" association="_XWSd4KCAEeO_DNBl9m0-HA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XWSd5aCAEeO_DNBl9m0-HA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XWSd5qCAEeO_DNBl9m0-HA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_5hKLwKCAEeO_DNBl9m0-HA" name="A_forge concept owner_create accounts" memberEnd="_5hKLwaCAEeO_DNBl9m0-HA _5hKLxKCAEeO_DNBl9m0-HA">
+    <ownedEnd xmi:id="_5hKLwaCAEeO_DNBl9m0-HA" name="forge concept owner" type="_ytOEsKB-EeO_DNBl9m0-HA" association="_5hKLwKCAEeO_DNBl9m0-HA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5hKLwqCAEeO_DNBl9m0-HA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5hKLw6CAEeO_DNBl9m0-HA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_5hKLxKCAEeO_DNBl9m0-HA" name="create accounts" type="_wMT8QKCAEeO_DNBl9m0-HA" association="_5hKLwKCAEeO_DNBl9m0-HA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5hKLxaCAEeO_DNBl9m0-HA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5hKLxqCAEeO_DNBl9m0-HA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_isBfsKCDEeO_DNBl9m0-HA" name="A_forge affiliate tech_create project" memberEnd="_isBfsaCDEeO_DNBl9m0-HA _isBftKCDEeO_DNBl9m0-HA">
+    <ownedEnd xmi:id="_isBfsaCDEeO_DNBl9m0-HA" name="forge affiliate tech" type="_TCbjYKB9EeO_DNBl9m0-HA" association="_isBfsKCDEeO_DNBl9m0-HA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_isBfsqCDEeO_DNBl9m0-HA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_isBfs6CDEeO_DNBl9m0-HA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_isBftKCDEeO_DNBl9m0-HA" name="create project" association="_isBfsKCDEeO_DNBl9m0-HA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_isBftaCDEeO_DNBl9m0-HA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_isBftqCDEeO_DNBl9m0-HA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_jaquYKCDEeO_DNBl9m0-HA" name="A_forge affiliate user_develop" memberEnd="_jaquYaCDEeO_DNBl9m0-HA _jaquZKCDEeO_DNBl9m0-HA">
+    <ownedEnd xmi:id="_jaquYaCDEeO_DNBl9m0-HA" name="forge affiliate user" type="_9kX0cKB-EeO_DNBl9m0-HA" association="_jaquYKCDEeO_DNBl9m0-HA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jaquYqCDEeO_DNBl9m0-HA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jaquY6CDEeO_DNBl9m0-HA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_jaquZKCDEeO_DNBl9m0-HA" name="develop" association="_jaquYKCDEeO_DNBl9m0-HA">
+      <type xmi:type="uml:UseCase" href="DevelopingService.uml#_ZT89EKCDEeO_DNBl9m0-HA"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jaquZaCDEeO_DNBl9m0-HA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jaquZqCDEeO_DNBl9m0-HA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_n6OC4KCDEeO_DNBl9m0-HA" name="A_forge affiliate user_participate" memberEnd="_n6OC4aCDEeO_DNBl9m0-HA _n6OC5KCDEeO_DNBl9m0-HA">
+    <ownedEnd xmi:id="_n6OC4aCDEeO_DNBl9m0-HA" name="forge affiliate user" type="_Dd7zYKCAEeO_DNBl9m0-HA" association="_n6OC4KCDEeO_DNBl9m0-HA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_n6OC4qCDEeO_DNBl9m0-HA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_n6OC46CDEeO_DNBl9m0-HA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_n6OC5KCDEeO_DNBl9m0-HA" name="participate" association="_n6OC4KCDEeO_DNBl9m0-HA">
+      <type xmi:type="uml:UseCase" href="DevelopingService.uml#_lghnoKCDEeO_DNBl9m0-HA"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_n6OC5aCDEeO_DNBl9m0-HA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_n6OC5qCDEeO_DNBl9m0-HA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_oyXy4KCDEeO_DNBl9m0-HA" name="A_forge affiliate tech_publish" memberEnd="_oyXy4aCDEeO_DNBl9m0-HA _oyXy5KCDEeO_DNBl9m0-HA">
+    <ownedEnd xmi:id="_oyXy4aCDEeO_DNBl9m0-HA" name="forge affiliate tech" type="_TCbjYKB9EeO_DNBl9m0-HA" association="_oyXy4KCDEeO_DNBl9m0-HA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oyXy4qCDEeO_DNBl9m0-HA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oyXy46CDEeO_DNBl9m0-HA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_oyXy5KCDEeO_DNBl9m0-HA" name="publish" association="_oyXy4KCDEeO_DNBl9m0-HA">
+      <type xmi:type="uml:UseCase" href="DevelopingService.uml#_bIgq8KCDEeO_DNBl9m0-HA"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oyXy5aCDEeO_DNBl9m0-HA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oyXy5qCDEeO_DNBl9m0-HA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Package>

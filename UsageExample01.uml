@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_UD6wMKLbEeOO1PYOwHzT6Q" name="UsageExample01">
+  <packagedElement xmi:type="uml:Package" xmi:id="_GkxawKB7EeO_DNBl9m0-HA" name="UsageExample01">
+    <packagedElement xmi:type="uml:Node" xmi:id="_2YGFwHOhEeOrbLDZJ3pUzQ" name="Support services">
+      <nestedClassifier xmi:type="uml:Node" xmi:id="_3ZWHYHOhEeOrbLDZJ3pUzQ" name="Git">
+        <nestedClassifier xmi:type="uml:Artifact" xmi:id="_5t0rcHOhEeOrbLDZJ3pUzQ" name="Service build &quot;recipes&quot;" fileName="Artifact1.file"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Node" xmi:id="__AsTQHOhEeOrbLDZJ3pUzQ" name="Plaza">
+        <nestedClassifier xmi:type="uml:Artifact" xmi:id="_APK4kHOiEeOrbLDZJ3pUzQ" clientDependency="_gmqkUHOiEeOrbLDZJ3pUzQ" name="Service description" fileName="Artifact1.file"/>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Node" xmi:id="_rTflUHOgEeOrbLDZJ3pUzQ" name="Computing services">
+      <nestedClassifier xmi:type="uml:Node" xmi:id="_71Tx0HOgEeOrbLDZJ3pUzQ" name="Object Storage">
+        <nestedClassifier xmi:type="uml:Artifact" xmi:id="_9OsmoHOgEeOrbLDZJ3pUzQ" name="Linux images" fileName="Artifact1.file"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Node" xmi:id="_At_YAHOhEeOrbLDZJ3pUzQ" name="Block Storage">
+        <nestedClassifier xmi:type="uml:Artifact" xmi:id="_CYX2MHOhEeOrbLDZJ3pUzQ" name="Volume A" fileName="Artifact1.file"/>
+        <nestedClassifier xmi:type="uml:Artifact" xmi:id="_HsUcEHOhEeOrbLDZJ3pUzQ" name="Volume B" fileName="Artifact1.file"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Node" xmi:id="_MQntsHOhEeOrbLDZJ3pUzQ" name="Compute">
+        <nestedClassifier xmi:type="uml:Artifact" xmi:id="_NQqOYHOhEeOrbLDZJ3pUzQ" clientDependency="_ifQTEHOhEeOrbLDZJ3pUzQ _jswoAHOhEeOrbLDZJ3pUzQ _qZtLsHOiEeOrbLDZJ3pUzQ" name="Service A" fileName="Artifact1.file"/>
+        <nestedClassifier xmi:type="uml:Artifact" xmi:id="_OgLVgHOhEeOrbLDZJ3pUzQ" name="Service B" fileName="Artifact1.file"/>
+      </nestedClassifier>
+      <nestedNode xmi:id="_wAYyQHOgEeOrbLDZJ3pUzQ" name="Frontends"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_ifQTEHOhEeOrbLDZJ3pUzQ" name="mount" client="_NQqOYHOhEeOrbLDZJ3pUzQ" supplier="_CYX2MHOhEeOrbLDZJ3pUzQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_jswoAHOhEeOrbLDZJ3pUzQ" name="use" client="_NQqOYHOhEeOrbLDZJ3pUzQ" supplier="_9OsmoHOgEeOrbLDZJ3pUzQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_gmqkUHOiEeOrbLDZJ3pUzQ" name="link" client="_APK4kHOiEeOrbLDZJ3pUzQ" supplier="_NQqOYHOhEeOrbLDZJ3pUzQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_qZtLsHOiEeOrbLDZJ3pUzQ" name="configuration" client="_NQqOYHOhEeOrbLDZJ3pUzQ" supplier="_5t0rcHOhEeOrbLDZJ3pUzQ"/>
+  </packagedElement>
+</uml:Package>

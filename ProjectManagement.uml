@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_cXWpMKLfEeOO1PYOwHzT6Q" name="ProjectManagement">
+  <packagedElement xmi:type="uml:Package" xmi:id="_SIJDAKUrEeOO1PYOwHzT6Q" name="Program: FORGE">
+    <packagedElement xmi:type="uml:Package" xmi:id="_jw3NMKUrEeOO1PYOwHzT6Q" clientDependency="_1FL34KUvEeOO1PYOwHzT6Q" name="Increment 2014-01">
+      <ownedComment xmi:id="_JAY-4KUsEeOO1PYOwHzT6Q">
+        <body>Increment backlog: Bulk of content in order for all projects</body>
+      </ownedComment>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_1FL34KUvEeOO1PYOwHzT6Q" name="Plan partial content" client="_jw3NMKUrEeOO1PYOwHzT6Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_sDA0IKUsEeOO1PYOwHzT6Q" name="Increment 2014-03">
+      <ownedComment xmi:id="_xnGu0KUsEeOO1PYOwHzT6Q">
+        <body>Increment backlog</body>
+      </ownedComment>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ZJMq8KUrEeOO1PYOwHzT6Q" clientDependency="_a8FBAKUvEeOO1PYOwHzT6Q _uiMPgKUwEeOO1PYOwHzT6Q" name="Product owner(s)"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_asOj8KUrEeOO1PYOwHzT6Q" name=""/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_a8FBAKUvEeOO1PYOwHzT6Q" name="Content" client="_ZJMq8KUrEeOO1PYOwHzT6Q" supplier="_jw3NMKUrEeOO1PYOwHzT6Q"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_fUDG0KUvEeOO1PYOwHzT6Q" clientDependency="_hFQlwKUvEeOO1PYOwHzT6Q" name="Product owner process"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_hFQlwKUvEeOO1PYOwHzT6Q" name="Prioritization (and grooming)" client="_fUDG0KUvEeOO1PYOwHzT6Q" supplier="_SIJDAKUrEeOO1PYOwHzT6Q"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_uiMPgKUwEeOO1PYOwHzT6Q" name="Help project in planning partial content" client="_ZJMq8KUrEeOO1PYOwHzT6Q"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_EN38AKU1EeOO1PYOwHzT6Q" clientDependency="_Gpyk0KU1EeOO1PYOwHzT6Q" name="Business owner"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Gpyk0KU1EeOO1PYOwHzT6Q" name="Vision and other input" client="_EN38AKU1EeOO1PYOwHzT6Q" supplier="_asOj8KUrEeOO1PYOwHzT6Q"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_X_0KkKU3EeOO1PYOwHzT6Q" name=""/>
+</uml:Package>

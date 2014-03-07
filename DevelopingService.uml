@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_hhjGEKCCEeO_DNBl9m0-HA" name="DevelopingService">
+  <packagedElement xmi:type="uml:Package" xmi:id="_p1LloKCBEeO_DNBl9m0-HA" name="Using FORGE">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ZT89EKCDEeO_DNBl9m0-HA" name="Develop"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_bIgq8KCDEeO_DNBl9m0-HA" name="Publish"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_lghnoKCDEeO_DNBl9m0-HA" name="Participate"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_QNmugKCBEeO_DNBl9m0-HA" name="FORGE 2nd Level Support"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_KWkpsKCBEeO_DNBl9m0-HA" name="FORGE 1st Level Support"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_kf-esKCFEeO_DNBl9m0-HA" name="Affiliate 2nd Level Support"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_n7BCMKCFEeO_DNBl9m0-HA" name="A_affiliate 2nd level support_provide support" memberEnd="_n7BCMaCFEeO_DNBl9m0-HA _n7BCNKCFEeO_DNBl9m0-HA">
+    <ownedEnd xmi:id="_n7BCMaCFEeO_DNBl9m0-HA" name="affiliate 2nd level support" type="_kf-esKCFEeO_DNBl9m0-HA" association="_n7BCMKCFEeO_DNBl9m0-HA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_n7BCMqCFEeO_DNBl9m0-HA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_n7BCM6CFEeO_DNBl9m0-HA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_n7BCNKCFEeO_DNBl9m0-HA" name="provide support" association="_n7BCMKCFEeO_DNBl9m0-HA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_n7BCNaCFEeO_DNBl9m0-HA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_n7BCNqCFEeO_DNBl9m0-HA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Package>

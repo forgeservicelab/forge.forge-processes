@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_qYkLEKB3EeO_DNBl9m0-HA" name="SequenceDiagrams">
+  <packagedElement xmi:type="uml:Package" href="ResourceAllocation.uml#_t2KbsKLaEeOO1PYOwHzT6Q"/>
+  <packagedElement xmi:type="uml:Package" href="ResourceTermination.uml#_5hJcIKLaEeOO1PYOwHzT6Q"/>
+  <packagedElement xmi:type="uml:Package" href="FrontEndProcess.uml#_6i6bIKLaEeOO1PYOwHzT6Q"/>
+  <packagedElement xmi:type="uml:Package" href="GettingSupport.uml#_7bmWoKLaEeOO1PYOwHzT6Q"/>
+  <packagedElement xmi:type="uml:Package" href="UsingOpenStack.uml#_Cqg0YKLbEeOO1PYOwHzT6Q"/>
+  <packagedElement xmi:type="uml:Package" href="BecomingAffiliate.uml#_FBddoaLbEeOO1PYOwHzT6Q"/>
+</uml:Package>
