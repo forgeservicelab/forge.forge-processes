@@ -37,6 +37,12 @@
     <availablePage>
       <emfPageIdentifier href="ProjectManagement.notation#_FrR5sKUrEeOO1PYOwHzT6Q"/>
     </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="model.notation#_Yk9uIK8_EeOL6aGXNQ6mAw"/>
+    </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="model.notation#_PaVYwNXaEeOgAPe4ST7gFA"/>
+    </availablePage>
   </pageList>
   <sashModel currentSelection="//@sashModel/@windows.0/@children.0">
     <windows>
@@ -61,6 +67,9 @@
         </children>
         <children>
           <emfPageIdentifier href="ProjectManagement.notation#_FrR5sKUrEeOO1PYOwHzT6Q"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="model.notation#_Yk9uIK8_EeOL6aGXNQ6mAw"/>
         </children>
       </children>
     </windows>
