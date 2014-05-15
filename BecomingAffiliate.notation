@@ -26,6 +26,10 @@
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hwCK0XIbEeOrbLDZJ3pUzQ" key="manual.label.size" value="true"/>
         </eAnnotations>
         <children xmi:type="notation:DecorationNode" xmi:id="_h0BTxnHrEeOrbLDZJ3pUzQ" type="5002"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_HBS78NqVEeO9iNX638NEQQ" visible="false" type="compartment_shape_display">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_HBS78dqVEeO9iNX638NEQQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HBS78tqVEeO9iNX638NEQQ"/>
+        </children>
         <element xmi:type="uml:Lifeline" href="BecomingAffiliate.uml#_h0AFoHHrEeOrbLDZJ3pUzQ"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h0AssXHrEeOrbLDZJ3pUzQ" x="20" y="10" width="107" height="487"/>
       </children>
@@ -43,6 +47,10 @@
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hwGcQXIbEeOrbLDZJ3pUzQ" key="manual.label.size" value="true"/>
         </eAnnotations>
         <children xmi:type="notation:DecorationNode" xmi:id="_kUHR93HrEeOrbLDZJ3pUzQ" type="5002"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_HBYbgNqVEeO9iNX638NEQQ" visible="false" type="compartment_shape_display">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_HBYbgdqVEeO9iNX638NEQQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HBYbgtqVEeO9iNX638NEQQ"/>
+        </children>
         <element xmi:type="uml:Lifeline" href="BecomingAffiliate.uml#_kUGq4HHrEeOrbLDZJ3pUzQ"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kUHR8HHrEeOrbLDZJ3pUzQ" x="146" y="10" width="129" height="487"/>
       </children>
@@ -81,6 +89,10 @@
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hwOYEHIbEeOrbLDZJ3pUzQ" key="manual.label.size" value="true"/>
         </eAnnotations>
         <children xmi:type="notation:DecorationNode" xmi:id="_n-13RHHrEeOrbLDZJ3pUzQ" type="5002"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_HBcF4NqVEeO9iNX638NEQQ" visible="false" type="compartment_shape_display">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_HBcF4dqVEeO9iNX638NEQQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HBcF4tqVEeO9iNX638NEQQ"/>
+        </children>
         <element xmi:type="uml:Lifeline" href="BecomingAffiliate.uml#_n-0pIHHrEeOrbLDZJ3pUzQ"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n-1QMXHrEeOrbLDZJ3pUzQ" x="432" y="10" width="119" height="487"/>
       </children>
@@ -98,6 +110,10 @@
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hwRbYXIbEeOrbLDZJ3pUzQ" key="manual.label.size" value="true"/>
         </eAnnotations>
         <children xmi:type="notation:DecorationNode" xmi:id="_woEW4XHrEeOrbLDZJ3pUzQ" type="5002"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_HBeiINqVEeO9iNX638NEQQ" visible="false" type="compartment_shape_display">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_HBeiIdqVEeO9iNX638NEQQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HBeiItqVEeO9iNX638NEQQ"/>
+        </children>
         <element xmi:type="uml:Lifeline" href="BecomingAffiliate.uml#_woDIwHHrEeOrbLDZJ3pUzQ"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_woDv0XHrEeOrbLDZJ3pUzQ" x="570" y="10" width="40" height="487"/>
       </children>
@@ -112,6 +128,10 @@
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_m84DI3IbEeOrbLDZJ3pUzQ" key="QualifiedNameDepth" value="1000"/>
         </eAnnotations>
         <children xmi:type="notation:DecorationNode" xmi:id="_m84DJHIbEeOrbLDZJ3pUzQ" type="5002"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_HBg-YNqVEeO9iNX638NEQQ" visible="false" type="compartment_shape_display">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_HBg-YdqVEeO9iNX638NEQQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HBg-YtqVEeO9iNX638NEQQ"/>
+        </children>
         <element xmi:type="uml:Lifeline" href="BecomingAffiliate.uml#_m80YwHIbEeOrbLDZJ3pUzQ"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m82N8XIbEeOrbLDZJ3pUzQ" x="295" y="10" width="37" height="487"/>
       </children>

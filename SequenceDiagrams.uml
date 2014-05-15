@@ -7,11 +7,5 @@
   <packagedElement xmi:type="uml:Package" href="UsingOpenStack.uml#_Cqg0YKLbEeOO1PYOwHzT6Q"/>
   <packagedElement xmi:type="uml:Package" href="BecomingAffiliate.uml#_FBddoaLbEeOO1PYOwHzT6Q"/>
   <packagedElement xmi:type="uml:Package" href="IssueManagement.uml#_SlkXgK8_EeOL6aGXNQ6mAw"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_LpiAoNXaEeOgAPe4ST7gFA" name="StoryManagement">
-    <packagedElement xmi:type="uml:Interaction" xmi:id="_OWO3cNXaEeOgAPe4ST7gFA" name="Interaction1">
-      <lifeline xmi:id="_VR8FUNXaEeOgAPe4ST7gFA" name="Issue creator"/>
-      <lifeline xmi:id="_YgGqcNXaEeOgAPe4ST7gFA" name="Backlog"/>
-      <lifeline xmi:id="_aYDDgNXaEeOgAPe4ST7gFA" name="Product owner"/>
-    </packagedElement>
-  </packagedElement>
+  <packagedElement xmi:type="uml:Package" href="DeploymentPipeline.uml#_m0xeMNqhEeO9iNX638NEQQ"/>
 </uml:Package>
