@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_x4tTQNzyEeO21-1-XVdvfQ" name="AuthenticationInfra">
+  <ownedComment xmi:id="_47Y2YNzzEeO21-1-XVdvfQ">
+    <body>SAML2.0</body>
+  </ownedComment>
+  <ownedComment xmi:id="_8b03QNzzEeO21-1-XVdvfQ">
+    <body>SAML2.0&#xD;
+Discovery</body>
+  </ownedComment>
+  <ownedComment xmi:id="_BNi50Nz0EeO21-1-XVdvfQ">
+    <body>Phase 1</body>
+  </ownedComment>
+  <ownedComment xmi:id="_C7kh4Nz0EeO21-1-XVdvfQ">
+    <body>Phase 2</body>
+  </ownedComment>
+  <ownedComment xmi:id="_I-On4Nz0EeO21-1-XVdvfQ">
+    <body>Service provider </body>
+  </ownedComment>
+  <ownedComment xmi:id="_MCHPoNz0EeO21-1-XVdvfQ">
+    <body>Home organizations</body>
+  </ownedComment>
+  <packagedElement xmi:type="uml:Node" xmi:id="__nk3ANzyEeO21-1-XVdvfQ" name="SP:Affiliate">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_KMtCoNzzEeO21-1-XVdvfQ" name="SP:Application" fileName="Artifact1.file">
+      <generalization xmi:id="_zecFgNzzEeO21-1-XVdvfQ" general="_LeLRkNzzEeO21-1-XVdvfQ"/>
+    </nestedClassifier>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_AF5xwNzzEeO21-1-XVdvfQ" name="SP:Forge">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_LeLRkNzzEeO21-1-XVdvfQ" name="SP:SimpleSAMLphp" fileName="Artifact1.file">
+      <generalization xmi:id="_0I27gNzzEeO21-1-XVdvfQ" general="_M7fkINzzEeO21-1-XVdvfQ"/>
+      <generalization xmi:id="_0-Aa0NzzEeO21-1-XVdvfQ" general="_PcVJMNzzEeO21-1-XVdvfQ"/>
+      <generalization xmi:id="_1tMcENzzEeO21-1-XVdvfQ" general="_S0ohwNzzEeO21-1-XVdvfQ"/>
+    </nestedClassifier>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_AgjGYNzzEeO21-1-XVdvfQ" name="IdP:Virtu">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_M7fkINzzEeO21-1-XVdvfQ" name="Virtu:SAML2.0" fileName="Artifact1.file"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_BlYngNzzEeO21-1-XVdvfQ" name="IdP:Twitter">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_OBJkoNzzEeO21-1-XVdvfQ" name="Twitter:OAuth" fileName="Artifact1.file"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_B_xdcNzzEeO21-1-XVdvfQ" name="IdP:Google">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_PcVJMNzzEeO21-1-XVdvfQ" name="Google:OAuth" fileName="Artifact1.file"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_CbFgcNzzEeO21-1-XVdvfQ" name="IdP:Haka">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_Qj-GsNzzEeO21-1-XVdvfQ" name="Haka:SAML2.0" fileName="Artifact1.file"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_C5gh0NzzEeO21-1-XVdvfQ" name="IdP:Forge">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_S0ohwNzzEeO21-1-XVdvfQ" name="IdP:SimpleSAMLphp" fileName="Artifact1.file">
+      <generalization xmi:id="_2TgOINzzEeO21-1-XVdvfQ" general="_rqscYNzzEeO21-1-XVdvfQ"/>
+      <generalization xmi:id="_20PjsNzzEeO21-1-XVdvfQ" general="_sCDMcNzzEeO21-1-XVdvfQ"/>
+      <generalization xmi:id="_3WIv0NzzEeO21-1-XVdvfQ" general="_oUxCYNzzEeO21-1-XVdvfQ"/>
+    </nestedClassifier>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_oUxCYNzzEeO21-1-XVdvfQ" name="mgmg" fileName="Artifact1.file"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_rqscYNzzEeO21-1-XVdvfQ" name="e.g.LDAP" fileName="Artifact1.file"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_sCDMcNzzEeO21-1-XVdvfQ" name="e.g.CAS" fileName="Artifact2.file"/>
+  </packagedElement>
+</uml:Package>

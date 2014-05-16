@@ -3,4 +3,5 @@
   <packagedElement xmi:type="uml:Package" href="ComputingServices.uml#_SBKOQKLbEeOO1PYOwHzT6Q"/>
   <packagedElement xmi:type="uml:Package" href="SupportServices.uml#_TNBkcKLbEeOO1PYOwHzT6Q"/>
   <packagedElement xmi:type="uml:Package" href="UsageExample01.uml#_UD6wMKLbEeOO1PYOwHzT6Q"/>
+  <packagedElement xmi:type="uml:Package" href="AuthenticationInfra.uml#_x4tTQNzyEeO21-1-XVdvfQ"/>
 </uml:Package>

@@ -11,7 +11,7 @@
       <emfPageIdentifier href="FrontEndProcess.notation#_I2Na0Gi1EeO2JKGYzKiTSw"/>
     </availablePage>
     <availablePage>
-      <emfPageIdentifier href="DeploymentDiagrams.notation#_BxaOwHEuEeOrbLDZJ3pUzQ"/>
+      <emfPageIdentifier href="ComputingServices.notation#_BxaOwHEuEeOrbLDZJ3pUzQ"/>
     </availablePage>
     <availablePage>
       <emfPageIdentifier href="GettingSupport.notation#_vs63IHFEEeOrbLDZJ3pUzQ"/>
@@ -23,16 +23,16 @@
       <emfPageIdentifier href="BecomingAffiliate.notation#_cRUgMHHrEeOrbLDZJ3pUzQ"/>
     </availablePage>
     <availablePage>
-      <emfPageIdentifier href="DeploymentDiagrams.notation#_WLBo0KB5EeO_DNBl9m0-HA"/>
+      <emfPageIdentifier href="UsageExample01.notation#_WLBo0KB5EeO_DNBl9m0-HA"/>
     </availablePage>
     <availablePage>
-      <emfPageIdentifier href="DeploymentDiagrams.notation#_irh8AKB5EeO_DNBl9m0-HA"/>
+      <emfPageIdentifier href="SupportServices.notation#_irh8AKB5EeO_DNBl9m0-HA"/>
     </availablePage>
     <availablePage>
-      <emfPageIdentifier href="UseCases.notation#_5JiIMKB7EeO_DNBl9m0-HA"/>
+      <emfPageIdentifier href="Contracting.notation#_5JiIMKB7EeO_DNBl9m0-HA"/>
     </availablePage>
     <availablePage>
-      <emfPageIdentifier href="UseCases.notation#_n0g48KCCEeO_DNBl9m0-HA"/>
+      <emfPageIdentifier href="DevelopingService.notation#_n0g48KCCEeO_DNBl9m0-HA"/>
     </availablePage>
     <availablePage>
       <emfPageIdentifier href="ProjectManagement.notation#_FrR5sKUrEeOO1PYOwHzT6Q"/>
@@ -49,38 +49,16 @@
     <availablePage>
       <emfPageIdentifier href="model.notation#_xepjcNwAEeO9iNX638NEQQ"/>
     </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="model.notation#_eaJfUNwiEeO9iNX638NEQQ"/>
+    </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="model.notation#_1Jr70NzyEeO21-1-XVdvfQ"/>
+    </availablePage>
   </pageList>
   <sashModel currentSelection="//@sashModel/@windows.0/@children.0">
     <windows>
-      <children xsi:type="di:TabFolder">
-        <children>
-          <emfPageIdentifier href="DeploymentDiagrams.notation#_BxaOwHEuEeOrbLDZJ3pUzQ"/>
-        </children>
-        <children>
-          <emfPageIdentifier href="DeploymentDiagrams.notation#_irh8AKB5EeO_DNBl9m0-HA"/>
-        </children>
-        <children>
-          <emfPageIdentifier href="DeploymentDiagrams.notation#_WLBo0KB5EeO_DNBl9m0-HA"/>
-        </children>
-        <children>
-          <emfPageIdentifier href="UseCases.notation#_5JiIMKB7EeO_DNBl9m0-HA"/>
-        </children>
-        <children>
-          <emfPageIdentifier href="BecomingAffiliate.notation#_cRUgMHHrEeOrbLDZJ3pUzQ"/>
-        </children>
-        <children>
-          <emfPageIdentifier href="ResourceAllocation.notation#_tjKrMGM0EeOLd81QbgL2RA"/>
-        </children>
-        <children>
-          <emfPageIdentifier href="ProjectManagement.notation#_FrR5sKUrEeOO1PYOwHzT6Q"/>
-        </children>
-        <children>
-          <emfPageIdentifier href="model.notation#_Yk9uIK8_EeOL6aGXNQ6mAw"/>
-        </children>
-        <children>
-          <emfPageIdentifier href="model.notation#_xepjcNwAEeO9iNX638NEQQ"/>
-        </children>
-      </children>
+      <children xsi:type="di:TabFolder"/>
     </windows>
   </sashModel>
 </di:SashWindowsMngr>
