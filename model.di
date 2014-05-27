@@ -58,7 +58,17 @@
   </pageList>
   <sashModel currentSelection="//@sashModel/@windows.0/@children.0">
     <windows>
-      <children xsi:type="di:TabFolder"/>
+      <children xsi:type="di:TabFolder">
+        <children>
+          <emfPageIdentifier href="model.notation#_xepjcNwAEeO9iNX638NEQQ"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="SupportServices.notation#_irh8AKB5EeO_DNBl9m0-HA"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="ComputingServices.notation#_BxaOwHEuEeOrbLDZJ3pUzQ"/>
+        </children>
+      </children>
     </windows>
   </sashModel>
 </di:SashWindowsMngr>
