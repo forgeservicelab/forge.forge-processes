@@ -60,13 +60,16 @@
     <windows>
       <children xsi:type="di:TabFolder">
         <children>
-          <emfPageIdentifier href="model.notation#_xepjcNwAEeO9iNX638NEQQ"/>
-        </children>
-        <children>
           <emfPageIdentifier href="SupportServices.notation#_irh8AKB5EeO_DNBl9m0-HA"/>
         </children>
         <children>
           <emfPageIdentifier href="ComputingServices.notation#_BxaOwHEuEeOrbLDZJ3pUzQ"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="model.notation#_1Jr70NzyEeO21-1-XVdvfQ"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="model.notation#_xepjcNwAEeO9iNX638NEQQ"/>
         </children>
       </children>
     </windows>

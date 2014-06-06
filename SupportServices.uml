@@ -1,31 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Package xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_TNBkcKLbEeOO1PYOwHzT6Q" name="SupportServices">
+  <ownedComment xmi:id="_sSo00OAiEeOQJZp7YkpCMQ">
+    <body>Restricted access</body>
+  </ownedComment>
+  <ownedComment xmi:id="_MaXNcOY9EeOVTPFdp1p9kg">
+    <body>Accessible</body>
+  </ownedComment>
   <packagedElement xmi:type="uml:Package" xmi:id="_Zhj7cOAiEeOQJZp7YkpCMQ" name="SupportServices">
-    <ownedComment xmi:id="_sSo00OAiEeOQJZp7YkpCMQ">
-      <body>Restricted access</body>
+    <ownedComment xmi:id="_UYFR8OY9EeOVTPFdp1p9kg">
+      <body>* {
+fillColor: red;
+fontColor: #0000FF;
+}</body>
     </ownedComment>
-    <packagedElement xmi:type="uml:Node" xmi:id="_D7XxoHE-EeOrbLDZJ3pUzQ" name="Auth">
+    <packagedElement xmi:type="uml:Node" xmi:id="_D7XxoHE-EeOrbLDZJ3pUzQ" name="auth">
       <nestedClassifier xmi:type="uml:Artifact" xmi:id="_VyjOkHE-EeOrbLDZJ3pUzQ" name="OpenLDAP:LDAP" fileName="Artifact1.file"/>
       <nestedClassifier xmi:type="uml:Artifact" xmi:id="_YghQsHE-EeOrbLDZJ3pUzQ" name="Casino:SSO" fileName="Artifact1.file"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Node" xmi:id="_msgdAHE4EeOrbLDZJ3pUzQ" name="Forgeservicelab">
+    <packagedElement xmi:type="uml:Node" xmi:id="_msgdAHE4EeOrbLDZJ3pUzQ" name="www">
       <nestedClassifier xmi:type="uml:Artifact" xmi:id="_NUlWAHE5EeOrbLDZJ3pUzQ" name="Drupal:Plaza" fileName="Artifact1.file"/>
       <nestedClassifier xmi:type="uml:Artifact" xmi:id="_B2pawOAhEeOQJZp7YkpCMQ" name="Drupal:WEB" fileName="Artifact1.file"/>
       <nestedClassifier xmi:type="uml:Artifact" xmi:id="_D6cegOAhEeOQJZp7YkpCMQ" name="Drupal:Dashboard" fileName="Artifact1.file"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Node" xmi:id="_ncFAcOAgEeOQJZp7YkpCMQ" name="Forgeadmin">
+    <packagedElement xmi:type="uml:Node" xmi:id="_ncFAcOAgEeOQJZp7YkpCMQ" name="forgeadmin">
       <nestedClassifier xmi:type="uml:Artifact" xmi:id="_wDPqkOAgEeOQJZp7YkpCMQ" name="OpenStack CLI tools" fileName="Artifact1.file"/>
       <nestedClassifier xmi:type="uml:Artifact" xmi:id="_ydiiwOAgEeOQJZp7YkpCMQ" name="forge_ldap tool" fileName="Artifact1.file"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Node" xmi:id="_z0Un0HE4EeOrbLDZJ3pUzQ" name="Support">
+    <packagedElement xmi:type="uml:Node" xmi:id="_z0Un0HE4EeOrbLDZJ3pUzQ" name="support">
       <nestedClassifier xmi:type="uml:Artifact" xmi:id="_cTcvwHE-EeOrbLDZJ3pUzQ" name="Redmine" fileName="Artifact1.file"/>
       <nestedClassifier xmi:type="uml:Artifact" xmi:id="_de3aAHE-EeOrbLDZJ3pUzQ" name="OpenFire:XMPP" fileName="Artifact1.file"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_Lh9JAOyDEeOIYtqJzdkvaQ" name="LTB:self-serv-passwd" fileName="Artifact1.file"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Node" xmi:id="_eLeJsHEwEeOrbLDZJ3pUzQ" name="Git">
+    <packagedElement xmi:type="uml:Node" xmi:id="_eLeJsHEwEeOrbLDZJ3pUzQ" name="git">
       <nestedClassifier xmi:type="uml:Artifact" xmi:id="_feDL4HEwEeOrbLDZJ3pUzQ" name="DVCS:Gitlab" fileName="Artifact1.file"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Node" xmi:id="_e-xLIH9jEeOmB9H0sdM2Iw" name="Nagios">
+    <packagedElement xmi:type="uml:Node" xmi:id="_e-xLIH9jEeOmB9H0sdM2Iw" name="nagios">
       <nestedClassifier xmi:type="uml:Artifact" xmi:id="_VmpsIHOlEeOrbLDZJ3pUzQ" name="Nagios" fileName="Artifact1.file"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Node" xmi:id="_-bnpMO1kEeO8YMp1xfuJ4g" name="barebone">
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_Bx5BcO1lEeO8YMp1xfuJ4g" name="Ubuntu" fileName="Artifact1.file"/>
     </packagedElement>
   </packagedElement>
 </uml:Package>

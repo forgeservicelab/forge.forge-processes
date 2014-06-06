@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_27OwkHFHEeOrbLDZJ3pUzQ" type="PapyrusUMLSequenceDiagram" name="UsingOpenStack" measurementUnit="Pixel">
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:css="http://www.eclipse.org/papyrus/infra/gmfdiag/css" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_27OwkHFHEeOrbLDZJ3pUzQ" type="PapyrusUMLSequenceDiagram" name="UsingOpenStack" measurementUnit="Pixel">
   <children xmi:type="notation:Shape" xmi:id="_27OwkXFHEeOrbLDZJ3pUzQ" type="2001" fontName="Segoe UI" lineColor="0">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_27OwknFHEeOrbLDZJ3pUzQ" source="ShadowFigure">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_27Owk3FHEeOrbLDZJ3pUzQ" key="ShadowFigure_Value" value="false"/>
@@ -109,6 +109,9 @@
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_27Owy3FHEeOrbLDZJ3pUzQ" width="589" height="433"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_27OwzHFHEeOrbLDZJ3pUzQ"/>
+  <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_vNKMQOZkEeOVTPFdp1p9kg" name="css_stylesheets">
+    <eObjectListValue xmi:type="css:StyleSheetReference" href="model.notation#_3LoUIOZjEeOVTPFdp1p9kg"/>
+  </styles>
   <element xmi:type="uml:Interaction" href="UsingOpenStack.uml#_27LtQHFHEeOrbLDZJ3pUzQ"/>
   <edges xmi:type="notation:Edge" xmi:id="_27OwzXFHEeOrbLDZJ3pUzQ" type="4004" source="_27OwkXFHEeOrbLDZJ3pUzQ" target="_27OwmnFHEeOrbLDZJ3pUzQ">
     <children xmi:type="notation:DecorationNode" xmi:id="_27OwznFHEeOrbLDZJ3pUzQ" type="6002">

@@ -20,6 +20,9 @@ Discovery</body>
     <body>Home organizations</body>
   </ownedComment>
   <packagedElement xmi:type="uml:Node" xmi:id="__nk3ANzyEeO21-1-XVdvfQ" name="SP:Affiliate">
+    <ownedComment xmi:id="_N3CKUOY-EeOVTPFdp1p9kg">
+      <body>FORGE support services deployment diagram</body>
+    </ownedComment>
     <nestedClassifier xmi:type="uml:Artifact" xmi:id="_KMtCoNzzEeO21-1-XVdvfQ" name="SP:Application" fileName="Artifact1.file">
       <generalization xmi:id="_zecFgNzzEeO21-1-XVdvfQ" general="_LeLRkNzzEeO21-1-XVdvfQ"/>
     </nestedClassifier>
