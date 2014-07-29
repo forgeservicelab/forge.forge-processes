@@ -8,6 +8,10 @@
       <nestedClassifier xmi:type="uml:Node" xmi:id="__AsTQHOhEeOrbLDZJ3pUzQ" name="Plaza">
         <nestedClassifier xmi:type="uml:Artifact" xmi:id="_APK4kHOiEeOrbLDZJ3pUzQ" clientDependency="_gmqkUHOiEeOrbLDZJ3pUzQ" name="Service description" fileName="Artifact1.file"/>
       </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Node" xmi:id="_Sy4fcBb1EeSiwNNaV55PAw" name="Support">
+        <nestedClassifier xmi:type="uml:Artifact" xmi:id="_U2nRwBb1EeSiwNNaV55PAw" name="Redmine" fileName="Artifact1.file"/>
+        <nestedClassifier xmi:type="uml:Artifact" xmi:id="_WCFmYBb1EeSiwNNaV55PAw" name="XMPP" fileName="Artifact1.file"/>
+      </nestedClassifier>
     </packagedElement>
     <packagedElement xmi:type="uml:Node" xmi:id="_rTflUHOgEeOrbLDZJ3pUzQ" name="Computing services">
       <nestedClassifier xmi:type="uml:Node" xmi:id="_71Tx0HOgEeOrbLDZJ3pUzQ" name="Object Storage">

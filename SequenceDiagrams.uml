@@ -8,4 +8,5 @@
   <packagedElement xmi:type="uml:Package" href="BecomingAffiliate.uml#_FBddoaLbEeOO1PYOwHzT6Q"/>
   <packagedElement xmi:type="uml:Package" href="IssueManagement.uml#_SlkXgK8_EeOL6aGXNQ6mAw"/>
   <packagedElement xmi:type="uml:Package" href="DeploymentPipeline.uml#_m0xeMNqhEeO9iNX638NEQQ"/>
+  <packagedElement xmi:type="uml:Package" href="ProjectPlanning.uml#_xS84EBcMEeSiwNNaV55PAw"/>
 </uml:Package>

@@ -138,7 +138,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cRUgOnHrEeOrbLDZJ3pUzQ"/>
     </children>
     <element xmi:type="uml:Interaction" href="BecomingAffiliate.uml#_aSNvMHHrEeOrbLDZJ3pUzQ"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cRUgO3HrEeOrbLDZJ3pUzQ" x="-24" y="12" width="655" height="549"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cRUgO3HrEeOrbLDZJ3pUzQ" x="-24" y="12" width="655" height="550"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_cRUgPHHrEeOrbLDZJ3pUzQ"/>
   <element xmi:type="uml:Interaction" href="BecomingAffiliate.uml#_aSNvMHHrEeOrbLDZJ3pUzQ"/>
