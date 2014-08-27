@@ -2012,7 +2012,7 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A6YmURcVEeSiwNNaV55PAw" id="(0.0,0.905511811023622)"/>
     </edges>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_8zy-sCz9EeSmQfYOkR983A" type="PapyrusUMLSequenceDiagram" name="testautomation" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_8zy-sCz9EeSmQfYOkR983A" type="PapyrusUMLSequenceDiagram" name="TestAutomation" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_8zy-sSz9EeSmQfYOkR983A" type="2001">
       <children xmi:type="notation:DecorationNode" xmi:id="_8zy-siz9EeSmQfYOkR983A" type="5001"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_8zy-syz9EeSmQfYOkR983A" type="7001">

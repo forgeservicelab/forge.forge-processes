@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_tjFLoGM0EeOLd81QbgL2RA" name="model">
-  <packagedElement xmi:type="uml:Package" href="UseCases.uml#_T3a1QHFXEeOrbLDZJ3pUzQ"/>
-  <packagedElement xmi:type="uml:Package" href="SequenceDiagrams.uml#_qYkLEKB3EeO_DNBl9m0-HA"/>
-  <packagedElement xmi:type="uml:Package" href="DeploymentDiagrams.uml#_tXxuMKB3EeO_DNBl9m0-HA"/>
-  <packagedElement xmi:type="uml:Package" href="BusinessProcesses.uml#_B7AtQKLfEeOO1PYOwHzT6Q"/>
-  <packagedElement xmi:type="uml:Interaction" xmi:id="_8ERmQCz9EeSmQfYOkR983A" name="TestAutomation Asset">
-    <ownedComment xmi:type="uml:Comment" xmi:id="_-LY1AC0DEeSmQfYOkR983A">
+<uml:Package xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_tjFLoGM0EeOLd81QbgL2RA" name="TestAutomation">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_8ERmQCz9EeSmQfYOkR983A" name="TestAutomation">
+    <ownedComment xmi:id="_-LY1AC0DEeSmQfYOkR983A">
       <body>File new issue if testing can be automated</body>
     </ownedComment>
     <fragment xmi:type="uml:CombinedFragment" xmi:id="_NquiwC0CEeSmQfYOkR983A" name="CombinedFragment" covered="_iCNEIC0AEeSmQfYOkR983A _OPWksC0AEeSmQfYOkR983A _TgzQMC0AEeSmQfYOkR983A">
-      <operand xmi:type="uml:InteractionOperand" xmi:id="_NqvJ0C0CEeSmQfYOkR983A" name="InteractionOperand" covered="_iCNEIC0AEeSmQfYOkR983A _OPWksC0AEeSmQfYOkR983A _TgzQMC0AEeSmQfYOkR983A">
-        <guard xmi:type="uml:InteractionConstraint" xmi:id="_NqvJ0S0CEeSmQfYOkR983A">
+      <operand xmi:id="_NqvJ0C0CEeSmQfYOkR983A" name="InteractionOperand" covered="_iCNEIC0AEeSmQfYOkR983A _OPWksC0AEeSmQfYOkR983A _TgzQMC0AEeSmQfYOkR983A">
+        <guard xmi:id="_NqvJ0S0CEeSmQfYOkR983A">
           <specification xmi:type="uml:LiteralString" xmi:id="_SaUeYC0CEeSmQfYOkR983A" value="MANUAL TESTING"/>
           <maxint xmi:type="uml:LiteralInteger" xmi:id="_NqvJ1C0CEeSmQfYOkR983A" value="1"/>
           <minint xmi:type="uml:LiteralInteger" xmi:id="_NqvJ0y0CEeSmQfYOkR983A"/>
@@ -26,8 +22,8 @@
       </operand>
     </fragment>
     <fragment xmi:type="uml:CombinedFragment" xmi:id="_twVNQC0CEeSmQfYOkR983A" name="CombinedFragment0" covered="_kuJF8C0AEeSmQfYOkR983A _iCNEIC0AEeSmQfYOkR983A _7ITT8C0CEeSmQfYOkR983A">
-      <operand xmi:type="uml:InteractionOperand" xmi:id="_twWbYC0CEeSmQfYOkR983A" name="InteractionOperand" covered="_kuJF8C0AEeSmQfYOkR983A _iCNEIC0AEeSmQfYOkR983A _7ITT8C0CEeSmQfYOkR983A">
-        <guard xmi:type="uml:InteractionConstraint" xmi:id="_twWbYS0CEeSmQfYOkR983A" name="">
+      <operand xmi:id="_twWbYC0CEeSmQfYOkR983A" name="InteractionOperand" covered="_kuJF8C0AEeSmQfYOkR983A _iCNEIC0AEeSmQfYOkR983A _7ITT8C0CEeSmQfYOkR983A">
+        <guard xmi:id="_twWbYS0CEeSmQfYOkR983A" name="">
           <specification xmi:type="uml:LiteralString" xmi:id="_YMwhoC0DEeSmQfYOkR983A" value="SPRINT PLANNING"/>
           <maxint xmi:type="uml:LiteralInteger" xmi:id="_twXCci0CEeSmQfYOkR983A" value="1"/>
           <minint xmi:type="uml:LiteralInteger" xmi:id="_twXCcS0CEeSmQfYOkR983A"/>
@@ -39,8 +35,8 @@
       </operand>
     </fragment>
     <fragment xmi:type="uml:CombinedFragment" xmi:id="_gsTEUC0EEeSmQfYOkR983A" name="CombinedFragment1" covered="_TgzQMC0AEeSmQfYOkR983A _kuJF8C0AEeSmQfYOkR983A _0P3xoC0EEeSmQfYOkR983A _jN-hcC0FEeSmQfYOkR983A">
-      <operand xmi:type="uml:InteractionOperand" xmi:id="_gsTrYC0EEeSmQfYOkR983A" name="InteractionOperand" covered="_TgzQMC0AEeSmQfYOkR983A _kuJF8C0AEeSmQfYOkR983A _0P3xoC0EEeSmQfYOkR983A _jN-hcC0FEeSmQfYOkR983A">
-        <guard xmi:type="uml:InteractionConstraint" xmi:id="_gsUScC0EEeSmQfYOkR983A">
+      <operand xmi:id="_gsTrYC0EEeSmQfYOkR983A" name="InteractionOperand" covered="_TgzQMC0AEeSmQfYOkR983A _kuJF8C0AEeSmQfYOkR983A _0P3xoC0EEeSmQfYOkR983A _jN-hcC0FEeSmQfYOkR983A">
+        <guard xmi:id="_gsUScC0EEeSmQfYOkR983A">
           <specification xmi:type="uml:LiteralString" xmi:id="_khvr4C0EEeSmQfYOkR983A" value="TEST AUTOMATION CREATION"/>
           <maxint xmi:type="uml:LiteralInteger" xmi:id="_gsUScy0EEeSmQfYOkR983A" value="1"/>
           <minint xmi:type="uml:LiteralInteger" xmi:id="_gsUSci0EEeSmQfYOkR983A"/>
@@ -58,21 +54,21 @@
     </fragment>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_GTnV0S0DEeSmQfYOkR983A" name="MessageRecv"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_GTnV0C0DEeSmQfYOkR983A" name="MessageSend"/>
-    <lifeline xmi:type="uml:Lifeline" xmi:id="_OPWksC0AEeSmQfYOkR983A" name="Story N" coveredBy="_NquiwC0CEeSmQfYOkR983A _NqvJ0C0CEeSmQfYOkR983A _2mb10C0DEeSmQfYOkR983A"/>
-    <lifeline xmi:type="uml:Lifeline" xmi:id="_TgzQMC0AEeSmQfYOkR983A" name="QA" coveredBy="_NquiwC0CEeSmQfYOkR983A _NqvJ0C0CEeSmQfYOkR983A _WLd0wC0CEeSmQfYOkR983A _WLeb0C0CEeSmQfYOkR983A _YUsLEC0CEeSmQfYOkR983A _YUsyIC0CEeSmQfYOkR983A _hMq4YC0CEeSmQfYOkR983A _2mbOwC0DEeSmQfYOkR983A _gsTEUC0EEeSmQfYOkR983A _gsTrYC0EEeSmQfYOkR983A _mu78MC0EEeSmQfYOkR983A _4eZnkC0EEeSmQfYOkR983A _N0L5YC0FEeSmQfYOkR983A _Qvt2YC0FEeSmQfYOkR983A _Qvt2YS0FEeSmQfYOkR983A _wj2WYC0FEeSmQfYOkR983A"/>
-    <lifeline xmi:type="uml:Lifeline" xmi:id="_iCNEIC0AEeSmQfYOkR983A" name="Product backlog" coveredBy="_NquiwC0CEeSmQfYOkR983A _NqvJ0C0CEeSmQfYOkR983A _hMrfcC0CEeSmQfYOkR983A _twVNQC0CEeSmQfYOkR983A _twWbYC0CEeSmQfYOkR983A _mdomQS0DEeSmQfYOkR983A"/>
-    <lifeline xmi:type="uml:Lifeline" xmi:id="_kuJF8C0AEeSmQfYOkR983A" name="Sprint backlog" coveredBy="_twVNQC0CEeSmQfYOkR983A _twWbYC0CEeSmQfYOkR983A _HcykYC0DEeSmQfYOkR983A _gsTEUC0EEeSmQfYOkR983A _gsTrYC0EEeSmQfYOkR983A _mu7VIC0EEeSmQfYOkR983A"/>
-    <lifeline xmi:type="uml:Lifeline" xmi:id="_7ITT8C0CEeSmQfYOkR983A" name="Scrum master" coveredBy="_twVNQC0CEeSmQfYOkR983A _twWbYC0CEeSmQfYOkR983A _Hcx9UC0DEeSmQfYOkR983A _mdomQC0DEeSmQfYOkR983A"/>
-    <lifeline xmi:type="uml:Lifeline" xmi:id="_0P3xoC0EEeSmQfYOkR983A" name="CI" coveredBy="_gsTEUC0EEeSmQfYOkR983A _gsTrYC0EEeSmQfYOkR983A _4eaOoC0EEeSmQfYOkR983A"/>
-    <lifeline xmi:type="uml:Lifeline" xmi:id="_jN-hcC0FEeSmQfYOkR983A" name="PO/PM" coveredBy="_gsTEUC0EEeSmQfYOkR983A _gsTrYC0EEeSmQfYOkR983A _wj2WYS0FEeSmQfYOkR983A"/>
-    <message xmi:type="uml:Message" xmi:id="_YUrkAC0CEeSmQfYOkR983A" name="test_story()" messageSort="asynchCall" receiveEvent="_YUsyIC0CEeSmQfYOkR983A" sendEvent="_YUsLEC0CEeSmQfYOkR983A"/>
-    <message xmi:type="uml:Message" xmi:id="_hMqRUC0CEeSmQfYOkR983A" name="file_issue(NEW)" messageSort="asynchCall" receiveEvent="_hMrfcC0CEeSmQfYOkR983A" sendEvent="_hMq4YC0CEeSmQfYOkR983A"/>
-    <message xmi:type="uml:Message" xmi:id="_HcxWQC0DEeSmQfYOkR983A" name="put_issue()" messageSort="asynchCall" receiveEvent="_HcykYC0DEeSmQfYOkR983A" sendEvent="_Hcx9UC0DEeSmQfYOkR983A"/>
-    <message xmi:type="uml:Message" xmi:id="_mdn_MC0DEeSmQfYOkR983A" name="pull_issue()" messageSort="asynchCall" receiveEvent="_mdomQS0DEeSmQfYOkR983A" sendEvent="_mdomQC0DEeSmQfYOkR983A"/>
-    <message xmi:type="uml:Message" xmi:id="_2mansC0DEeSmQfYOkR983A" name="pull_for_testing()" messageSort="asynchCall" receiveEvent="_2mb10C0DEeSmQfYOkR983A" sendEvent="_2mbOwC0DEeSmQfYOkR983A"/>
-    <message xmi:type="uml:Message" xmi:id="_mu6uEC0EEeSmQfYOkR983A" name="pull_issue()" messageSort="asynchCall" receiveEvent="_mu78MC0EEeSmQfYOkR983A" sendEvent="_mu7VIC0EEeSmQfYOkR983A"/>
-    <message xmi:type="uml:Message" xmi:id="_4eZAgC0EEeSmQfYOkR983A" name="add_to_job()" messageSort="asynchCall" receiveEvent="_4eaOoC0EEeSmQfYOkR983A" sendEvent="_4eZnkC0EEeSmQfYOkR983A"/>
-    <message xmi:type="uml:Message" xmi:id="_QvsoQC0FEeSmQfYOkR983A" name="create_script()" messageSort="asynchCall" receiveEvent="_Qvt2YS0FEeSmQfYOkR983A" sendEvent="_Qvt2YC0FEeSmQfYOkR983A"/>
-    <message xmi:type="uml:Message" xmi:id="_wj1vUC0FEeSmQfYOkR983A" name="assign_for_verification()" messageSort="asynchCall" receiveEvent="_wj2WYS0FEeSmQfYOkR983A" sendEvent="_wj2WYC0FEeSmQfYOkR983A"/>
+    <lifeline xmi:id="_OPWksC0AEeSmQfYOkR983A" name="Story N" coveredBy="_NquiwC0CEeSmQfYOkR983A _NqvJ0C0CEeSmQfYOkR983A _2mb10C0DEeSmQfYOkR983A"/>
+    <lifeline xmi:id="_TgzQMC0AEeSmQfYOkR983A" name="QA" coveredBy="_NquiwC0CEeSmQfYOkR983A _NqvJ0C0CEeSmQfYOkR983A _WLd0wC0CEeSmQfYOkR983A _WLeb0C0CEeSmQfYOkR983A _YUsLEC0CEeSmQfYOkR983A _YUsyIC0CEeSmQfYOkR983A _hMq4YC0CEeSmQfYOkR983A _2mbOwC0DEeSmQfYOkR983A _gsTEUC0EEeSmQfYOkR983A _gsTrYC0EEeSmQfYOkR983A _mu78MC0EEeSmQfYOkR983A _4eZnkC0EEeSmQfYOkR983A _N0L5YC0FEeSmQfYOkR983A _Qvt2YC0FEeSmQfYOkR983A _Qvt2YS0FEeSmQfYOkR983A _wj2WYC0FEeSmQfYOkR983A"/>
+    <lifeline xmi:id="_iCNEIC0AEeSmQfYOkR983A" name="Product backlog" coveredBy="_NquiwC0CEeSmQfYOkR983A _NqvJ0C0CEeSmQfYOkR983A _hMrfcC0CEeSmQfYOkR983A _twVNQC0CEeSmQfYOkR983A _twWbYC0CEeSmQfYOkR983A _mdomQS0DEeSmQfYOkR983A"/>
+    <lifeline xmi:id="_kuJF8C0AEeSmQfYOkR983A" name="Sprint backlog" coveredBy="_twVNQC0CEeSmQfYOkR983A _twWbYC0CEeSmQfYOkR983A _HcykYC0DEeSmQfYOkR983A _gsTEUC0EEeSmQfYOkR983A _gsTrYC0EEeSmQfYOkR983A _mu7VIC0EEeSmQfYOkR983A"/>
+    <lifeline xmi:id="_7ITT8C0CEeSmQfYOkR983A" name="Scrum master" coveredBy="_twVNQC0CEeSmQfYOkR983A _twWbYC0CEeSmQfYOkR983A _Hcx9UC0DEeSmQfYOkR983A _mdomQC0DEeSmQfYOkR983A"/>
+    <lifeline xmi:id="_0P3xoC0EEeSmQfYOkR983A" name="CI" coveredBy="_gsTEUC0EEeSmQfYOkR983A _gsTrYC0EEeSmQfYOkR983A _4eaOoC0EEeSmQfYOkR983A"/>
+    <lifeline xmi:id="_jN-hcC0FEeSmQfYOkR983A" name="PO/PM" coveredBy="_gsTEUC0EEeSmQfYOkR983A _gsTrYC0EEeSmQfYOkR983A _wj2WYS0FEeSmQfYOkR983A"/>
+    <message xmi:id="_YUrkAC0CEeSmQfYOkR983A" name="test_story()" messageSort="asynchCall" receiveEvent="_YUsyIC0CEeSmQfYOkR983A" sendEvent="_YUsLEC0CEeSmQfYOkR983A"/>
+    <message xmi:id="_hMqRUC0CEeSmQfYOkR983A" name="file_issue(NEW)" messageSort="asynchCall" receiveEvent="_hMrfcC0CEeSmQfYOkR983A" sendEvent="_hMq4YC0CEeSmQfYOkR983A"/>
+    <message xmi:id="_HcxWQC0DEeSmQfYOkR983A" name="put_issue()" messageSort="asynchCall" receiveEvent="_HcykYC0DEeSmQfYOkR983A" sendEvent="_Hcx9UC0DEeSmQfYOkR983A"/>
+    <message xmi:id="_mdn_MC0DEeSmQfYOkR983A" name="pull_issue()" messageSort="asynchCall" receiveEvent="_mdomQS0DEeSmQfYOkR983A" sendEvent="_mdomQC0DEeSmQfYOkR983A"/>
+    <message xmi:id="_2mansC0DEeSmQfYOkR983A" name="pull_for_testing()" messageSort="asynchCall" receiveEvent="_2mb10C0DEeSmQfYOkR983A" sendEvent="_2mbOwC0DEeSmQfYOkR983A"/>
+    <message xmi:id="_mu6uEC0EEeSmQfYOkR983A" name="pull_issue()" messageSort="asynchCall" receiveEvent="_mu78MC0EEeSmQfYOkR983A" sendEvent="_mu7VIC0EEeSmQfYOkR983A"/>
+    <message xmi:id="_4eZAgC0EEeSmQfYOkR983A" name="add_to_job()" messageSort="asynchCall" receiveEvent="_4eaOoC0EEeSmQfYOkR983A" sendEvent="_4eZnkC0EEeSmQfYOkR983A"/>
+    <message xmi:id="_QvsoQC0FEeSmQfYOkR983A" name="create_script()" messageSort="asynchCall" receiveEvent="_Qvt2YS0FEeSmQfYOkR983A" sendEvent="_Qvt2YC0FEeSmQfYOkR983A"/>
+    <message xmi:id="_wj1vUC0FEeSmQfYOkR983A" name="assign_for_verification()" messageSort="asynchCall" receiveEvent="_wj2WYS0FEeSmQfYOkR983A" sendEvent="_wj2WYC0FEeSmQfYOkR983A"/>
   </packagedElement>
-</uml:Model>
+</uml:Package>
