@@ -2012,4 +2012,165 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A6YmURcVEeSiwNNaV55PAw" id="(0.0,0.905511811023622)"/>
     </edges>
   </notation:Diagram>
+  <notation:Diagram xmi:id="_yhuzICHzEeSIMKYShLqR6w" type="PapyrusUMLDeploymentDiagram" name="AuthenticationInfra" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_18Y8ICHzEeSIMKYShLqR6w" type="2008">
+      <children xmi:type="notation:DecorationNode" xmi:id="_18aKQCHzEeSIMKYShLqR6w" type="9"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_18aKQSHzEeSIMKYShLqR6w" type="19">
+        <children xmi:type="notation:Shape" xmi:id="_-MNfcCICEeSIMKYShLqR6w" type="25">
+          <children xmi:type="notation:DecorationNode" xmi:id="_-MNfdCICEeSIMKYShLqR6w" type="27"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_-MNfcSICEeSIMKYShLqR6w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_-MNfciICEeSIMKYShLqR6w"/>
+          <element xmi:type="uml:Artifact" href="AuthenticationInfra02.uml#_-MMRUCICEeSIMKYShLqR6w"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-MNfcyICEeSIMKYShLqR6w" x="7" y="10"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_18aKQiHzEeSIMKYShLqR6w"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_18aKQyHzEeSIMKYShLqR6w"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_18Y8ISHzEeSIMKYShLqR6w"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_18Y8IiHzEeSIMKYShLqR6w"/>
+      <element xmi:type="uml:Node" href="AuthenticationInfra02.uml#_18RnYCHzEeSIMKYShLqR6w"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_18Y8IyHzEeSIMKYShLqR6w" x="83" y="60" width="176" height="138"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_L3x1YCH0EeSIMKYShLqR6w" type="2008" fillColor="10011046">
+      <children xmi:type="notation:DecorationNode" xmi:id="_L3yccCH0EeSIMKYShLqR6w" type="9"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_L3yccSH0EeSIMKYShLqR6w" type="19">
+        <children xmi:type="notation:Shape" xmi:id="_r_c0ECICEeSIMKYShLqR6w" type="2002" fillColor="10011046">
+          <children xmi:type="notation:DecorationNode" xmi:id="_r_dbICICEeSIMKYShLqR6w" type="5"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_r_dbISICEeSIMKYShLqR6w" type="18">
+            <children xmi:type="notation:Shape" xmi:id="_vvUYECICEeSIMKYShLqR6w" type="25" fillColor="10011046">
+              <children xmi:type="notation:DecorationNode" xmi:id="_vvUYFCICEeSIMKYShLqR6w" type="27"/>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_vvUYESICEeSIMKYShLqR6w"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_vvUYEiICEeSIMKYShLqR6w"/>
+              <element xmi:type="uml:Artifact" href="AuthenticationInfra02.uml#_vvTJ8CICEeSIMKYShLqR6w"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vvUYEyICEeSIMKYShLqR6w" x="11" y="8"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_yF4m0CICEeSIMKYShLqR6w" type="25" fillColor="10011046">
+              <children xmi:type="notation:DecorationNode" xmi:id="_yF4m1CICEeSIMKYShLqR6w" type="27"/>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_yF4m0SICEeSIMKYShLqR6w"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_yF4m0iICEeSIMKYShLqR6w"/>
+              <element xmi:type="uml:Artifact" href="AuthenticationInfra02.uml#_yF3YsCICEeSIMKYShLqR6w"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yF4m0yICEeSIMKYShLqR6w" x="11" y="95"/>
+            </children>
+            <styles xmi:type="notation:TitleStyle" xmi:id="_r_dbIiICEeSIMKYShLqR6w"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_r_dbIyICEeSIMKYShLqR6w"/>
+          </children>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_r_c0ESICEeSIMKYShLqR6w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_r_c0EiICEeSIMKYShLqR6w"/>
+          <element xmi:type="uml:ExecutionEnvironment" href="AuthenticationInfra02.uml#_r_cNACICEeSIMKYShLqR6w"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_r_c0EyICEeSIMKYShLqR6w" x="7" y="7" width="184"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_L3ycciH0EeSIMKYShLqR6w"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L3yccyH0EeSIMKYShLqR6w"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_L3x1YSH0EeSIMKYShLqR6w"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_L3x1YiH0EeSIMKYShLqR6w"/>
+      <element xmi:type="uml:Node" href="AuthenticationInfra02.uml#_L3wAMCH0EeSIMKYShLqR6w"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L3x1YyH0EeSIMKYShLqR6w" x="357" y="60" width="225" height="309"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_VGLBICIAEeSIMKYShLqR6w" type="2008" fillColor="10011046">
+      <children xmi:type="notation:DecorationNode" xmi:id="_VGLoMCIAEeSIMKYShLqR6w" type="9"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_VGLoMSIAEeSIMKYShLqR6w" type="19">
+        <children xmi:type="notation:Shape" xmi:id="_YTPSsCIDEeSIMKYShLqR6w" type="2002" fillColor="10011046">
+          <children xmi:type="notation:DecorationNode" xmi:id="_YTP5wCIDEeSIMKYShLqR6w" type="5"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_YTP5wSIDEeSIMKYShLqR6w" type="18">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_YTP5wiIDEeSIMKYShLqR6w"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YTP5wyIDEeSIMKYShLqR6w"/>
+          </children>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_YTPSsSIDEeSIMKYShLqR6w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_YTPSsiIDEeSIMKYShLqR6w"/>
+          <element xmi:type="uml:ExecutionEnvironment" href="AuthenticationInfra02.uml#_YTOEkCIDEeSIMKYShLqR6w"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YTPSsyIDEeSIMKYShLqR6w" x="9" y="6"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_zpi8gCIDEeSIMKYShLqR6w" type="25">
+          <children xmi:type="notation:DecorationNode" xmi:id="_zpi8hCIDEeSIMKYShLqR6w" type="27"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_zpi8gSIDEeSIMKYShLqR6w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_zpi8giIDEeSIMKYShLqR6w"/>
+          <element xmi:type="uml:Artifact" href="AuthenticationInfra02.uml#_zphuYCIDEeSIMKYShLqR6w"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zpi8gyIDEeSIMKYShLqR6w" x="11" y="134" width="72"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_5PMWYCIDEeSIMKYShLqR6w" type="25">
+          <children xmi:type="notation:DecorationNode" xmi:id="_5PMWZCIDEeSIMKYShLqR6w" type="27"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_5PMWYSIDEeSIMKYShLqR6w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_5PMWYiIDEeSIMKYShLqR6w"/>
+          <element xmi:type="uml:Artifact" href="AuthenticationInfra02.uml#_5PLIQCIDEeSIMKYShLqR6w"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5PMWYyIDEeSIMKYShLqR6w" x="91" y="134" width="72"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_VGLoMiIAEeSIMKYShLqR6w"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VGLoMyIAEeSIMKYShLqR6w"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_VGLBISIAEeSIMKYShLqR6w"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_VGLBIiIAEeSIMKYShLqR6w"/>
+      <element xmi:type="uml:Node" href="AuthenticationInfra02.uml#_VGKaECIAEeSIMKYShLqR6w"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VGLBIyIAEeSIMKYShLqR6w" x="689" y="61" width="191" height="273"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_I4FBsCICEeSIMKYShLqR6w" type="2008">
+      <children xmi:type="notation:DecorationNode" xmi:id="_I4FBtCICEeSIMKYShLqR6w" type="9"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_I4FBtSICEeSIMKYShLqR6w" type="19">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_I4FBtiICEeSIMKYShLqR6w"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_I4FBtyICEeSIMKYShLqR6w"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_I4FBsSICEeSIMKYShLqR6w"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_I4FBsiICEeSIMKYShLqR6w"/>
+      <element xmi:type="uml:Node" href="AuthenticationInfra02.uml#_I4DzkCICEeSIMKYShLqR6w"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_I4FBsyICEeSIMKYShLqR6w" x="689" y="358" width="191" height="190"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_nBlWcCIDEeSIMKYShLqR6w" type="2001">
+      <children xmi:type="notation:DecorationNode" xmi:id="_nBlWciIDEeSIMKYShLqR6w" type="1"/>
+      <element xmi:type="uml:Comment" href="AuthenticationInfra02.uml#_nBfP0CIDEeSIMKYShLqR6w"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nBlWcSIDEeSIMKYShLqR6w" x="607" y="217" width="65" height="38"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_yhuzISHzEeSIMKYShLqR6w"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_1BNtUCHzEeSIMKYShLqR6w" name="css_stylesheets" eObjectListValue="_3LoUIOZjEeOVTPFdp1p9kg"/>
+    <element xmi:type="uml:Package" href="AuthenticationInfra02.uml#_uzaHQCHzEeSIMKYShLqR6w"/>
+    <edges xmi:type="notation:Connector" xmi:id="_ESln0CIDEeSIMKYShLqR6w" type="4003" source="_-MNfcCICEeSIMKYShLqR6w" target="_yF4m0CICEeSIMKYShLqR6w">
+      <children xmi:type="notation:DecorationNode" xmi:id="_ESln0yIDEeSIMKYShLqR6w" type="4">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ESln1CIDEeSIMKYShLqR6w" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_ESln0SIDEeSIMKYShLqR6w"/>
+      <element xmi:type="uml:Generalization" href="AuthenticationInfra02.uml#_ESkZsCIDEeSIMKYShLqR6w"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ESln0iIDEeSIMKYShLqR6w" points="[10, 8, -143, -125]$[150, 133, -3, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ESoEECIDEeSIMKYShLqR6w" id="(0.9333333333333333,0.5)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ESoEESIDEeSIMKYShLqR6w" id="(0.02,0.5)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_Gt7o4CIDEeSIMKYShLqR6w" type="4003" source="_r_c0ECICEeSIMKYShLqR6w" target="_YTPSsCIDEeSIMKYShLqR6w">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Gt8P8CIDEeSIMKYShLqR6w" type="4">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Gt8P8SIDEeSIMKYShLqR6w" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_Gt7o4SIDEeSIMKYShLqR6w"/>
+      <element xmi:type="uml:Generalization" href="AuthenticationInfra02.uml#_Gt7B0CIDEeSIMKYShLqR6w"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Gt7o4iIDEeSIMKYShLqR6w" points="[3, -2, -140, 56]$[142, -58, -1, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Gt-sMCIDEeSIMKYShLqR6w" id="(0.9836956521739131,0.45535714285714285)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Gt-sMSIDEeSIMKYShLqR6w" id="(0.07333333333333333,0.56)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_fHhp8CIDEeSIMKYShLqR6w" type="4003" source="_r_c0ECICEeSIMKYShLqR6w" target="_I4FBsCICEeSIMKYShLqR6w">
+      <children xmi:type="notation:DecorationNode" xmi:id="_fHhp8yIDEeSIMKYShLqR6w" type="4">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_fHhp9CIDEeSIMKYShLqR6w" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_fHhp8SIDEeSIMKYShLqR6w"/>
+      <element xmi:type="uml:Generalization" href="AuthenticationInfra02.uml#_fHhC4CIDEeSIMKYShLqR6w"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fHhp8iIDEeSIMKYShLqR6w" points="[5, 3, -149, -110]$[145, 113, -9, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fHkGMCIDEeSIMKYShLqR6w" id="(0.9728260869565217,0.6875)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fHktQCIDEeSIMKYShLqR6w" id="(0.04712041884816754,0.5263157894736842)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_DrVlICIEEeSIMKYShLqR6w" type="4003" source="_YTPSsCIDEeSIMKYShLqR6w" target="_zpi8gCIDEeSIMKYShLqR6w">
+      <children xmi:type="notation:DecorationNode" xmi:id="_DrWMMCIEEeSIMKYShLqR6w" type="4">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DrWMMSIEEeSIMKYShLqR6w" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_DrVlISIEEeSIMKYShLqR6w"/>
+      <element xmi:type="uml:Generalization" href="AuthenticationInfra02.uml#_DrUXACIEEeSIMKYShLqR6w"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DrVlIiIEEeSIMKYShLqR6w" points="[-10, 12, 24, -30]$[-34, 40, 0, -2]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DrbrwCIEEeSIMKYShLqR6w" id="(0.4866666666666667,0.88)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DrbrwSIEEeSIMKYShLqR6w" id="(0.5138888888888888,0.02857142857142857)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_EQjLACIEEeSIMKYShLqR6w" type="4003" source="_YTPSsCIDEeSIMKYShLqR6w" target="_5PMWYCIDEeSIMKYShLqR6w">
+      <children xmi:type="notation:DecorationNode" xmi:id="_EQjLAyIEEeSIMKYShLqR6w" type="4">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_EQjLBCIEEeSIMKYShLqR6w" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_EQjLASIEEeSIMKYShLqR6w"/>
+      <element xmi:type="uml:Generalization" href="AuthenticationInfra02.uml#_EQh84CIEEeSIMKYShLqR6w"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_EQjLAiIEEeSIMKYShLqR6w" points="[3, 5, -23, -31]$[25, 33, -1, -3]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EQlnQCIEEeSIMKYShLqR6w" id="(0.5933333333333334,0.95)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EQlnQSIEEeSIMKYShLqR6w" id="(0.4583333333333333,0.04285714285714286)"/>
+    </edges>
+  </notation:Diagram>
 </xmi:XMI>

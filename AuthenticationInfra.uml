@@ -28,6 +28,7 @@ Discovery</body>
     </nestedClassifier>
   </packagedElement>
   <packagedElement xmi:type="uml:Node" xmi:id="_AF5xwNzzEeO21-1-XVdvfQ" name="SP:Forge">
+    <generalization xmi:id="_Pq-PoCHzEeSIMKYShLqR6w" general="_M7fkINzzEeO21-1-XVdvfQ"/>
     <nestedClassifier xmi:type="uml:Artifact" xmi:id="_LeLRkNzzEeO21-1-XVdvfQ" name="SP:SimpleSAMLphp" fileName="Artifact1.file">
       <generalization xmi:id="_0I27gNzzEeO21-1-XVdvfQ" general="_M7fkINzzEeO21-1-XVdvfQ"/>
       <generalization xmi:id="_0-Aa0NzzEeO21-1-XVdvfQ" general="_PcVJMNzzEeO21-1-XVdvfQ"/>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_uzaHQCHzEeSIMKYShLqR6w" name="AuthenticationInfra02">
+  <ownedComment xmi:id="_nBfP0CIDEeSIMKYShLqR6w">
+    <body>SAML 2.0&#xD;
+discovery</body>
+  </ownedComment>
+  <packagedElement xmi:type="uml:Node" xmi:id="_18RnYCHzEeSIMKYShLqR6w" name="Affiliate:ApplicationServer">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_-MMRUCICEeSIMKYShLqR6w" name="Application" fileName="Artifact1.file">
+      <generalization xmi:id="_ESkZsCIDEeSIMKYShLqR6w" general="_yF3YsCICEeSIMKYShLqR6w"/>
+    </nestedClassifier>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_L3wAMCH0EeSIMKYShLqR6w" name="FORGE:SP">
+    <nestedClassifier xmi:type="uml:ExecutionEnvironment" xmi:id="_r_cNACICEeSIMKYShLqR6w" name="SP:SimpleSAMLphp">
+      <generalization xmi:id="_Gt7B0CIDEeSIMKYShLqR6w" general="_YTOEkCIDEeSIMKYShLqR6w"/>
+      <generalization xmi:id="_fHhC4CIDEeSIMKYShLqR6w" general="_I4DzkCICEeSIMKYShLqR6w"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_vvTJ8CICEeSIMKYShLqR6w" name="web service" fileName="Artifact1.file"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_yF3YsCICEeSIMKYShLqR6w" name="SP API" fileName="Artifact1.file"/>
+    </nestedClassifier>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_VGKaECIAEeSIMKYShLqR6w" name="FORGE:IdP">
+    <nestedClassifier xmi:type="uml:ExecutionEnvironment" xmi:id="_YTOEkCIDEeSIMKYShLqR6w" name="IdP:SimpleSAMLphp">
+      <generalization xmi:id="_DrUXACIEEeSIMKYShLqR6w" general="_zphuYCIDEeSIMKYShLqR6w"/>
+      <generalization xmi:id="_EQh84CIEEeSIMKYShLqR6w" general="_5PLIQCIDEeSIMKYShLqR6w"/>
+    </nestedClassifier>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_zphuYCIDEeSIMKYShLqR6w" name="e.g. LDAP" fileName="Artifact1.file"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_5PLIQCIDEeSIMKYShLqR6w" name="e.g. CAS" fileName="Artifact1.file"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_I4DzkCICEeSIMKYShLqR6w" name="Affiliate:IdP"/>
+</uml:Package>
