@@ -73,27 +73,15 @@
     <availablePage>
       <emfPageIdentifier href="TestAutomation.notation#_Yk9uIK8_EeOL6aGXNQ6mAw"/>
     </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="model.notation#_wwYqAE-VEeSWJPdvDZMRgA"/>
+    </availablePage>
   </pageList>
   <sashModel currentSelection="//@sashModel/@windows.0/@children.0">
     <windows>
       <children xsi:type="di:TabFolder">
         <children>
-          <emfPageIdentifier href="TestAutomation.notation#_8zy-sCz9EeSmQfYOkR983A"/>
-        </children>
-        <children>
-          <emfPageIdentifier href="TestAutomation.notation#_32HDEBcMEeSiwNNaV55PAw"/>
-        </children>
-        <children>
-          <emfPageIdentifier href="model.notation#_xepjcNwAEeO9iNX638NEQQ"/>
-        </children>
-        <children>
-          <emfPageIdentifier href="model.notation#_Yk9uIK8_EeOL6aGXNQ6mAw"/>
-        </children>
-        <children>
-          <emfPageIdentifier href="model.notation#_yhuzICHzEeSIMKYShLqR6w"/>
-        </children>
-        <children>
-          <emfPageIdentifier href="model.notation#_1Jr70NzyEeO21-1-XVdvfQ"/>
+          <emfPageIdentifier href="model.notation#_wwYqAE-VEeSWJPdvDZMRgA"/>
         </children>
       </children>
     </windows>
