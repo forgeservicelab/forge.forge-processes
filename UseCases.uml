@@ -2,4 +2,5 @@
 <uml:Package xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_T3a1QHFXEeOrbLDZJ3pUzQ" name="UseCases">
   <packagedElement xmi:type="uml:Package" href="Contracting.uml#_Bx-ycKCBEeO_DNBl9m0-HA"/>
   <packagedElement xmi:type="uml:Package" href="DevelopingService.uml#_hhjGEKCCEeO_DNBl9m0-HA"/>
+  <packagedElement xmi:type="uml:Package" href="Roles.uml#_s2mxMFNoEeS-YYOgOGoDmg"/>
 </uml:Package>

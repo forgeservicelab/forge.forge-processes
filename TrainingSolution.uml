@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Package xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_s0kUsE-VEeSWJPdvDZMRgA" name="TrainingSolution">
   <packagedElement xmi:type="uml:Interaction" xmi:id="_wFer0E-VEeSWJPdvDZMRgA" name="TrainingSolution">
+    <ownedComment xmi:id="_7OWeQFnIEeSnwMX7w-F5uw">
+      <body>Training
+-----------
+</body>
+    </ownedComment>
+    <ownedComment xmi:id="__XxxwFnIEeSnwMX7w-F5uw">
+      <body>Training
+-----------
+</body>
+    </ownedComment>
     <fragment xmi:type="uml:CombinedFragment" xmi:id="_VHX0sE-XEeSWJPdvDZMRgA" name="CombinedFragment" covered="_H39pkE-WEeSWJPdvDZMRgA _GCjnIE-WEeSWJPdvDZMRgA _Jc94gE-WEeSWJPdvDZMRgA _EjTa4E-WEeSWJPdvDZMRgA _IqWv0E-WEeSWJPdvDZMRgA">
       <operand xmi:id="_VHaQ8E-XEeSWJPdvDZMRgA" name="InteractionOperand" covered="_H39pkE-WEeSWJPdvDZMRgA _GCjnIE-WEeSWJPdvDZMRgA _Jc94gE-WEeSWJPdvDZMRgA _EjTa4E-WEeSWJPdvDZMRgA _IqWv0E-WEeSWJPdvDZMRgA">
         <guard xmi:id="_VHa4AE-XEeSWJPdvDZMRgA" name="">
@@ -56,6 +66,8 @@
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_DoiJ0U-YEeSWJPdvDZMRgA" name="MessageRecv15" covered="_IqWv0E-WEeSWJPdvDZMRgA" message="_DohiwE-YEeSWJPdvDZMRgA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_QULygE-XEeSWJPdvDZMRgA" name="MessageSend14" message="_QUJWQE-XEeSWJPdvDZMRgA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_QUNAoE-XEeSWJPdvDZMRgA" name="MessageRecv14" message="_QUJWQE-XEeSWJPdvDZMRgA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_r2imwFnIEeSnwMX7w-F5uw" name="MessageSend16" covered="_IqWv0E-WEeSWJPdvDZMRgA" message="_r2fjcFnIEeSnwMX7w-F5uw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_r2m4MFnIEeSnwMX7w-F5uw" name="MessageRecv16" covered="_IqWv0E-WEeSWJPdvDZMRgA" message="_r2fjcFnIEeSnwMX7w-F5uw"/>
       </operand>
     </fragment>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_GMLnwE-XEeSWJPdvDZMRgA" name="MessageSend11" covered="_IqWv0E-WEeSWJPdvDZMRgA" message="_GMJLgE-XEeSWJPdvDZMRgA"/>
@@ -65,24 +77,25 @@
     <lifeline xmi:id="_EjTa4E-WEeSWJPdvDZMRgA" name="Technical contact" coveredBy="_VHX0sE-XEeSWJPdvDZMRgA _VHaQ8E-XEeSWJPdvDZMRgA _hhDuME-XEeSWJPdvDZMRgA _hhEVQE-XEeSWJPdvDZMRgA _pU2aoE-XEeSWJPdvDZMRgA _pU3BsE-XEeSWJPdvDZMRgA"/>
     <lifeline xmi:id="_GCjnIE-WEeSWJPdvDZMRgA" name="Support:Redmine" coveredBy="_VHX0sE-XEeSWJPdvDZMRgA _VHaQ8E-XEeSWJPdvDZMRgA _hhDuME-XEeSWJPdvDZMRgA _hhEVQE-XEeSWJPdvDZMRgA _pU2aoE-XEeSWJPdvDZMRgA _pU3BsE-XEeSWJPdvDZMRgA"/>
     <lifeline xmi:id="_H39pkE-WEeSWJPdvDZMRgA" name="KE" coveredBy="_VHX0sE-XEeSWJPdvDZMRgA _VHaQ8E-XEeSWJPdvDZMRgA _hhDuME-XEeSWJPdvDZMRgA _hhEVQE-XEeSWJPdvDZMRgA _pU2aoE-XEeSWJPdvDZMRgA _pU3BsE-XEeSWJPdvDZMRgA"/>
-    <lifeline xmi:id="_IqWv0E-WEeSWJPdvDZMRgA" name="DIGILE" coveredBy="_GMLnwE-XEeSWJPdvDZMRgA _GMM14E-XEeSWJPdvDZMRgA _IRFewE-XEeSWJPdvDZMRgA _IRFewU-XEeSWJPdvDZMRgA _VHX0sE-XEeSWJPdvDZMRgA _VHaQ8E-XEeSWJPdvDZMRgA _hhDuME-XEeSWJPdvDZMRgA _hhEVQE-XEeSWJPdvDZMRgA _pU2aoE-XEeSWJPdvDZMRgA _pU3BsE-XEeSWJPdvDZMRgA _DoiJ0E-YEeSWJPdvDZMRgA _DoiJ0U-YEeSWJPdvDZMRgA"/>
-    <lifeline xmi:id="_Jc94gE-WEeSWJPdvDZMRgA" name="Lyyti" coveredBy="_VHX0sE-XEeSWJPdvDZMRgA _VHaQ8E-XEeSWJPdvDZMRgA _hhDuME-XEeSWJPdvDZMRgA _hhEVQE-XEeSWJPdvDZMRgA _pU2aoE-XEeSWJPdvDZMRgA _pU3BsE-XEeSWJPdvDZMRgA"/>
+    <lifeline xmi:id="_IqWv0E-WEeSWJPdvDZMRgA" name="DIGILE" coveredBy="_GMLnwE-XEeSWJPdvDZMRgA _GMM14E-XEeSWJPdvDZMRgA _IRFewE-XEeSWJPdvDZMRgA _IRFewU-XEeSWJPdvDZMRgA _VHX0sE-XEeSWJPdvDZMRgA _VHaQ8E-XEeSWJPdvDZMRgA _hhDuME-XEeSWJPdvDZMRgA _hhEVQE-XEeSWJPdvDZMRgA _pU2aoE-XEeSWJPdvDZMRgA _pU3BsE-XEeSWJPdvDZMRgA _DoiJ0E-YEeSWJPdvDZMRgA _DoiJ0U-YEeSWJPdvDZMRgA _r2imwFnIEeSnwMX7w-F5uw _r2m4MFnIEeSnwMX7w-F5uw"/>
+    <lifeline xmi:id="_Jc94gE-WEeSWJPdvDZMRgA" name="Google Forms" coveredBy="_VHX0sE-XEeSWJPdvDZMRgA _VHaQ8E-XEeSWJPdvDZMRgA _hhDuME-XEeSWJPdvDZMRgA _hhEVQE-XEeSWJPdvDZMRgA _pU2aoE-XEeSWJPdvDZMRgA _pU3BsE-XEeSWJPdvDZMRgA"/>
     <message xmi:id="_RKMC4E-WEeSWJPdvDZMRgA" name="create(training_requst_issue)" messageSort="asynchCall" receiveEvent="_RKPtQE-WEeSWJPdvDZMRgA" sendEvent="_RKPGME-WEeSWJPdvDZMRgA"/>
     <message xmi:id="_UIAe4E-WEeSWJPdvDZMRgA" name="automatic_notification" messageSort="asynchCall" receiveEvent="_UIC7IE-WEeSWJPdvDZMRgA" sendEvent="_UIBtAE-WEeSWJPdvDZMRgA"/>
     <message xmi:id="_YuErEE-WEeSWJPdvDZMRgA" name="reassociate_to_digile(training_request_issue)" messageSort="asynchCall" receiveEvent="_YuFSIU-WEeSWJPdvDZMRgA" sendEvent="_YuFSIE-WEeSWJPdvDZMRgA"/>
     <message xmi:id="_ciPgQE-WEeSWJPdvDZMRgA" name="automatic_notification" messageSort="asynchCall" receiveEvent="_ciRVcE-WEeSWJPdvDZMRgA" sendEvent="_ciQuYE-WEeSWJPdvDZMRgA"/>
     <message xmi:id="_fqjVAE-WEeSWJPdvDZMRgA" name="reassociate_to_a_person(training_request_issue)" messageSort="asynchCall" receiveEvent="_fqmYUE-WEeSWJPdvDZMRgA" sendEvent="_fqlKME-WEeSWJPdvDZMRgA"/>
-    <message xmi:id="_l6dz4E-WEeSWJPdvDZMRgA" name="agree timing and requirements" messageSort="asynchCall" receiveEvent="_l6ea8U-WEeSWJPdvDZMRgA" sendEvent="_l6ea8E-WEeSWJPdvDZMRgA"/>
+    <message xmi:id="_l6dz4E-WEeSWJPdvDZMRgA" name="agree timing, the list of participants and other requirements" messageSort="asynchCall" receiveEvent="_l6ea8U-WEeSWJPdvDZMRgA" sendEvent="_l6ea8E-WEeSWJPdvDZMRgA"/>
     <message xmi:id="_w1sLUE-WEeSWJPdvDZMRgA" name="book_showroom" messageSort="asynchCall" receiveEvent="_w1tZcE-WEeSWJPdvDZMRgA" sendEvent="_w1syYE-WEeSWJPdvDZMRgA"/>
-    <message xmi:id="_zijaME-WEeSWJPdvDZMRgA" name="create(event) for ennrollments" messageSort="asynchCall" receiveEvent="_zikoUE-WEeSWJPdvDZMRgA" sendEvent="_zikBQE-WEeSWJPdvDZMRgA"/>
-    <message xmi:id="_5tM-kE-WEeSWJPdvDZMRgA" name="resolve(training_request_issue) and provide link to the lyyti event" messageSort="asynchCall" receiveEvent="_5tOMsE-WEeSWJPdvDZMRgA" sendEvent="_5tNloE-WEeSWJPdvDZMRgA"/>
+    <message xmi:id="_zijaME-WEeSWJPdvDZMRgA" name="create and send the registration form" messageSort="asynchCall" receiveEvent="_zikoUE-WEeSWJPdvDZMRgA" sendEvent="_zikBQE-WEeSWJPdvDZMRgA"/>
+    <message xmi:id="_5tM-kE-WEeSWJPdvDZMRgA" name="resolve(training_request_issue) and provide link to the registration form as part of the issue" messageSort="asynchCall" receiveEvent="_5tOMsE-WEeSWJPdvDZMRgA" sendEvent="_5tNloE-WEeSWJPdvDZMRgA"/>
     <message xmi:id="_-XwpME-WEeSWJPdvDZMRgA" name="automatic_notification" messageSort="asynchCall" receiveEvent="_-XyeYE-WEeSWJPdvDZMRgA" sendEvent="_-Xx3UE-WEeSWJPdvDZMRgA"/>
     <message xmi:id="_A_SsIE-XEeSWJPdvDZMRgA" name="enrollments" messageSort="asynchCall" receiveEvent="_A_VvcE-XEeSWJPdvDZMRgA" sendEvent="_A_UhUE-XEeSWJPdvDZMRgA"/>
     <message xmi:id="_DkLqwE-XEeSWJPdvDZMRgA" name="get_enrollment_info" messageSort="asynchCall" receiveEvent="_DkOuEE-XEeSWJPdvDZMRgA" sendEvent="_DkNf8E-XEeSWJPdvDZMRgA"/>
     <message xmi:id="_GMJLgE-XEeSWJPdvDZMRgA" name="prepare(training_env)" messageSort="asynchCall" receiveEvent="_GMM14E-XEeSWJPdvDZMRgA" sendEvent="_GMLnwE-XEeSWJPdvDZMRgA"/>
     <message xmi:id="_IREQoE-XEeSWJPdvDZMRgA" name="training" messageSort="asynchCall" receiveEvent="_IRFewU-XEeSWJPdvDZMRgA" sendEvent="_IRFewE-XEeSWJPdvDZMRgA"/>
-    <message xmi:id="_KZ920E-XEeSWJPdvDZMRgA" name="request_for_feedback" messageSort="asynchCall" receiveEvent="_KaBhME-XEeSWJPdvDZMRgA" sendEvent="_KZ_sAE-XEeSWJPdvDZMRgA"/>
+    <message xmi:id="_KZ920E-XEeSWJPdvDZMRgA" name="create and send the feedback form" messageSort="asynchCall" receiveEvent="_KaBhME-XEeSWJPdvDZMRgA" sendEvent="_KZ_sAE-XEeSWJPdvDZMRgA"/>
     <message xmi:id="_QUJWQE-XEeSWJPdvDZMRgA" name="feedback" messageSort="asynchCall" receiveEvent="_QUNAoE-XEeSWJPdvDZMRgA" sendEvent="_QULygE-XEeSWJPdvDZMRgA"/>
     <message xmi:id="_DohiwE-YEeSWJPdvDZMRgA" name="clean(training_env)" messageSort="asynchCall" receiveEvent="_DoiJ0U-YEeSWJPdvDZMRgA" sendEvent="_DoiJ0E-YEeSWJPdvDZMRgA"/>
+    <message xmi:id="_r2fjcFnIEeSnwMX7w-F5uw" name="learn from feedback" messageSort="asynchCall" receiveEvent="_r2m4MFnIEeSnwMX7w-F5uw" sendEvent="_r2imwFnIEeSnwMX7w-F5uw"/>
   </packagedElement>
 </uml:Package>
