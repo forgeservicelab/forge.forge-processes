@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_s2mxMFNoEeS-YYOgOGoDmg" name="Roles">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_1c1AIFNoEeS-YYOgOGoDmg" name="Admin"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_4E1kMFNoEeS-YYOgOGoDmg" name="Tech"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_7HKFsFNoEeS-YYOgOGoDmg" name="Contracting">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_CWW3UFNpEeS-YYOgOGoDmg" name="Sign a contract"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_U-A5gFNqEeS-YYOgOGoDmg" name="Manage accounts"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_w_zJQFNqEeS-YYOgOGoDmg" name="Request accounts"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Q1KqQFNpEeS-YYOgOGoDmg" name="FORGE FAP"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_iVDokFNpEeS-YYOgOGoDmg" name="Plaza"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_kija4FNpEeS-YYOgOGoDmg" name="Redmine">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_6o8NwFNqEeS-YYOgOGoDmg" name="Request a project"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="__RoQIFNqEeS-YYOgOGoDmg" name="Manage accounts"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_KkaocFNqEeS-YYOgOGoDmg" name="User"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_MsquYFNqEeS-YYOgOGoDmg" name="FORGE Director">
+    <generalization xmi:id="_rIRVMFNqEeS-YYOgOGoDmg" general="_Q1KqQFNpEeS-YYOgOGoDmg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_lnPVkFNqEeS-YYOgOGoDmg" name="" memberEnd="_lnP8oFNqEeS-YYOgOGoDmg _lnP8o1NqEeS-YYOgOGoDmg">
+    <ownedEnd xmi:id="_lnP8oFNqEeS-YYOgOGoDmg" name="forge director" type="_MsquYFNqEeS-YYOgOGoDmg" association="_lnPVkFNqEeS-YYOgOGoDmg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lnP8oVNqEeS-YYOgOGoDmg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lnP8olNqEeS-YYOgOGoDmg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_lnP8o1NqEeS-YYOgOGoDmg" name="sign a contract" type="_CWW3UFNpEeS-YYOgOGoDmg" association="_lnPVkFNqEeS-YYOgOGoDmg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lnP8pFNqEeS-YYOgOGoDmg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lnP8pVNqEeS-YYOgOGoDmg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_nJo8cFNqEeS-YYOgOGoDmg" name="" memberEnd="_nJo8cVNqEeS-YYOgOGoDmg _nJo8dFNqEeS-YYOgOGoDmg">
+    <ownedEnd xmi:id="_nJo8cVNqEeS-YYOgOGoDmg" name="admin" type="_1c1AIFNoEeS-YYOgOGoDmg" association="_nJo8cFNqEeS-YYOgOGoDmg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nJo8clNqEeS-YYOgOGoDmg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nJo8c1NqEeS-YYOgOGoDmg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_nJo8dFNqEeS-YYOgOGoDmg" name="sign a contract" type="_CWW3UFNpEeS-YYOgOGoDmg" association="_nJo8cFNqEeS-YYOgOGoDmg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nJo8dVNqEeS-YYOgOGoDmg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nJo8dlNqEeS-YYOgOGoDmg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_r5TwkFNqEeS-YYOgOGoDmg" name="" memberEnd="_r5TwkVNqEeS-YYOgOGoDmg _r5TwlFNqEeS-YYOgOGoDmg">
+    <ownedEnd xmi:id="_r5TwkVNqEeS-YYOgOGoDmg" name="forge fap" type="_Q1KqQFNpEeS-YYOgOGoDmg" association="_r5TwkFNqEeS-YYOgOGoDmg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_r5TwklNqEeS-YYOgOGoDmg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_r5Twk1NqEeS-YYOgOGoDmg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_r5TwlFNqEeS-YYOgOGoDmg" name="create accounts" type="_U-A5gFNqEeS-YYOgOGoDmg" association="_r5TwkFNqEeS-YYOgOGoDmg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_r5TwlVNqEeS-YYOgOGoDmg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_r5TwllNqEeS-YYOgOGoDmg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0apfgFNqEeS-YYOgOGoDmg" name="" memberEnd="_0apfgVNqEeS-YYOgOGoDmg _0apfhFNqEeS-YYOgOGoDmg">
+    <ownedEnd xmi:id="_0apfgVNqEeS-YYOgOGoDmg" name="tech" type="_4E1kMFNoEeS-YYOgOGoDmg" association="_0apfgFNqEeS-YYOgOGoDmg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0apfglNqEeS-YYOgOGoDmg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0apfg1NqEeS-YYOgOGoDmg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_0apfhFNqEeS-YYOgOGoDmg" name="request accounts" type="_w_zJQFNqEeS-YYOgOGoDmg" association="_0apfgFNqEeS-YYOgOGoDmg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0apfhVNqEeS-YYOgOGoDmg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0apfhlNqEeS-YYOgOGoDmg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8mF28FNqEeS-YYOgOGoDmg" name="" memberEnd="_8mF28VNqEeS-YYOgOGoDmg _8mF29FNqEeS-YYOgOGoDmg">
+    <ownedEnd xmi:id="_8mF28VNqEeS-YYOgOGoDmg" name="tech" type="_4E1kMFNoEeS-YYOgOGoDmg" association="_8mF28FNqEeS-YYOgOGoDmg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8mF28lNqEeS-YYOgOGoDmg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8mF281NqEeS-YYOgOGoDmg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_8mF29FNqEeS-YYOgOGoDmg" name="request a project" type="_6o8NwFNqEeS-YYOgOGoDmg" association="_8mF28FNqEeS-YYOgOGoDmg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8mF29VNqEeS-YYOgOGoDmg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8mF29lNqEeS-YYOgOGoDmg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_a3ZAUFNtEeS-YYOgOGoDmg" name="" memberEnd="_a3ZAUVNtEeS-YYOgOGoDmg _a3ZAVFNtEeS-YYOgOGoDmg">
+    <ownedEnd xmi:id="_a3ZAUVNtEeS-YYOgOGoDmg" name="tech" type="_4E1kMFNoEeS-YYOgOGoDmg" association="_a3ZAUFNtEeS-YYOgOGoDmg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_a3ZAUlNtEeS-YYOgOGoDmg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_a3ZAU1NtEeS-YYOgOGoDmg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_a3ZAVFNtEeS-YYOgOGoDmg" name="add users" type="__RoQIFNqEeS-YYOgOGoDmg" association="_a3ZAUFNtEeS-YYOgOGoDmg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_a3ZAVVNtEeS-YYOgOGoDmg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_a3ZAVlNtEeS-YYOgOGoDmg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Package>
