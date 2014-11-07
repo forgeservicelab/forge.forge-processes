@@ -41,16 +41,7 @@
       <emfPageIdentifier href="model.notation#_Yk9uIK8_EeOL6aGXNQ6mAw"/>
     </availablePage>
     <availablePage>
-      <emfPageIdentifier href="model.notation#_VP9HINqiEeO9iNX638NEQQ"/>
-    </availablePage>
-    <availablePage>
-      <emfPageIdentifier href="model.notation#_-0JhENqkEeO9iNX638NEQQ"/>
-    </availablePage>
-    <availablePage>
       <emfPageIdentifier href="model.notation#_xepjcNwAEeO9iNX638NEQQ"/>
-    </availablePage>
-    <availablePage>
-      <emfPageIdentifier href="model.notation#_eaJfUNwiEeO9iNX638NEQQ"/>
     </availablePage>
     <availablePage>
       <emfPageIdentifier href="model.notation#_1Jr70NzyEeO21-1-XVdvfQ"/>
@@ -82,15 +73,15 @@
     <availablePage>
       <emfPageIdentifier href="model.notation#_Pjpg0GZpEeS36YzHW8mHoQ"/>
     </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="TestAutomation.notation#_1Jr70NzyEeO21-1-XVdvfQ"/>
+    </availablePage>
   </pageList>
   <sashModel currentSelection="//@sashModel/@windows.0/@children.0">
     <windows>
       <children xsi:type="di:TabFolder">
         <children>
-          <emfPageIdentifier href="model.notation#_wwYqAE-VEeSWJPdvDZMRgA"/>
-        </children>
-        <children>
-          <emfPageIdentifier href="model.notation#_yj32AFNoEeS-YYOgOGoDmg"/>
+          <emfPageIdentifier href="model.notation#_1Jr70NzyEeO21-1-XVdvfQ"/>
         </children>
         <children>
           <emfPageIdentifier href="model.notation#_Pjpg0GZpEeS36YzHW8mHoQ"/>

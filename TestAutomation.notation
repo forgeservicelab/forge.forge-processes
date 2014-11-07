@@ -1255,7 +1255,7 @@
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PM3UMNzPEeOvuKxxY1o52A" id="(0.24822695035460993,0.8936170212765957)"/>
     </edges>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_1Jr70NzyEeO21-1-XVdvfQ" type="PapyrusUMLDeploymentDiagram" name="AuthenticationInfra" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_1Jr70NzyEeO21-1-XVdvfQ" type="PapyrusUMLDeploymentDiagram" name="AAI" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="__n5AENzyEeO21-1-XVdvfQ" type="2008" fontName="Segoe UI">
       <children xmi:type="notation:DecorationNode" xmi:id="__n6OMNzyEeO21-1-XVdvfQ" type="9"/>
       <children xmi:type="notation:DecorationNode" xmi:id="__n6OMdzyEeO21-1-XVdvfQ" type="19">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Package xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_UD6wMKLbEeOO1PYOwHzT6Q" name="UsageExample01">
   <packagedElement xmi:type="uml:Package" xmi:id="_GkxawKB7EeO_DNBl9m0-HA" name="UsageExample01">
-    <packagedElement xmi:type="uml:Node" xmi:id="_2YGFwHOhEeOrbLDZJ3pUzQ" name="Support services">
+    <packagedElement xmi:type="uml:Node" xmi:id="_2YGFwHOhEeOrbLDZJ3pUzQ" name="SaaS">
       <nestedClassifier xmi:type="uml:Node" xmi:id="_3ZWHYHOhEeOrbLDZJ3pUzQ" name="Git">
         <nestedClassifier xmi:type="uml:Artifact" xmi:id="_5t0rcHOhEeOrbLDZJ3pUzQ" name="Service build &quot;recipes&quot;" fileName="Artifact1.file"/>
       </nestedClassifier>
@@ -13,7 +13,7 @@
         <nestedClassifier xmi:type="uml:Artifact" xmi:id="_WCFmYBb1EeSiwNNaV55PAw" name="XMPP" fileName="Artifact1.file"/>
       </nestedClassifier>
     </packagedElement>
-    <packagedElement xmi:type="uml:Node" xmi:id="_rTflUHOgEeOrbLDZJ3pUzQ" name="Computing services">
+    <packagedElement xmi:type="uml:Node" xmi:id="_rTflUHOgEeOrbLDZJ3pUzQ" name="IaaS">
       <nestedClassifier xmi:type="uml:Node" xmi:id="_71Tx0HOgEeOrbLDZJ3pUzQ" name="Object Storage">
         <nestedClassifier xmi:type="uml:Artifact" xmi:id="_9OsmoHOgEeOrbLDZJ3pUzQ" name="Linux images" fileName="Artifact1.file"/>
       </nestedClassifier>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Package xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_uzaHQCHzEeSIMKYShLqR6w" name="AuthenticationInfra02">
+<uml:Package xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_uzaHQCHzEeSIMKYShLqR6w" name="AAI02">
   <ownedComment xmi:id="_nBfP0CIDEeSIMKYShLqR6w">
     <body>SAML 2.0&#xD;
 discovery</body>

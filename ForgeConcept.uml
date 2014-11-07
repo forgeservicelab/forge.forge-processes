@@ -18,9 +18,6 @@
     <packagedElement xmi:type="uml:Actor" xmi:id="_L6BSQGZqEeS36YzHW8mHoQ" name="PM/DevOps"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_Nfk60GZqEeS36YzHW8mHoQ" name="DevOps"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_OPHhYGZqEeS36YzHW8mHoQ" name="DevOps"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_iTUsAGZpEeS36YzHW8mHoQ" name="Datacenter">
-      <packagedElement xmi:type="uml:Actor" xmi:id="_kv_Q0GZrEeS36YzHW8mHoQ" name="PM/Ops"/>
-    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_1QrG0GZpEeS36YzHW8mHoQ" name="ServiceDevelopment">
     <packagedElement xmi:type="uml:Actor" xmi:id="_RnWBcGZqEeS36YzHW8mHoQ" name="PM/SD"/>
@@ -35,5 +32,8 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="___vUwGZtEeS36YzHW8mHoQ" name="Design">
     <packagedElement xmi:type="uml:Actor" xmi:id="_BPj94GZuEeS36YzHW8mHoQ" name="Design"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_iTUsAGZpEeS36YzHW8mHoQ" name="Datacenter">
+    <packagedElement xmi:type="uml:Actor" xmi:id="_kv_Q0GZrEeS36YzHW8mHoQ" name="PM/Ops"/>
   </packagedElement>
 </uml:Package>

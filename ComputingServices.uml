@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Package xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_SBKOQKLbEeOO1PYOwHzT6Q" name="ComputingServices">
-  <packagedElement xmi:type="uml:Package" xmi:id="_w05poOAjEeOQJZp7YkpCMQ" name="ComputingServices">
+<uml:Package xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_SBKOQKLbEeOO1PYOwHzT6Q" name="IaaS">
+  <packagedElement xmi:type="uml:Package" xmi:id="_w05poOAjEeOQJZp7YkpCMQ" name="IaaS">
     <ownedComment xmi:id="_mmK4cOCqEeOQJZp7YkpCMQ">
-      <body>Note! Each compute node has 2xCPU (16H-TCores) = 32Cores</body>
+      <body>Note! Each compute node has 2xCPU (16H-TCores) = 32Cores and they are 2xovercommitted = 64VCores</body>
     </ownedComment>
-    <packagedElement xmi:type="uml:Node" xmi:id="_tWsSgHE3EeOrbLDZJ3pUzQ" name="2x Frontends">
+    <ownedComment xmi:id="_qsA6oGZ8EeS36YzHW8mHoQ">
+      <body>Objectstore has 3N replication</body>
+    </ownedComment>
+    <ownedComment xmi:id="_0TUzIGZ8EeS36YzHW8mHoQ">
+      <body>VolumeStorage has 40TB for volumes, 15TB for NFS and 5TB for operations</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Node" xmi:id="_tWsSgHE3EeOrbLDZJ3pUzQ" name="Frontends - Dell R720XD">
       <nestedClassifier xmi:type="uml:Artifact" xmi:id="_31l-gHEwEeOrbLDZJ3pUzQ" name="Nova" fileName="Artifact1.file"/>
       <nestedClassifier xmi:type="uml:Artifact" xmi:id="_MBTC0HExEeOrbLDZJ3pUzQ" name="Horizon" fileName="Artifact1.file"/>
       <nestedClassifier xmi:type="uml:Artifact" xmi:id="_1UzcwHEwEeOrbLDZJ3pUzQ" name="Keystone" fileName="Artifact1.file"/>
@@ -13,12 +19,23 @@
       <nestedClassifier xmi:type="uml:Artifact" xmi:id="_9h2cEHFDEeOrbLDZJ3pUzQ" name="Swift" fileName="Artifact1.file"/>
       <nestedClassifier xmi:type="uml:Artifact" xmi:id="_jfdnoOAlEeOQJZp7YkpCMQ" name="Neutron" fileName="Artifact1.file"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Node" xmi:id="_3N4TAOAlEeOQJZp7YkpCMQ" name="Equalogic">
-      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_dXmcEOAmEeOQJZp7YkpCMQ" name="Block Storage RAID (64TB)" fileName="Artifact1.file"/>
+    <packagedElement xmi:type="uml:Node" xmi:id="_3N4TAOAlEeOQJZp7YkpCMQ" name="EqualLogic PS6510ES">
+      <ownedComment xmi:id="_D8nHEGZ7EeS36YzHW8mHoQ">
+        <body>EqualLogic PS6510ES</body>
+      </ownedComment>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_dXmcEOAmEeOQJZp7YkpCMQ" name="VolumeStorage RAID (64TB)" fileName="Artifact1.file"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Node" xmi:id="_RcjmYOAmEeOQJZp7YkpCMQ" name="16x Compute">
-      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_YtAVMOAmEeOQJZp7YkpCMQ" name="Object Storage x4 (36TB)" fileName="Artifact1.file"/>
-      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_3Ak1YOCqEeOQJZp7YkpCMQ" name="32xCore, 128GB RAM, 6x900GB HDD" fileName="Artifact1.file"/>
+    <packagedElement xmi:type="uml:Node" xmi:id="_RcjmYOAmEeOQJZp7YkpCMQ" name="13 x Compute">
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_3Ak1YOCqEeOQJZp7YkpCMQ" name="64xVCORE, 128GB RAM, 6x900GB SAS" fileName="Artifact1.file"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Node" xmi:id="_yufOMGZ6EeS36YzHW8mHoQ" name="Dell R720XD">
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_1GuQ4GZ6EeS36YzHW8mHoQ" name="ObjectStorage 40TB" fileName="Artifact1.file"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Node" xmi:id="_fW4D0GZ7EeS36YzHW8mHoQ" name="12 x Bigdata compute">
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_kdCFUGZ7EeS36YzHW8mHoQ" name="40xCORE, 196GB RAM, 15x4TB SAS" fileName="Artifact1.file"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Node" xmi:id="_FuDaEGZ8EeS36YzHW8mHoQ" name="3 x Compute (Operations)">
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_JsDgsGZ8EeS36YzHW8mHoQ" name="64xVCORE, 128GB RAM, 6x900GB SAS" fileName="Artifact1.file"/>
     </packagedElement>
   </packagedElement>
 </uml:Package>
