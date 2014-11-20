@@ -76,6 +76,9 @@
     <availablePage>
       <emfPageIdentifier href="TestAutomation.notation#_1Jr70NzyEeO21-1-XVdvfQ"/>
     </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="model.notation#_xGMhcHCQEeS-MPdqhk8LpA"/>
+    </availablePage>
   </pageList>
   <sashModel currentSelection="//@sashModel/@windows.0/@children.0">
     <windows>
@@ -85,6 +88,9 @@
         </children>
         <children>
           <emfPageIdentifier href="model.notation#_Pjpg0GZpEeS36YzHW8mHoQ"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="model.notation#_xGMhcHCQEeS-MPdqhk8LpA"/>
         </children>
       </children>
     </windows>
