@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Package xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_TNBkcKLbEeOO1PYOwHzT6Q" name="SaaS">
-  <ownedComment xmi:id="_sSo00OAiEeOQJZp7YkpCMQ">
-    <body>Restricted access</body>
-  </ownedComment>
-  <ownedComment xmi:id="_MaXNcOY9EeOVTPFdp1p9kg">
-    <body>Accessible</body>
-  </ownedComment>
   <packagedElement xmi:type="uml:Package" xmi:id="_Zhj7cOAiEeOQJZp7YkpCMQ" name="SaaS">
     <ownedComment xmi:id="_UYFR8OY9EeOVTPFdp1p9kg">
       <body>* {
@@ -13,13 +7,20 @@ fillColor: red;
 fontColor: #0000FF;
 }</body>
     </ownedComment>
+    <ownedComment xmi:id="_MaXNcOY9EeOVTPFdp1p9kg">
+      <body>Accessible</body>
+    </ownedComment>
+    <ownedComment xmi:id="_sSo00OAiEeOQJZp7YkpCMQ">
+      <body>Restricted access</body>
+    </ownedComment>
     <packagedElement xmi:type="uml:Node" xmi:id="_D7XxoHE-EeOrbLDZJ3pUzQ" name="auth">
       <nestedClassifier xmi:type="uml:Artifact" xmi:id="_VyjOkHE-EeOrbLDZJ3pUzQ" name="OpenLDAP:LDAP" fileName="Artifact1.file"/>
       <nestedClassifier xmi:type="uml:Artifact" xmi:id="_YghQsHE-EeOrbLDZJ3pUzQ" name="Casino:SSO" fileName="Artifact1.file"/>
       <nestedClassifier xmi:type="uml:Artifact" xmi:id="_HUk94GZ6EeS36YzHW8mHoQ" name="PasswdChange" fileName="Artifact1.file"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_3MF3YGZ5EeS36YzHW8mHoQ" name="simpleSAMLphp:IdP" fileName="Artifact1.file"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Node" xmi:id="_msgdAHE4EeOrbLDZJ3pUzQ" name="www">
-      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_NUlWAHE5EeOrbLDZJ3pUzQ" name="Drupal:Plaza" fileName="Artifact1.file"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_NUlWAHE5EeOrbLDZJ3pUzQ" name="Drupal" fileName="Artifact1.file"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Node" xmi:id="_ncFAcOAgEeOQJZp7YkpCMQ" name="forgeadmin">
       <nestedClassifier xmi:type="uml:Artifact" xmi:id="_wDPqkOAgEeOQJZp7YkpCMQ" name="OpenStack CLI tools" fileName="Artifact1.file"/>
@@ -37,10 +38,22 @@ fontColor: #0000FF;
       <nestedClassifier xmi:type="uml:Artifact" xmi:id="_VmpsIHOlEeOrbLDZJ3pUzQ" name="Nagios" fileName="Artifact1.file"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Node" xmi:id="_-bnpMO1kEeO8YMp1xfuJ4g" name="barebone">
-      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_Bx5BcO1lEeO8YMp1xfuJ4g" name="Ubuntu" fileName="Artifact1.file"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_Bx5BcO1lEeO8YMp1xfuJ4g" name="Warehouse" fileName="Artifact1.file"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Node" xmi:id="_0OdooGZ5EeS36YzHW8mHoQ" name="idp">
-      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_3MF3YGZ5EeS36YzHW8mHoQ" name="simpleSAMLphp" fileName="Artifact1.file"/>
+    <packagedElement xmi:type="uml:Node" xmi:id="_8HZCUMlWEeSGgOP2msoGsw" name="Analytics">
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_-NhBUMlWEeSGgOP2msoGsw" name="Piwik:Analytics" fileName="Artifact1.file"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_Ah1NUMlXEeSGgOP2msoGsw" name="BIRT:BusinessIntelligence" fileName="Artifact1.file"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Node" xmi:id="_eQfOkMlXEeSGgOP2msoGsw" name="CI">
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_fDnUoMlXEeSGgOP2msoGsw" name="Jenkins:CI" fileName="Artifact1.file"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_kUpwcMlXEeSGgOP2msoGsw" name="RobotTestFW:TA" fileName="Artifact1.file"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_W21D8MlYEeSGgOP2msoGsw" name="Selenium:GRID" fileName="Artifact1.file"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Node" xmi:id="_m1TdYMlZEeSGgOP2msoGsw" name="DB">
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_okjNcMlZEeSGgOP2msoGsw" name="PostgreSQL" fileName="Artifact1.file"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Node" xmi:id="_sl478MlZEeSGgOP2msoGsw" name="Backup">
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_uw2XoMlZEeSGgOP2msoGsw" name="PostgreSQL" fileName="Artifact1.file"/>
     </packagedElement>
   </packagedElement>
 </uml:Package>
