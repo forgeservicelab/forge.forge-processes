@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_mbY6EMPeEeSm6O02od6yqw" name="X-RoadESB">
+  <ownedComment xmi:id="_oXAAQMPgEeSm6O02od6yqw">
+    <body>Phase 1</body>
+  </ownedComment>
+  <ownedComment xmi:id="_qnXgYMPgEeSm6O02od6yqw">
+    <body>Phase 2</body>
+  </ownedComment>
+  <ownedComment xmi:id="_1BTvsMPgEeSm6O02od6yqw">
+    <body>by FORGE</body>
+  </ownedComment>
+  <ownedComment xmi:id="_6QLoUMPgEeSm6O02od6yqw">
+    <body>by KaPa</body>
+  </ownedComment>
+  <ownedComment xmi:id="_CfelAMPhEeSm6O02od6yqw">
+    <body>Legend</body>
+  </ownedComment>
+  <packagedElement xmi:type="uml:Node" xmi:id="_7JXlAMPeEeSm6O02od6yqw" clientDependency="_fWgBYMPmEeSm6O02od6yqw" name="Node 1">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_IDNlQMPfEeSm6O02od6yqw" clientDependency="_oss7wMPmEeSm6O02od6yqw" name="X-Road App" fileName="Artifact1.file"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_-htLEMPkEeSm6O02od6yqw" name="Secure Server" fileName="Artifact1.file"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_L4emoMPfEeSm6O02od6yqw" clientDependency="_s_kfIMPmEeSm6O02od6yqw" name="Node 2">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_MW_uoMPfEeSm6O02od6yqw" name="ESB-X-Road App" fileName="Artifact1.file"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_M2DCIMPfEeSm6O02od6yqw" clientDependency="_TRTxMMPmEeSm6O02od6yqw" name="Node 3">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_NNG3QMPfEeSm6O02od6yqw" name="Test Service" fileName="Artifact1.file"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ExecutionEnvironment" xmi:id="_nOYAwMPfEeSm6O02od6yqw" name="X-Road"/>
+  <packagedElement xmi:type="uml:ExecutionEnvironment" xmi:id="_supLYMPfEeSm6O02od6yqw" clientDependency="_t77ZsMPmEeSm6O02od6yqw" name="ESB"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_0ywLwMPfEeSm6O02od6yqw" clientDependency="_cn9XgMPmEeSm6O02od6yqw" name="ESBGW">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_12vYUMPfEeSm6O02od6yqw" clientDependency="_k7eF0MPmEeSm6O02od6yqw" name="GW" fileName="Artifact1.file"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_NrLroMPlEeSm6O02od6yqw" name="Secure Server" fileName="Artifact1.file"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_npwg8MP6EeSm6O02od6yqw" clientDependency="_785qAMP6EeSm6O02od6yqw" name="ESB" fileName="Artifact1.file"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_TRTxMMPmEeSm6O02od6yqw" name="SOAP" client="_M2DCIMPfEeSm6O02od6yqw" supplier="_nOYAwMPfEeSm6O02od6yqw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_cn9XgMPmEeSm6O02od6yqw" name="SOAP" client="_0ywLwMPfEeSm6O02od6yqw" supplier="_nOYAwMPfEeSm6O02od6yqw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_fWgBYMPmEeSm6O02od6yqw" name="SOAP" client="_7JXlAMPeEeSm6O02od6yqw" supplier="_nOYAwMPfEeSm6O02od6yqw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_k7eF0MPmEeSm6O02od6yqw" name="SOAP" client="_12vYUMPfEeSm6O02od6yqw" supplier="_NrLroMPlEeSm6O02od6yqw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_oss7wMPmEeSm6O02od6yqw" name="SOAP" client="_IDNlQMPfEeSm6O02od6yqw" supplier="_-htLEMPkEeSm6O02od6yqw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_s_kfIMPmEeSm6O02od6yqw" name="?" client="_L4emoMPfEeSm6O02od6yqw" supplier="_supLYMPfEeSm6O02od6yqw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_t77ZsMPmEeSm6O02od6yqw" name="?" client="_supLYMPfEeSm6O02od6yqw" supplier="_0ywLwMPfEeSm6O02od6yqw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_785qAMP6EeSm6O02od6yqw" name="?" client="_npwg8MP6EeSm6O02od6yqw" supplier="_12vYUMPfEeSm6O02od6yqw"/>
+</uml:Package>
