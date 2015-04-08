@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_lO8sQN3hEeSaksy6j-KdBQ" name="ProjectExecutionUc">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_MO6g0N3iEeSaksy6j-KdBQ" name="FORGE:Director"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_35UrQN3iEeSaksy6j-KdBQ" name="Sales:Team"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_AutXkN3jEeSaksy6j-KdBQ" name="FAP:Team"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_IibykN3jEeSaksy6j-KdBQ" name="" memberEnd="_Iibykd3jEeSaksy6j-KdBQ _IibylN3jEeSaksy6j-KdBQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Iibykd3jEeSaksy6j-KdBQ" name="forge:director" type="_MO6g0N3iEeSaksy6j-KdBQ" association="_IibykN3jEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Iibykt3jEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Iibyk93jEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_IibylN3jEeSaksy6j-KdBQ" name="accept contract" type="_WCDO0N3iEeSaksy6j-KdBQ" association="_IibykN3jEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Iibyld3jEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Iibylt3jEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_d57UkN3jEeSaksy6j-KdBQ" name="Project creation">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_WCDO0N3iEeSaksy6j-KdBQ" name="Accept contract"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_LQ_DgN3jEeSaksy6j-KdBQ" name="Initiate creation"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_lS3GcN3iEeSaksy6j-KdBQ" name="Create project"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_xCEDEN3jEeSaksy6j-KdBQ" name="Prepare contract"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_fRHUgN3kEeSaksy6j-KdBQ" name="Create tenant"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Ey0bUN3lEeSaksy6j-KdBQ" name="Create accounts"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_sb3UAN3jEeSaksy6j-KdBQ" name="" memberEnd="_sb3UAd3jEeSaksy6j-KdBQ _sb3UBN3jEeSaksy6j-KdBQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sb3UAd3jEeSaksy6j-KdBQ" name="forge:director" type="_MO6g0N3iEeSaksy6j-KdBQ" association="_sb3UAN3jEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sb3UAt3jEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sb3UA93jEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sb3UBN3jEeSaksy6j-KdBQ" name="prepare project" type="_LQ_DgN3jEeSaksy6j-KdBQ" association="_sb3UAN3jEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sb3UBd3jEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sb3UBt3jEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tESl8N3jEeSaksy6j-KdBQ" name="" memberEnd="_tESl8d3jEeSaksy6j-KdBQ _tESl9N3jEeSaksy6j-KdBQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tESl8d3jEeSaksy6j-KdBQ" name="fap:admin" type="_AutXkN3jEeSaksy6j-KdBQ" association="_tESl8N3jEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tESl8t3jEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tESl893jEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tESl9N3jEeSaksy6j-KdBQ" name="create project" type="_lS3GcN3iEeSaksy6j-KdBQ" association="_tESl8N3jEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tESl9d3jEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tESl9t3jEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_65XfYN3jEeSaksy6j-KdBQ" name="" memberEnd="_65XfYd3jEeSaksy6j-KdBQ _65XfZN3jEeSaksy6j-KdBQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_65XfYd3jEeSaksy6j-KdBQ" name="sales:director" type="_35UrQN3iEeSaksy6j-KdBQ" association="_65XfYN3jEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_65XfYt3jEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_65XfY93jEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_65XfZN3jEeSaksy6j-KdBQ" name="prepare contract" type="_xCEDEN3jEeSaksy6j-KdBQ" association="_65XfYN3jEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_65XfZd3jEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_65XfZt3jEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_9Rw6IN3jEeSaksy6j-KdBQ" name="Affiliate:Admin(s)"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_CP95gN3kEeSaksy6j-KdBQ" name="" memberEnd="_CP95gd3kEeSaksy6j-KdBQ _CP95hN3kEeSaksy6j-KdBQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_CP95gd3kEeSaksy6j-KdBQ" name="affiliate:admin" type="_9Rw6IN3jEeSaksy6j-KdBQ" association="_CP95gN3kEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CP95gt3kEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CP95g93kEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_CP95hN3kEeSaksy6j-KdBQ" name="prepare contract" type="_xCEDEN3jEeSaksy6j-KdBQ" association="_CP95gN3kEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CP-gkN3kEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CP-gkd3kEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_PUMk0N3kEeSaksy6j-KdBQ" name="" memberEnd="_PUMk0d3kEeSaksy6j-KdBQ _PUMk1N3kEeSaksy6j-KdBQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_PUMk0d3kEeSaksy6j-KdBQ" name="affiliate:admin" type="_9Rw6IN3jEeSaksy6j-KdBQ" association="_PUMk0N3kEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PUMk0t3kEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PUMk093kEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_PUMk1N3kEeSaksy6j-KdBQ" name="accept contract" type="_WCDO0N3iEeSaksy6j-KdBQ" association="_PUMk0N3kEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PUMk1d3kEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PUMk1t3kEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_g89LQN3kEeSaksy6j-KdBQ" name="" memberEnd="_g89LQd3kEeSaksy6j-KdBQ _g89LRN3kEeSaksy6j-KdBQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_g89LQd3kEeSaksy6j-KdBQ" name="fap:admin" type="_AutXkN3jEeSaksy6j-KdBQ" association="_g89LQN3kEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_g89LQt3kEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_g89LQ93kEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_g89LRN3kEeSaksy6j-KdBQ" name="create cra" type="_fRHUgN3kEeSaksy6j-KdBQ" association="_g89LQN3kEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_g89LRd3kEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_g89LRt3kEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_jYGYAN3kEeSaksy6j-KdBQ" name="Project EoL">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_wkRwUN3iEeSaksy6j-KdBQ" name="Followup project"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_nY7bEN3iEeSaksy6j-KdBQ" name="Initiate closing"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_twyVAN3iEeSaksy6j-KdBQ" name="Disable accounts"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ZbK_YN3lEeSaksy6j-KdBQ" name="Close project"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_r4G0wN3lEeSaksy6j-KdBQ" name="" memberEnd="_r4G0wd3lEeSaksy6j-KdBQ _r4G0xN3lEeSaksy6j-KdBQ">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_r4G0wd3lEeSaksy6j-KdBQ" name="close project" type="_ZbK_YN3lEeSaksy6j-KdBQ" association="_r4G0wN3lEeSaksy6j-KdBQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_r4G0wt3lEeSaksy6j-KdBQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_r4G0w93lEeSaksy6j-KdBQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_r4G0xN3lEeSaksy6j-KdBQ" name="fap:admin" type="_AutXkN3jEeSaksy6j-KdBQ" association="_r4G0wN3lEeSaksy6j-KdBQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_r4G0xd3lEeSaksy6j-KdBQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_r4G0xt3lEeSaksy6j-KdBQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_t5hS4N3lEeSaksy6j-KdBQ" name="Remove tenant"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6QDAIN3kEeSaksy6j-KdBQ" name="" memberEnd="_6QDAId3kEeSaksy6j-KdBQ _6QDAJN3kEeSaksy6j-KdBQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6QDAId3kEeSaksy6j-KdBQ" name="sales:director" type="_35UrQN3iEeSaksy6j-KdBQ" association="_6QDAIN3kEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6QDAIt3kEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6QDAI93kEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6QDAJN3kEeSaksy6j-KdBQ" name="create lessons" type="_wkRwUN3iEeSaksy6j-KdBQ" association="_6QDAIN3kEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6QDAJd3kEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6QDAJt3kEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-9_9AN3kEeSaksy6j-KdBQ" name="" memberEnd="_-9_9Ad3kEeSaksy6j-KdBQ _-9_9BN3kEeSaksy6j-KdBQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-9_9Ad3kEeSaksy6j-KdBQ" name="forge:director" type="_MO6g0N3iEeSaksy6j-KdBQ" association="_-9_9AN3kEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-9_9At3kEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-9_9A93kEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-9_9BN3kEeSaksy6j-KdBQ" name="close project" type="_nY7bEN3iEeSaksy6j-KdBQ" association="_-9_9AN3kEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-9_9Bd3kEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-9_9Bt3kEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Aa9qQN3lEeSaksy6j-KdBQ" name="" memberEnd="_Aa9qQd3lEeSaksy6j-KdBQ _Aa9qRN3lEeSaksy6j-KdBQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Aa9qQd3lEeSaksy6j-KdBQ" name="fap:admin" type="_AutXkN3jEeSaksy6j-KdBQ" association="_Aa9qQN3lEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Aa9qQt3lEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Aa9qQ93lEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Aa9qRN3lEeSaksy6j-KdBQ" name="remove cra" type="_twyVAN3iEeSaksy6j-KdBQ" association="_Aa9qQN3lEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Aa9qRd3lEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Aa9qRt3lEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_KIW8oN3lEeSaksy6j-KdBQ" name="" memberEnd="_KIW8od3lEeSaksy6j-KdBQ _KIW8pN3lEeSaksy6j-KdBQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KIW8od3lEeSaksy6j-KdBQ" name="fap:admin" type="_AutXkN3jEeSaksy6j-KdBQ" association="_KIW8oN3lEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KIW8ot3lEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KIW8o93lEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KIW8pN3lEeSaksy6j-KdBQ" name="create accounts" type="_Ey0bUN3lEeSaksy6j-KdBQ" association="_KIW8oN3lEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KIW8pd3lEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KIW8pt3lEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4b-lAN3lEeSaksy6j-KdBQ" name="" memberEnd="_4b-lAd3lEeSaksy6j-KdBQ _4b-lBN3lEeSaksy6j-KdBQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4b-lAd3lEeSaksy6j-KdBQ" name="fap:admin" type="_AutXkN3jEeSaksy6j-KdBQ" association="_4b-lAN3lEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4b-lAt3lEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4b-lA93lEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4b-lBN3lEeSaksy6j-KdBQ" name="remove tenant" type="_t5hS4N3lEeSaksy6j-KdBQ" association="_4b-lAN3lEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4b-lBd3lEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4b-lBt3lEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_PqPbYN3mEeSaksy6j-KdBQ" name="Project execution">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_SnoZkN3mEeSaksy6j-KdBQ" name="Use resources"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_TzkoQN3mEeSaksy6j-KdBQ" name="Request support"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_WJmrgN3mEeSaksy6j-KdBQ" name="Request accounts"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_C0c_QN3nEeSaksy6j-KdBQ" name="" memberEnd="_C0c_Qd3nEeSaksy6j-KdBQ _C0c_RN3nEeSaksy6j-KdBQ">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_C0c_Qd3nEeSaksy6j-KdBQ" name="use resources" type="_SnoZkN3mEeSaksy6j-KdBQ" association="_C0c_QN3nEeSaksy6j-KdBQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_C0c_Qt3nEeSaksy6j-KdBQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_C0c_Q93nEeSaksy6j-KdBQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_C0c_RN3nEeSaksy6j-KdBQ" name="affiliate:tech" type="_6haLAN3mEeSaksy6j-KdBQ" association="_C0c_QN3nEeSaksy6j-KdBQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_C0c_Rd3nEeSaksy6j-KdBQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_C0c_Rt3nEeSaksy6j-KdBQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_DSlswN3nEeSaksy6j-KdBQ" name="" memberEnd="_DSlswd3nEeSaksy6j-KdBQ _DSlsxN3nEeSaksy6j-KdBQ">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_DSlswd3nEeSaksy6j-KdBQ" name="request accounts" type="_WJmrgN3mEeSaksy6j-KdBQ" association="_DSlswN3nEeSaksy6j-KdBQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DSlswt3nEeSaksy6j-KdBQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DSlsw93nEeSaksy6j-KdBQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_DSlsxN3nEeSaksy6j-KdBQ" name="affiliate:tech" type="_6haLAN3mEeSaksy6j-KdBQ" association="_DSlswN3nEeSaksy6j-KdBQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DSlsxd3nEeSaksy6j-KdBQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DSlsxt3nEeSaksy6j-KdBQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Fjv3EN3nEeSaksy6j-KdBQ" name="" memberEnd="_Fjv3Ed3nEeSaksy6j-KdBQ _Fjv3FN3nEeSaksy6j-KdBQ">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Fjv3Ed3nEeSaksy6j-KdBQ" name="support" type="_TzkoQN3mEeSaksy6j-KdBQ" association="_Fjv3EN3nEeSaksy6j-KdBQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Fjv3Et3nEeSaksy6j-KdBQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Fjv3E93nEeSaksy6j-KdBQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Fjv3FN3nEeSaksy6j-KdBQ" name="affiliate:tech" type="_6haLAN3mEeSaksy6j-KdBQ" association="_Fjv3EN3nEeSaksy6j-KdBQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Fjv3Fd3nEeSaksy6j-KdBQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Fjv3Ft3nEeSaksy6j-KdBQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_36y4oN3nEeSaksy6j-KdBQ" name="Provide support"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_3IFCQN3nEeSaksy6j-KdBQ" name="Manage accounts"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_rV-ioN3mEeSaksy6j-KdBQ" name="" memberEnd="_rV_JsN3mEeSaksy6j-KdBQ _rV_Js93mEeSaksy6j-KdBQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rV_JsN3mEeSaksy6j-KdBQ" name="fap:admin" type="_AutXkN3jEeSaksy6j-KdBQ" association="_rV-ioN3mEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rV_Jsd3mEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rV_Jst3mEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rV_Js93mEeSaksy6j-KdBQ" name="provide support" type="_36y4oN3nEeSaksy6j-KdBQ" association="_rV-ioN3mEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rV_JtN3mEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rV_Jtd3mEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_uSQtkN3mEeSaksy6j-KdBQ" name="FORGE:Team"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wXhJ4N3mEeSaksy6j-KdBQ" name="" memberEnd="_wXhJ4d3mEeSaksy6j-KdBQ _wXhJ5N3mEeSaksy6j-KdBQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wXhJ4d3mEeSaksy6j-KdBQ" name="forge:devops" type="_uSQtkN3mEeSaksy6j-KdBQ" association="_wXhJ4N3mEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wXhJ4t3mEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wXhJ493mEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wXhJ5N3mEeSaksy6j-KdBQ" name="provide support" type="_36y4oN3nEeSaksy6j-KdBQ" association="_wXhJ4N3mEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wXhJ5d3mEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wXhJ5t3mEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_6haLAN3mEeSaksy6j-KdBQ" name="Affiliate:Tech"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_9V5E0N3mEeSaksy6j-KdBQ" name="Affiliate:User"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="__1FrIN3mEeSaksy6j-KdBQ" name="" memberEnd="__1FrId3mEeSaksy6j-KdBQ __1FrJN3mEeSaksy6j-KdBQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="__1FrId3mEeSaksy6j-KdBQ" name="affiliate:user" type="_9V5E0N3mEeSaksy6j-KdBQ" association="__1FrIN3mEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__1FrIt3mEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__1FrI93mEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__1FrJN3mEeSaksy6j-KdBQ" name="use tenant" type="_SnoZkN3mEeSaksy6j-KdBQ" association="__1FrIN3mEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__1FrJd3mEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__1FrJt3mEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UD34oN3nEeSaksy6j-KdBQ" name="" memberEnd="_UD34od3nEeSaksy6j-KdBQ _UD34pN3nEeSaksy6j-KdBQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UD34od3nEeSaksy6j-KdBQ" name="affiliate:user" type="_9V5E0N3mEeSaksy6j-KdBQ" association="_UD34oN3nEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UD34ot3nEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UD34o93nEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UD34pN3nEeSaksy6j-KdBQ" name="support" type="_TzkoQN3mEeSaksy6j-KdBQ" association="_UD34oN3nEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UD34pd3nEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UD34pt3nEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Hb5PAN3oEeSaksy6j-KdBQ" name="" memberEnd="_Hb5PAd3oEeSaksy6j-KdBQ _Hb5PBN3oEeSaksy6j-KdBQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Hb5PAd3oEeSaksy6j-KdBQ" name="fap:admin" type="_AutXkN3jEeSaksy6j-KdBQ" association="_Hb5PAN3oEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Hb5PAt3oEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Hb5PA93oEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Hb5PBN3oEeSaksy6j-KdBQ" name="manage accounts" type="_3IFCQN3nEeSaksy6j-KdBQ" association="_Hb5PAN3oEeSaksy6j-KdBQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Hb5PBd3oEeSaksy6j-KdBQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Hb5PBt3oEeSaksy6j-KdBQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_c39H8N3oEeSaksy6j-KdBQ" name="Operate" client="_uSQtkN3mEeSaksy6j-KdBQ" supplier="_d57UkN3jEeSaksy6j-KdBQ"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_gb03UN3oEeSaksy6j-KdBQ" client="_uSQtkN3mEeSaksy6j-KdBQ" supplier="_jYGYAN3kEeSaksy6j-KdBQ"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_hPESIN3oEeSaksy6j-KdBQ" client="_uSQtkN3mEeSaksy6j-KdBQ" supplier="_PqPbYN3mEeSaksy6j-KdBQ"/>
+</uml:Package>

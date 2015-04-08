@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Package xmi:id="_Cn3Y8N3gEeSaksy6j-KdBQ" name="ProjectExecution">
+    <packagedElement xmi:type="uml:Actor" xmi:id="_bekz0N3gEeSaksy6j-KdBQ" name="Director"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ebOyMN3gEeSaksy6j-KdBQ" name="Check contract expiry"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_isHYkN3gEeSaksy6j-KdBQ" name="" memberEnd="_isHYkd3gEeSaksy6j-KdBQ _isHYlN3gEeSaksy6j-KdBQ">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_isHYkd3gEeSaksy6j-KdBQ" name="director" type="_bekz0N3gEeSaksy6j-KdBQ" association="_isHYkN3gEeSaksy6j-KdBQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_isHYkt3gEeSaksy6j-KdBQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_isHYk93gEeSaksy6j-KdBQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_isHYlN3gEeSaksy6j-KdBQ" name="check contract expiry" type="_ebOyMN3gEeSaksy6j-KdBQ" association="_isHYkN3gEeSaksy6j-KdBQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_isHYld3gEeSaksy6j-KdBQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_isHYlt3gEeSaksy6j-KdBQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+  </uml:Package>
+  <uml:Package xmi:id="_xa79cN3gEeSaksy6j-KdBQ" name="ProjectExecutionSEQ">
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_03arYN3gEeSaksy6j-KdBQ" name="ProjectExecutionSEQ">
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_4gcAgN3gEeSaksy6j-KdBQ" name="FORGE:Director" coveredBy="_cVafwN3hEeSaksy6j-KdBQ"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_N9eJ0N3hEeSaksy6j-KdBQ" name="FORGE:ERP"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_SnUCwN3hEeSaksy6j-KdBQ" name="FORGE:Redmine" coveredBy="_cVbt4N3hEeSaksy6j-KdBQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_cVbt4N3hEeSaksy6j-KdBQ" name="MessageRecv" covered="_SnUCwN3hEeSaksy6j-KdBQ" message="_cVZ4sN3hEeSaksy6j-KdBQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_cVafwN3hEeSaksy6j-KdBQ" name="MessageSend" covered="_4gcAgN3gEeSaksy6j-KdBQ" message="_cVZ4sN3hEeSaksy6j-KdBQ"/>
+      <message xmi:type="uml:Message" xmi:id="_cVZ4sN3hEeSaksy6j-KdBQ" name="create(remove_project)" messageSort="asynchCall" receiveEvent="_cVbt4N3hEeSaksy6j-KdBQ" sendEvent="_cVafwN3hEeSaksy6j-KdBQ"/>
+    </packagedElement>
+  </uml:Package>
+</xmi:XMI>

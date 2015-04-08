@@ -87,13 +87,13 @@
     <windows>
       <children xsi:type="di:TabFolder">
         <children>
-          <emfPageIdentifier href="model.notation#_z1H7UMPeEeSm6O02od6yqw"/>
+          <emfPageIdentifier href="ResourceAllocation.notation#_tjKrMGM0EeOLd81QbgL2RA"/>
         </children>
         <children>
-          <emfPageIdentifier href="ComputingServices.notation#_BxaOwHEuEeOrbLDZJ3pUzQ"/>
+          <emfPageIdentifier href="ProjectExecution.notation#_2DgrEN3gEeSaksy6j-KdBQ"/>
         </children>
         <children>
-          <emfPageIdentifier href="SupportServices.notation#_irh8AKB5EeO_DNBl9m0-HA"/>
+          <emfPageIdentifier href="ProjectExecutionUc.notation#_2x6zwN3hEeSaksy6j-KdBQ"/>
         </children>
       </children>
     </windows>
