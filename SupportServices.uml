@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Package xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_TNBkcKLbEeOO1PYOwHzT6Q" name="SaaS">
+<uml:Package xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_TNBkcKLbEeOO1PYOwHzT6Q" name="SaaS">
   <packagedElement xmi:type="uml:Package" xmi:id="_Zhj7cOAiEeOQJZp7YkpCMQ" name="SaaS">
-    <ownedComment xmi:id="_UYFR8OY9EeOVTPFdp1p9kg">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_UYFR8OY9EeOVTPFdp1p9kg">
       <body>* {
 fillColor: red;
 fontColor: #0000FF;
 }</body>
     </ownedComment>
-    <ownedComment xmi:id="_MaXNcOY9EeOVTPFdp1p9kg">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_MaXNcOY9EeOVTPFdp1p9kg">
       <body>Accessible</body>
     </ownedComment>
-    <ownedComment xmi:id="_sSo00OAiEeOQJZp7YkpCMQ">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_sSo00OAiEeOQJZp7YkpCMQ">
       <body>Restricted access</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_wwZwYN9ZEeSM2Z8pY0v8Mw">
+      <body>Recipes</body>
     </ownedComment>
     <packagedElement xmi:type="uml:Node" xmi:id="_D7XxoHE-EeOrbLDZJ3pUzQ" name="auth">
       <nestedClassifier xmi:type="uml:Artifact" xmi:id="_VyjOkHE-EeOrbLDZJ3pUzQ" name="OpenLDAP:LDAP" fileName="Artifact1.file"/>

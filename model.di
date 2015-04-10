@@ -95,6 +95,12 @@
         <children>
           <emfPageIdentifier href="ProjectExecutionUc.notation#_2x6zwN3hEeSaksy6j-KdBQ"/>
         </children>
+        <children>
+          <emfPageIdentifier href="SupportServices.notation#_irh8AKB5EeO_DNBl9m0-HA"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="ComputingServices.notation#_BxaOwHEuEeOrbLDZJ3pUzQ"/>
+        </children>
       </children>
     </windows>
   </sashModel>

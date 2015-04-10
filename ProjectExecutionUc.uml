@@ -98,6 +98,7 @@
       </ownedEnd>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_t5hS4N3lEeSaksy6j-KdBQ" name="Remove tenant"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_fhwKkN5-EeSM2Z8pY0v8Mw" name="Followup contract"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_6QDAIN3kEeSaksy6j-KdBQ" name="" memberEnd="_6QDAId3kEeSaksy6j-KdBQ _6QDAJN3kEeSaksy6j-KdBQ">
     <ownedEnd xmi:type="uml:Property" xmi:id="_6QDAId3kEeSaksy6j-KdBQ" name="sales:director" type="_35UrQN3iEeSaksy6j-KdBQ" association="_6QDAIN3kEeSaksy6j-KdBQ">
@@ -242,4 +243,56 @@
   <packagedElement xmi:type="uml:Realization" xmi:id="_c39H8N3oEeSaksy6j-KdBQ" name="Operate" client="_uSQtkN3mEeSaksy6j-KdBQ" supplier="_d57UkN3jEeSaksy6j-KdBQ"/>
   <packagedElement xmi:type="uml:Realization" xmi:id="_gb03UN3oEeSaksy6j-KdBQ" client="_uSQtkN3mEeSaksy6j-KdBQ" supplier="_jYGYAN3kEeSaksy6j-KdBQ"/>
   <packagedElement xmi:type="uml:Realization" xmi:id="_hPESIN3oEeSaksy6j-KdBQ" client="_uSQtkN3mEeSaksy6j-KdBQ" supplier="_PqPbYN3mEeSaksy6j-KdBQ"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_A-TPUN5-EeSM2Z8pY0v8Mw" name="FORGE:Legal"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_HdtiwN5-EeSM2Z8pY0v8Mw" name="" memberEnd="_Hdtiwd5-EeSM2Z8pY0v8Mw _HdtixN5-EeSM2Z8pY0v8Mw">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Hdtiwd5-EeSM2Z8pY0v8Mw" name="forge:legal" type="_A-TPUN5-EeSM2Z8pY0v8Mw" association="_HdtiwN5-EeSM2Z8pY0v8Mw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Hdtiwt5-EeSM2Z8pY0v8Mw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Hdtiw95-EeSM2Z8pY0v8Mw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_HdtixN5-EeSM2Z8pY0v8Mw" name="accept contract" type="_WCDO0N3iEeSaksy6j-KdBQ" association="_HdtiwN5-EeSM2Z8pY0v8Mw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Hdtixd5-EeSM2Z8pY0v8Mw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Hdtixt5-EeSM2Z8pY0v8Mw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MfgBoN5-EeSM2Z8pY0v8Mw" name="" memberEnd="_MfgBod5-EeSM2Z8pY0v8Mw _MfgBpN5-EeSM2Z8pY0v8Mw">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_MfgBod5-EeSM2Z8pY0v8Mw" name="forge:legal" type="_A-TPUN5-EeSM2Z8pY0v8Mw" association="_MfgBoN5-EeSM2Z8pY0v8Mw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MfgBot5-EeSM2Z8pY0v8Mw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MfgBo95-EeSM2Z8pY0v8Mw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_MfgBpN5-EeSM2Z8pY0v8Mw" name="initiate closing" type="_nY7bEN3iEeSaksy6j-KdBQ" association="_MfgBoN5-EeSM2Z8pY0v8Mw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MfgBpd5-EeSM2Z8pY0v8Mw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MfgBpt5-EeSM2Z8pY0v8Mw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_j8kJAN5-EeSM2Z8pY0v8Mw" name="" memberEnd="_j8kJAd5-EeSM2Z8pY0v8Mw _j8kJBN5-EeSM2Z8pY0v8Mw">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_j8kJAd5-EeSM2Z8pY0v8Mw" name="forge:legal" type="_A-TPUN5-EeSM2Z8pY0v8Mw" association="_j8kJAN5-EeSM2Z8pY0v8Mw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_j8kJAt5-EeSM2Z8pY0v8Mw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_j8kJA95-EeSM2Z8pY0v8Mw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_j8kJBN5-EeSM2Z8pY0v8Mw" name="followup contract" type="_fhwKkN5-EeSM2Z8pY0v8Mw" association="_j8kJAN5-EeSM2Z8pY0v8Mw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_j8kJBd5-EeSM2Z8pY0v8Mw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_j8kJBt5-EeSM2Z8pY0v8Mw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_5n6bIN5-EeSM2Z8pY0v8Mw" name="CSC:Team"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9SIqIN5-EeSM2Z8pY0v8Mw" name="" memberEnd="_9SIqId5-EeSM2Z8pY0v8Mw _9SIqJN5-EeSM2Z8pY0v8Mw">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9SIqId5-EeSM2Z8pY0v8Mw" name="csc:team" type="_5n6bIN5-EeSM2Z8pY0v8Mw" association="_9SIqIN5-EeSM2Z8pY0v8Mw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9SIqIt5-EeSM2Z8pY0v8Mw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9SIqI95-EeSM2Z8pY0v8Mw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9SIqJN5-EeSM2Z8pY0v8Mw" name="provide support" type="_36y4oN3nEeSaksy6j-KdBQ" association="_9SIqIN5-EeSM2Z8pY0v8Mw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9SIqJd5-EeSM2Z8pY0v8Mw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9SIqJt5-EeSM2Z8pY0v8Mw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_OpsL0N5_EeSM2Z8pY0v8Mw" name="" memberEnd="_OpsL0d5_EeSM2Z8pY0v8Mw _OpsL1N5_EeSM2Z8pY0v8Mw">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_OpsL0d5_EeSM2Z8pY0v8Mw" name="sales:team" type="_35UrQN3iEeSaksy6j-KdBQ" association="_OpsL0N5_EeSM2Z8pY0v8Mw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OpsL0t5_EeSM2Z8pY0v8Mw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OpsL095_EeSM2Z8pY0v8Mw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_OpsL1N5_EeSM2Z8pY0v8Mw" name="followup contract" type="_fhwKkN5-EeSM2Z8pY0v8Mw" association="_OpsL0N5_EeSM2Z8pY0v8Mw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OpsL1d5_EeSM2Z8pY0v8Mw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OpsL1t5_EeSM2Z8pY0v8Mw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
 </uml:Package>
