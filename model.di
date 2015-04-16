@@ -87,13 +87,10 @@
     <windows>
       <children xsi:type="di:TabFolder">
         <children>
-          <emfPageIdentifier href="Contracting.notation#_5JiIMKB7EeO_DNBl9m0-HA"/>
+          <emfPageIdentifier href="model.notation#_1Jr70NzyEeO21-1-XVdvfQ"/>
         </children>
         <children>
-          <emfPageIdentifier href="ContractRenewal.notation#_wLj4oONkEeSxJ80-owkdvg"/>
-        </children>
-        <children>
-          <emfPageIdentifier href="model.notation#_32HDEBcMEeSiwNNaV55PAw"/>
+          <emfPageIdentifier href="ProjectManagement.notation#_FrR5sKUrEeOO1PYOwHzT6Q"/>
         </children>
       </children>
     </windows>

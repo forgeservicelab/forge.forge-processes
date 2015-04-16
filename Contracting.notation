@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:css="http://www.eclipse.org/papyrus/infra/gmfdiag/css" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:css="http://www.eclipse.org/papyrus/infra/gmfdiag/css" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
   <notation:Diagram xmi:id="_5JiIMKB7EeO_DNBl9m0-HA" type="UseCase" name="Contracting" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_YEOewKB8EeO_DNBl9m0-HA" type="2011" fontName="Segoe UI" lineColor="0">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YEPF0KB8EeO_DNBl9m0-HA" source="ShadowFigure">
@@ -383,6 +383,9 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DeChEaCAEeO_DNBl9m0-HA" x="936" y="324"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_5JiIMaB7EeO_DNBl9m0-HA"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_YVuNMOQaEeSxJ80-owkdvg">
+      <owner xmi:type="uml:Package" href="Contracting.uml#_Bx-ycKCBEeO_DNBl9m0-HA"/>
+    </styles>
     <element xmi:type="uml:Package" href="Contracting.uml#_Bx-ycKCBEeO_DNBl9m0-HA"/>
     <edges xmi:type="notation:Connector" xmi:id="_WrZ1MKB9EeO_DNBl9m0-HA" type="4011" source="_YEOewKB8EeO_DNBl9m0-HA" target="_fXIEoKB8EeO_DNBl9m0-HA" lineColor="0">
       <children xmi:type="notation:DecorationNode" xmi:id="_WrbDUKB9EeO_DNBl9m0-HA" visible="false" type="6008">
