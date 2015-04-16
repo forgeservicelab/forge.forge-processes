@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:css="http://www.eclipse.org/papyrus/infra/gmfdiag/css" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <notation:Diagram xmi:id="_wLj4oONkEeSxJ80-owkdvg" type="PapyrusUMLSequenceDiagram" name="ContractRenewal" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_wLj4oeNkEeSxJ80-owkdvg" type="2001">
+      <children xmi:type="notation:DecorationNode" xmi:id="_wLj4ouNkEeSxJ80-owkdvg" type="5001"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_wLj4o-NkEeSxJ80-owkdvg" type="7001">
+        <children xmi:type="notation:Shape" xmi:id="_x3wUsONkEeSxJ80-owkdvg" type="3001" fillColor="10265827">
+          <children xmi:type="notation:DecorationNode" xmi:id="_x3w7wONkEeSxJ80-owkdvg" type="5002"/>
+          <element xmi:type="uml:Lifeline" href="ContractRenewal.uml#_x3sqUONkEeSxJ80-owkdvg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x3wUseNkEeSxJ80-owkdvg" x="211" y="10" width="98" height="617"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_zYCbsONkEeSxJ80-owkdvg" type="3001" fillColor="10265827">
+          <children xmi:type="notation:DecorationNode" xmi:id="_zYCbsuNkEeSxJ80-owkdvg" type="5002"/>
+          <element xmi:type="uml:Lifeline" href="ContractRenewal.uml#_zYAmgONkEeSxJ80-owkdvg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zYCbseNkEeSxJ80-owkdvg" x="377" y="10" width="171" height="617"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_EBNNYONlEeSxJ80-owkdvg" type="3001" fillColor="10011046">
+          <children xmi:type="notation:DecorationNode" xmi:id="_EBN0cONlEeSxJ80-owkdvg" type="5002"/>
+          <element xmi:type="uml:Lifeline" href="ContractRenewal.uml#_EBKxIONlEeSxJ80-owkdvg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EBNNYeNlEeSxJ80-owkdvg" x="68" y="10" width="75" height="617"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_kcgbEONlEeSxJ80-owkdvg" type="3001" fillColor="12632256">
+          <children xmi:type="notation:DecorationNode" xmi:id="_kchCIONlEeSxJ80-owkdvg" type="5002"/>
+          <element xmi:type="uml:Lifeline" href="ContractRenewal.uml#_kcel4ONlEeSxJ80-owkdvg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kcgbEeNlEeSxJ80-owkdvg" x="588" y="10" width="81" height="608"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_3-mhsONlEeSxJ80-owkdvg" type="3004">
+          <children xmi:type="notation:DecorationNode" xmi:id="_3-mhsuNlEeSxJ80-owkdvg" type="7004">
+            <children xmi:type="notation:Shape" xmi:id="_3-nIwONlEeSxJ80-owkdvg" type="3005">
+              <children xmi:type="notation:DecorationNode" xmi:id="_3-nv0ONlEeSxJ80-owkdvg" type="InteractionOperand_Guard">
+                <element xmi:type="uml:InteractionConstraint" href="ContractRenewal.uml#_3-i3UONlEeSxJ80-owkdvg"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3-nv0eNlEeSxJ80-owkdvg" x="5" y="5"/>
+              </children>
+              <element xmi:type="uml:InteractionOperand" href="ContractRenewal.uml#_3-iQQONlEeSxJ80-owkdvg"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3-nIweNlEeSxJ80-owkdvg" width="456" height="131"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_3-mhs-NlEeSxJ80-owkdvg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_3-mhtONlEeSxJ80-owkdvg"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3-mhteNlEeSxJ80-owkdvg"/>
+          </children>
+          <element xmi:type="uml:CombinedFragment" href="ContractRenewal.uml#_3-dXwONlEeSxJ80-owkdvg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3-mhseNlEeSxJ80-owkdvg" x="54" y="64" width="460" height="157"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_Dj9bQONmEeSxJ80-owkdvg" type="3004">
+          <children xmi:type="notation:DecorationNode" xmi:id="_Dj9bQuNmEeSxJ80-owkdvg" type="7004">
+            <children xmi:type="notation:Shape" xmi:id="_Dj-CUONmEeSxJ80-owkdvg" type="3005">
+              <children xmi:type="notation:DecorationNode" xmi:id="_Dj-CUuNmEeSxJ80-owkdvg" type="InteractionOperand_Guard">
+                <element xmi:type="uml:InteractionConstraint" href="ContractRenewal.uml#_Dj2tkONmEeSxJ80-owkdvg"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Dj-CU-NmEeSxJ80-owkdvg" x="5" y="5"/>
+              </children>
+              <element xmi:type="uml:InteractionOperand" href="ContractRenewal.uml#_Dj2GgONmEeSxJ80-owkdvg"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Dj-CUeNmEeSxJ80-owkdvg" width="756" height="170"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_Dj9bQ-NmEeSxJ80-owkdvg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_Dj9bRONmEeSxJ80-owkdvg"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Dj9bReNmEeSxJ80-owkdvg"/>
+          </children>
+          <element xmi:type="uml:CombinedFragment" href="ContractRenewal.uml#_Dj04YONmEeSxJ80-owkdvg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Dj9bQeNmEeSxJ80-owkdvg" x="52" y="389" width="758" height="194"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_EcaQwONnEeSxJ80-owkdvg" type="3001" fillColor="8905185">
+          <children xmi:type="notation:DecorationNode" xmi:id="_EcaQwuNnEeSxJ80-owkdvg" type="5002"/>
+          <element xmi:type="uml:Lifeline" href="ContractRenewal.uml#_EcZCoONnEeSxJ80-owkdvg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EcaQweNnEeSxJ80-owkdvg" x="737" y="10" width="47" height="608"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_Hgq2gONoEeSxJ80-owkdvg" type="3004">
+          <children xmi:type="notation:DecorationNode" xmi:id="_Hgq2guNoEeSxJ80-owkdvg" type="7004">
+            <children xmi:type="notation:Shape" xmi:id="_Hgq2huNoEeSxJ80-owkdvg" type="3005">
+              <children xmi:type="notation:DecorationNode" xmi:id="_HgrdkeNoEeSxJ80-owkdvg" type="InteractionOperand_Guard">
+                <element xmi:type="uml:InteractionConstraint" href="ContractRenewal.uml#_Hgkv4ONoEeSxJ80-owkdvg"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HgrdkuNoEeSxJ80-owkdvg" x="5" y="5"/>
+              </children>
+              <element xmi:type="uml:InteractionOperand" href="ContractRenewal.uml#_HgkI0ONoEeSxJ80-owkdvg"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HgrdkONoEeSxJ80-owkdvg" width="455" height="95"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_Hgq2g-NoEeSxJ80-owkdvg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_Hgq2hONoEeSxJ80-owkdvg"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hgq2heNoEeSxJ80-owkdvg"/>
+          </children>
+          <element xmi:type="uml:CombinedFragment" href="ContractRenewal.uml#_Hgi6sONoEeSxJ80-owkdvg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hgq2geNoEeSxJ80-owkdvg" x="53" y="243" width="457" height="119"/>
+        </children>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wLj4pONkEeSxJ80-owkdvg"/>
+      </children>
+      <element xmi:type="uml:Interaction" href="ContractRenewal.uml#_vXtZ0ONkEeSxJ80-owkdvg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wLj4peNkEeSxJ80-owkdvg" width="945" height="806"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_wLj4puNkEeSxJ80-owkdvg" name="diagram_compatibility_version" stringValue="1.0.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_wLj4p-NkEeSxJ80-owkdvg"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_wLj4qONkEeSxJ80-owkdvg">
+      <owner xmi:type="uml:Package" href="ContractRenewal.uml#_q5-DMONkEeSxJ80-owkdvg"/>
+    </styles>
+    <element xmi:type="uml:Interaction" href="ContractRenewal.uml#_vXtZ0ONkEeSxJ80-owkdvg"/>
+    <edges xmi:type="notation:Edge" xmi:id="_KkO1gONlEeSxJ80-owkdvg" type="4004" source="_x3wUsONkEeSxJ80-owkdvg" target="_x3wUsONkEeSxJ80-owkdvg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_KkPckONlEeSxJ80-owkdvg" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_KkPckeNlEeSxJ80-owkdvg" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_KkQDoONlEeSxJ80-owkdvg" type="6009">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_KkQDoeNlEeSxJ80-owkdvg" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_KkO1geNlEeSxJ80-owkdvg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_KkO1guNlEeSxJ80-owkdvg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_KkQDouNlEeSxJ80-owkdvg"/>
+      <element xmi:type="uml:Message" href="ContractRenewal.uml#_Kj9vwONlEeSxJ80-owkdvg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KkO1g-NlEeSxJ80-owkdvg" points="[1, 12, 0, -23]$[26, 12, 25, -23]$[26, 35, 25, 0]$[1, 35, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KkZNkONlEeSxJ80-owkdvg" id="(1.0,0.09897610921501707)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KkZ0oONlEeSxJ80-owkdvg" id="(1.0,0.13969335604770017)"/>
+    </edges>
+    <edges xmi:type="notation:Edge" xmi:id="_Ru7hoONlEeSxJ80-owkdvg" type="4004" source="_x3wUsONkEeSxJ80-owkdvg" target="_zYCbsONkEeSxJ80-owkdvg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Ru8IsONlEeSxJ80-owkdvg" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Ru8IseNlEeSxJ80-owkdvg" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Ru8IsuNlEeSxJ80-owkdvg" type="6009">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Ru8Is-NlEeSxJ80-owkdvg" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_Ru7hoeNlEeSxJ80-owkdvg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_Ru7houNlEeSxJ80-owkdvg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_Ru8ItONlEeSxJ80-owkdvg"/>
+      <element xmi:type="uml:Message" href="ContractRenewal.uml#_Ru0z8ONlEeSxJ80-owkdvg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ru7ho-NlEeSxJ80-owkdvg" points="[1, 8, -248, 0]$[249, 8, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RvEEgONlEeSxJ80-owkdvg" id="(0.0,0.19080068143100512)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RvEEgeNlEeSxJ80-owkdvg" id="(0.0,0.2061328790459966)"/>
+    </edges>
+    <edges xmi:type="notation:Edge" xmi:id="_WnOGQONlEeSxJ80-owkdvg" type="4004" source="_zYCbsONkEeSxJ80-owkdvg" target="_EBNNYONlEeSxJ80-owkdvg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_WnPUYONlEeSxJ80-owkdvg" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_WnPUYeNlEeSxJ80-owkdvg" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_WnPUYuNlEeSxJ80-owkdvg" type="6009">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_WnPUY-NlEeSxJ80-owkdvg" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_WnOGQeNlEeSxJ80-owkdvg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_WnOtUONlEeSxJ80-owkdvg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_WnPUZONlEeSxJ80-owkdvg"/>
+      <element xmi:type="uml:Message" href="ContractRenewal.uml#_WnE8UONlEeSxJ80-owkdvg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WnOtUeNlEeSxJ80-owkdvg" points="[0, 9, 465, 0]$[-465, -11, 0, -20]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WnZscONlEeSxJ80-owkdvg" id="(0.0,0.2555366269165247)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WnZsceNlEeSxJ80-owkdvg" id="(0.0,0.2555366269165247)"/>
+    </edges>
+    <edges xmi:type="notation:Edge" xmi:id="_fDkngONlEeSxJ80-owkdvg" type="4004" source="_EBNNYONlEeSxJ80-owkdvg" target="_zYCbsONkEeSxJ80-owkdvg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_fDlOkONlEeSxJ80-owkdvg" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_fDlOkeNlEeSxJ80-owkdvg" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_fDlOkuNlEeSxJ80-owkdvg" type="6009">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_fDlOk-NlEeSxJ80-owkdvg" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_fDkngeNlEeSxJ80-owkdvg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_fDknguNlEeSxJ80-owkdvg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_fDl1oONlEeSxJ80-owkdvg"/>
+      <element xmi:type="uml:Message" href="ContractRenewal.uml#_fDd50ONlEeSxJ80-owkdvg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fDkng-NlEeSxJ80-owkdvg" points="[0, 5, -216, 0]$[216, 12, 0, 7]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fDwNsONlEeSxJ80-owkdvg" id="(1.0,0.7018739352640545)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fDwNseNlEeSxJ80-owkdvg" id="(0.0,0.7001703577512777)"/>
+    </edges>
+    <edges xmi:type="notation:Edge" xmi:id="_oFlakONlEeSxJ80-owkdvg" type="4004" source="_zYCbsONkEeSxJ80-owkdvg" target="_kcgbEONlEeSxJ80-owkdvg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_oFtWYONlEeSxJ80-owkdvg" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_oFtWYeNlEeSxJ80-owkdvg" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_oFtWYuNlEeSxJ80-owkdvg" type="6009">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_oFtWY-NlEeSxJ80-owkdvg" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_oFlakeNlEeSxJ80-owkdvg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_oFlakuNlEeSxJ80-owkdvg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_oFtWZONlEeSxJ80-owkdvg"/>
+      <element xmi:type="uml:Message" href="ContractRenewal.uml#_oFdewONlEeSxJ80-owkdvg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oFlak-NlEeSxJ80-owkdvg" points="[1, 3, -405, 0]$[406, 3, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oGSlMONlEeSxJ80-owkdvg" id="(1.0,0.7768313458262351)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oGSlMeNlEeSxJ80-owkdvg" id="(1.0,0.7885615251299827)"/>
+    </edges>
+    <edges xmi:type="notation:Edge" xmi:id="_JsfqUONnEeSxJ80-owkdvg" type="4004" source="_kcgbEONlEeSxJ80-owkdvg" target="_EcaQwONnEeSxJ80-owkdvg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_JsfqVONnEeSxJ80-owkdvg" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_JsfqVeNnEeSxJ80-owkdvg" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_JsfqVuNnEeSxJ80-owkdvg" type="6009">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_JsfqV-NnEeSxJ80-owkdvg" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_JsfqUeNnEeSxJ80-owkdvg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_JsfqUuNnEeSxJ80-owkdvg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_JsfqWONnEeSxJ80-owkdvg"/>
+      <element xmi:type="uml:Message" href="ContractRenewal.uml#_JsSO8ONnEeSxJ80-owkdvg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JsfqU-NnEeSxJ80-owkdvg" points="[1, -1, -116, 0]$[117, -43, 0, -42]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Jslw8ONnEeSxJ80-owkdvg" id="(0.0,0.8076256499133448)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Jslw8eNnEeSxJ80-owkdvg" id="(1.0,0.8076256499133448){R}"/>
+    </edges>
+    <edges xmi:type="notation:Edge" xmi:id="_O-JKIONnEeSxJ80-owkdvg" type="4004" source="_EcaQwONnEeSxJ80-owkdvg" target="_EcaQwONnEeSxJ80-owkdvg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_O-JxMuNnEeSxJ80-owkdvg" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_O-JxM-NnEeSxJ80-owkdvg" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_O-JxNONnEeSxJ80-owkdvg" type="6009">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_O-JxNeNnEeSxJ80-owkdvg" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_O-JKIeNnEeSxJ80-owkdvg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_O-JxMONnEeSxJ80-owkdvg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_O-JxNuNnEeSxJ80-owkdvg"/>
+      <element xmi:type="uml:Message" href="ContractRenewal.uml#_O-FfwONnEeSxJ80-owkdvg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_O-JxMeNnEeSxJ80-owkdvg" points="[0, 0, -1, -41]$[-20, 0, -21, -41]$[-20, 22, -21, -19]$[0, 22, -1, -19]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_O-SUEONnEeSxJ80-owkdvg" id="(0.0,0.8336221837088388)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_O-S7IONnEeSxJ80-owkdvg" id="(0.0,0.8717504332755632){R}"/>
+    </edges>
+    <edges xmi:type="notation:Edge" xmi:id="_hE1pwONnEeSxJ80-owkdvg" type="4004" source="_EBNNYONlEeSxJ80-owkdvg" target="_zYCbsONkEeSxJ80-owkdvg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_hE1pxONnEeSxJ80-owkdvg" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hE1pxeNnEeSxJ80-owkdvg" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_hE1pxuNnEeSxJ80-owkdvg" type="6009">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hE1px-NnEeSxJ80-owkdvg" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_hE1pweNnEeSxJ80-owkdvg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_hE1pwuNnEeSxJ80-owkdvg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_hE1pyONnEeSxJ80-owkdvg"/>
+      <element xmi:type="uml:Message" href="ContractRenewal.uml#_hEzNgONnEeSxJ80-owkdvg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hE1pw-NnEeSxJ80-owkdvg" points="[1, 2, -154, 0]$[155, 2, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hE57MONnEeSxJ80-owkdvg" id="(0.0,0.44122657580919933)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hE57MeNnEeSxJ80-owkdvg" id="(1.0,0.44122657580919933){R}"/>
+    </edges>
+    <edges xmi:type="notation:Edge" xmi:id="_tB1nQONnEeSxJ80-owkdvg" type="4004" source="_zYCbsONkEeSxJ80-owkdvg" target="_zYCbsONkEeSxJ80-owkdvg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_tB1nRONnEeSxJ80-owkdvg" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_tB1nReNnEeSxJ80-owkdvg" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_tB2OUONnEeSxJ80-owkdvg" type="6009">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_tB2OUeNnEeSxJ80-owkdvg" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_tB1nQeNnEeSxJ80-owkdvg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_tB1nQuNnEeSxJ80-owkdvg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_tB2OUuNnEeSxJ80-owkdvg"/>
+      <element xmi:type="uml:Message" href="ContractRenewal.uml#_tBwHsONnEeSxJ80-owkdvg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tB1nQ-NnEeSxJ80-owkdvg" points="[0, 0, 0, -26]$[-25, 0, -25, -26]$[-25, 26, -25, 0]$[0, 26, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tB8U8ONnEeSxJ80-owkdvg" id="(0.0,0.7240204429301533)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tB8U8eNnEeSxJ80-owkdvg" id="(0.0,0.7666098807495741)"/>
+    </edges>
+    <edges xmi:type="notation:Edge" xmi:id="_6mSDsONnEeSxJ80-owkdvg" type="4004" source="_zYCbsONkEeSxJ80-owkdvg" target="_x3wUsONkEeSxJ80-owkdvg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_6mXjQONnEeSxJ80-owkdvg" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6mXjQeNnEeSxJ80-owkdvg" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_6mXjQuNnEeSxJ80-owkdvg" type="6009">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6mXjQ-NnEeSxJ80-owkdvg" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_6mSDseNnEeSxJ80-owkdvg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_6mSDsuNnEeSxJ80-owkdvg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_6mXjRONnEeSxJ80-owkdvg"/>
+      <element xmi:type="uml:Message" href="ContractRenewal.uml#_6mLWAONnEeSxJ80-owkdvg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6mSDs-NnEeSxJ80-owkdvg" points="[0, 3, 188, 0]$[-188, -152, 0, -155]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6mjJcONnEeSxJ80-owkdvg" id="(0.0,0.4752981260647359)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6mjJceNnEeSxJ80-owkdvg" id="(0.0,0.4752981260647359){R}"/>
+    </edges>
+  </notation:Diagram>
+  <css:ModelStyleSheets xmi:id="_VdIU4ONpEeSxJ80-owkdvg"/>
+</xmi:XMI>

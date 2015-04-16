@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_q5-DMONkEeSxJ80-owkdvg" name="ContractRenewal">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_vXtZ0ONkEeSxJ80-owkdvg" name="ContractRenewal">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_x3sqUONkEeSxJ80-owkdvg" name="DIGILE:Legal" coveredBy="_3-dXwONlEeSxJ80-owkdvg _3-iQQONlEeSxJ80-owkdvg _Dj04YONmEeSxJ80-owkdvg _Dj2GgONmEeSxJ80-owkdvg _Hgi6sONoEeSxJ80-owkdvg _HgkI0ONoEeSxJ80-owkdvg"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_zYAmgONkEeSxJ80-owkdvg" name="DIGILE:ProjectResponsible" coveredBy="_3-dXwONlEeSxJ80-owkdvg _3-iQQONlEeSxJ80-owkdvg _Dj04YONmEeSxJ80-owkdvg _Dj2GgONmEeSxJ80-owkdvg _fDfvAONlEeSxJ80-owkdvg _oFes4ONlEeSxJ80-owkdvg _tByj8ONnEeSxJ80-owkdvg _tBzLAONnEeSxJ80-owkdvg _Hgi6sONoEeSxJ80-owkdvg _HgkI0ONoEeSxJ80-owkdvg"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_EBKxIONlEeSxJ80-owkdvg" name="Affiliate" coveredBy="_3-dXwONlEeSxJ80-owkdvg _3-iQQONlEeSxJ80-owkdvg _Dj04YONmEeSxJ80-owkdvg _Dj2GgONmEeSxJ80-owkdvg _Hgi6sONoEeSxJ80-owkdvg _HgkI0ONoEeSxJ80-owkdvg"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_kcel4ONlEeSxJ80-owkdvg" name="Redmine" coveredBy="_Dj04YONmEeSxJ80-owkdvg _Dj2GgONmEeSxJ80-owkdvg _JsUEIONnEeSxJ80-owkdvg"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_EcZCoONnEeSxJ80-owkdvg" name="KE" coveredBy="_Dj04YONmEeSxJ80-owkdvg _Dj2GgONmEeSxJ80-owkdvg _JsZjsONnEeSxJ80-owkdvg _O-GG0ONnEeSxJ80-owkdvg _O-Gt4ONnEeSxJ80-owkdvg"/>
+    <fragment xmi:type="uml:CombinedFragment" xmi:id="_3-dXwONlEeSxJ80-owkdvg" name="CombinedFragment" covered="_EBKxIONlEeSxJ80-owkdvg _zYAmgONkEeSxJ80-owkdvg _x3sqUONkEeSxJ80-owkdvg">
+      <operand xmi:type="uml:InteractionOperand" xmi:id="_3-iQQONlEeSxJ80-owkdvg" name="InteractionOperand" covered="_EBKxIONlEeSxJ80-owkdvg _zYAmgONkEeSxJ80-owkdvg _x3sqUONkEeSxJ80-owkdvg">
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_KkAMAONlEeSxJ80-owkdvg" name="MessageSend" message="_Kj9vwONlEeSxJ80-owkdvg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_KkAMAeNlEeSxJ80-owkdvg" name="MessageRecv" message="_Kj9vwONlEeSxJ80-owkdvg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Ru2pIONlEeSxJ80-owkdvg" name="MessageSend0" message="_Ru0z8ONlEeSxJ80-owkdvg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Ru33QONlEeSxJ80-owkdvg" name="MessageRecv0" message="_Ru0z8ONlEeSxJ80-owkdvg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_WnGxgONlEeSxJ80-owkdvg" name="MessageSend1" message="_WnE8UONlEeSxJ80-owkdvg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_WnHYkONlEeSxJ80-owkdvg" name="MessageRecv1" message="_WnE8UONlEeSxJ80-owkdvg"/>
+        <guard xmi:type="uml:InteractionConstraint" xmi:id="_3-i3UONlEeSxJ80-owkdvg">
+          <specification xmi:type="uml:LiteralString" xmi:id="_3-jeYONlEeSxJ80-owkdvg" value="FOLLOWUP"/>
+          <maxint xmi:type="uml:LiteralInteger" xmi:id="_3-kFcONlEeSxJ80-owkdvg" value="1"/>
+          <minint xmi:type="uml:LiteralInteger" xmi:id="_3-jeYeNlEeSxJ80-owkdvg"/>
+        </guard>
+      </operand>
+    </fragment>
+    <fragment xmi:type="uml:CombinedFragment" xmi:id="_Hgi6sONoEeSxJ80-owkdvg" name="CombinedFragment1" covered="_zYAmgONkEeSxJ80-owkdvg _EBKxIONlEeSxJ80-owkdvg _x3sqUONkEeSxJ80-owkdvg">
+      <operand xmi:type="uml:InteractionOperand" xmi:id="_HgkI0ONoEeSxJ80-owkdvg" name="InteractionOperand" covered="_zYAmgONkEeSxJ80-owkdvg _EBKxIONlEeSxJ80-owkdvg _x3sqUONkEeSxJ80-owkdvg">
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_hEzNgeNnEeSxJ80-owkdvg" name="MessageSend" message="_hEzNgONnEeSxJ80-owkdvg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_hEz0kONnEeSxJ80-owkdvg" name="MessageRecv" message="_hEzNgONnEeSxJ80-owkdvg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_6mMkIONnEeSxJ80-owkdvg" name="MessageSend0" message="_6mLWAONnEeSxJ80-owkdvg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_6mNyQONnEeSxJ80-owkdvg" name="MessageRecv0" message="_6mLWAONnEeSxJ80-owkdvg"/>
+        <guard xmi:type="uml:InteractionConstraint" xmi:id="_Hgkv4ONoEeSxJ80-owkdvg">
+          <specification xmi:type="uml:LiteralString" xmi:id="_Hgkv4eNoEeSxJ80-owkdvg" value="RENEW"/>
+          <maxint xmi:type="uml:LiteralInteger" xmi:id="_HglW8ONoEeSxJ80-owkdvg" value="1"/>
+          <minint xmi:type="uml:LiteralInteger" xmi:id="_Hgkv4uNoEeSxJ80-owkdvg"/>
+        </guard>
+      </operand>
+    </fragment>
+    <fragment xmi:type="uml:CombinedFragment" xmi:id="_Dj04YONmEeSxJ80-owkdvg" name="CombinedFragment0" covered="_zYAmgONkEeSxJ80-owkdvg _EBKxIONlEeSxJ80-owkdvg _x3sqUONkEeSxJ80-owkdvg _kcel4ONlEeSxJ80-owkdvg _EcZCoONnEeSxJ80-owkdvg">
+      <operand xmi:type="uml:InteractionOperand" xmi:id="_Dj2GgONmEeSxJ80-owkdvg" name="InteractionOperand" covered="_zYAmgONkEeSxJ80-owkdvg _EBKxIONlEeSxJ80-owkdvg _x3sqUONkEeSxJ80-owkdvg _kcel4ONlEeSxJ80-owkdvg _EcZCoONnEeSxJ80-owkdvg">
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_fDfH8ONlEeSxJ80-owkdvg" name="MessageSend2" message="_fDd50ONlEeSxJ80-owkdvg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_fDfvAONlEeSxJ80-owkdvg" name="MessageRecv2" covered="_zYAmgONkEeSxJ80-owkdvg" message="_fDd50ONlEeSxJ80-owkdvg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tByj8ONnEeSxJ80-owkdvg" name="MessageSend7" covered="_zYAmgONkEeSxJ80-owkdvg" message="_tBwHsONnEeSxJ80-owkdvg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tBzLAONnEeSxJ80-owkdvg" name="MessageRecv7" covered="_zYAmgONkEeSxJ80-owkdvg" message="_tBwHsONnEeSxJ80-owkdvg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_oFes4ONlEeSxJ80-owkdvg" name="MessageSend4" covered="_zYAmgONkEeSxJ80-owkdvg" message="_oFdewONlEeSxJ80-owkdvg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_oFf7AONlEeSxJ80-owkdvg" name="MessageRecv4" message="_oFdewONlEeSxJ80-owkdvg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_JsUEIONnEeSxJ80-owkdvg" name="MessageSend5" covered="_kcel4ONlEeSxJ80-owkdvg" message="_JsSO8ONnEeSxJ80-owkdvg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_JsZjsONnEeSxJ80-owkdvg" name="MessageRecv5" covered="_EcZCoONnEeSxJ80-owkdvg" message="_JsSO8ONnEeSxJ80-owkdvg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_O-GG0ONnEeSxJ80-owkdvg" name="MessageSend6" covered="_EcZCoONnEeSxJ80-owkdvg" message="_O-FfwONnEeSxJ80-owkdvg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_O-Gt4ONnEeSxJ80-owkdvg" name="MessageRecv6" covered="_EcZCoONnEeSxJ80-owkdvg" message="_O-FfwONnEeSxJ80-owkdvg"/>
+        <guard xmi:type="uml:InteractionConstraint" xmi:id="_Dj2tkONmEeSxJ80-owkdvg">
+          <specification xmi:type="uml:LiteralString" xmi:id="_Dj2tkeNmEeSxJ80-owkdvg" value="TERMINATE"/>
+          <maxint xmi:type="uml:LiteralInteger" xmi:id="_Dj3UoONmEeSxJ80-owkdvg" value="1"/>
+          <minint xmi:type="uml:LiteralInteger" xmi:id="_Dj2tkuNmEeSxJ80-owkdvg"/>
+        </guard>
+      </operand>
+    </fragment>
+    <message xmi:type="uml:Message" xmi:id="_Kj9vwONlEeSxJ80-owkdvg" name="check(contract details)" messageSort="asynchCall" receiveEvent="_KkAMAeNlEeSxJ80-owkdvg" sendEvent="_KkAMAONlEeSxJ80-owkdvg"/>
+    <message xmi:type="uml:Message" xmi:id="_Ru0z8ONlEeSxJ80-owkdvg" name="notify(if a contract ends in 1 month)" messageSort="asynchCall" receiveEvent="_Ru33QONlEeSxJ80-owkdvg" sendEvent="_Ru2pIONlEeSxJ80-owkdvg"/>
+    <message xmi:type="uml:Message" xmi:id="_WnE8UONlEeSxJ80-owkdvg" name="contact_affiliate(for renewal)" messageSort="asynchCall" receiveEvent="_WnHYkONlEeSxJ80-owkdvg" sendEvent="_WnGxgONlEeSxJ80-owkdvg"/>
+    <message xmi:type="uml:Message" xmi:id="_fDd50ONlEeSxJ80-owkdvg" name="renew(NO)" messageSort="asynchCall" receiveEvent="_fDfvAONlEeSxJ80-owkdvg" sendEvent="_fDfH8ONlEeSxJ80-owkdvg"/>
+    <message xmi:type="uml:Message" xmi:id="_oFdewONlEeSxJ80-owkdvg" name="create(project closing issue)" messageSort="asynchCall" receiveEvent="_oFf7AONlEeSxJ80-owkdvg" sendEvent="_oFes4ONlEeSxJ80-owkdvg"/>
+    <message xmi:type="uml:Message" xmi:id="_JsSO8ONnEeSxJ80-owkdvg" name="nofity(project closing issue)" messageSort="asynchCall" receiveEvent="_JsZjsONnEeSxJ80-owkdvg" sendEvent="_JsUEIONnEeSxJ80-owkdvg"/>
+    <message xmi:type="uml:Message" xmi:id="_O-FfwONnEeSxJ80-owkdvg" name="close(project)" messageSort="asynchCall" receiveEvent="_O-Gt4ONnEeSxJ80-owkdvg" sendEvent="_O-GG0ONnEeSxJ80-owkdvg"/>
+    <message xmi:type="uml:Message" xmi:id="_hEzNgONnEeSxJ80-owkdvg" name="renew(YES)" messageSort="asynchCall" receiveEvent="_hEz0kONnEeSxJ80-owkdvg" sendEvent="_hEzNgeNnEeSxJ80-owkdvg"/>
+    <message xmi:type="uml:Message" xmi:id="_tBwHsONnEeSxJ80-owkdvg" name="close(project)" messageSort="asynchCall" receiveEvent="_tBzLAONnEeSxJ80-owkdvg" sendEvent="_tByj8ONnEeSxJ80-owkdvg"/>
+    <message xmi:type="uml:Message" xmi:id="_6mLWAONnEeSxJ80-owkdvg" name="update(contract details)" messageSort="asynchCall" receiveEvent="_6mNyQONnEeSxJ80-owkdvg" sendEvent="_6mMkIONnEeSxJ80-owkdvg"/>
+  </packagedElement>
+</uml:Package>

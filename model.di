@@ -87,19 +87,13 @@
     <windows>
       <children xsi:type="di:TabFolder">
         <children>
-          <emfPageIdentifier href="ResourceAllocation.notation#_tjKrMGM0EeOLd81QbgL2RA"/>
+          <emfPageIdentifier href="Contracting.notation#_5JiIMKB7EeO_DNBl9m0-HA"/>
         </children>
         <children>
-          <emfPageIdentifier href="ProjectExecution.notation#_2DgrEN3gEeSaksy6j-KdBQ"/>
+          <emfPageIdentifier href="ContractRenewal.notation#_wLj4oONkEeSxJ80-owkdvg"/>
         </children>
         <children>
-          <emfPageIdentifier href="ProjectExecutionUc.notation#_2x6zwN3hEeSaksy6j-KdBQ"/>
-        </children>
-        <children>
-          <emfPageIdentifier href="SupportServices.notation#_irh8AKB5EeO_DNBl9m0-HA"/>
-        </children>
-        <children>
-          <emfPageIdentifier href="ComputingServices.notation#_BxaOwHEuEeOrbLDZJ3pUzQ"/>
+          <emfPageIdentifier href="model.notation#_32HDEBcMEeSiwNNaV55PAw"/>
         </children>
       </children>
     </windows>
