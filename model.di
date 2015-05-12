@@ -87,10 +87,16 @@
     <windows>
       <children xsi:type="di:TabFolder">
         <children>
-          <emfPageIdentifier href="model.notation#_1Jr70NzyEeO21-1-XVdvfQ"/>
+          <emfPageIdentifier href="KaPA.notation#_GZTdcPSNEeS-1tKGbEVTxw"/>
         </children>
         <children>
-          <emfPageIdentifier href="ProjectManagement.notation#_FrR5sKUrEeOO1PYOwHzT6Q"/>
+          <emfPageIdentifier href="ESB.notation#_56ERYPSTEeS-1tKGbEVTxw"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="DeploymentDiagrams.notation#_CfAyEPfCEeSwm-RdLQFJCg"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="KaPA_messaging.notation#_aAYT8PhtEeSwm-RdLQFJCg"/>
         </children>
       </children>
     </windows>

@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Package xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_tXxuMKB3EeO_DNBl9m0-HA" name="DeploymentDiagrams">
+<uml:Package xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_tXxuMKB3EeO_DNBl9m0-HA" name="DeploymentDiagrams">
   <packagedElement xmi:type="uml:Package" href="ComputingServices.uml#_SBKOQKLbEeOO1PYOwHzT6Q"/>
   <packagedElement xmi:type="uml:Package" href="SupportServices.uml#_TNBkcKLbEeOO1PYOwHzT6Q"/>
   <packagedElement xmi:type="uml:Package" href="UsageExample01.uml#_UD6wMKLbEeOO1PYOwHzT6Q"/>
   <packagedElement xmi:type="uml:Package" href="AuthenticationInfra.uml#_x4tTQNzyEeO21-1-XVdvfQ"/>
   <packagedElement xmi:type="uml:Package" href="AuthenticationInfra02.uml#_uzaHQCHzEeSIMKYShLqR6w"/>
   <packagedElement xmi:type="uml:Package" href="X_RoadESB.uml#_mbY6EMPeEeSm6O02od6yqw"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_8FXvcPfBEeSwm-RdLQFJCg" name="BIRT">
+    <packagedElement xmi:type="uml:Node" xmi:id="_E8T68PfCEeSwm-RdLQFJCg" name="Analytics">
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_U4GCMPfCEeSwm-RdLQFJCg" name="cron:python:usage2csv" fileName="Artifact1.file">
+        <generalization xmi:type="uml:Generalization" xmi:id="_7x0loPijEeSEYZP9NOPUpw" general="_e19ZgPfCEeSwm-RdLQFJCg"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_9hB5cPijEeSEYZP9NOPUpw" name="WebApp:BIRT" fileName="Artifact1.file"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Node" xmi:id="_YOkOwPfCEeSwm-RdLQFJCg" name="DB">
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_ch2o4PfCEeSwm-RdLQFJCg" name="db:redmine_production" fileName="Artifact1.file"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_e19ZgPfCEeSwm-RdLQFJCg" name="db:iaas_production" fileName="Artifact1.file"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Node" xmi:id="_ZbFsQPfCEeSwm-RdLQFJCg" name="IaaS">
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_rHkVEPfCEeSwm-RdLQFJCg" name="OpenStack API" fileName="Artifact1.file"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_34-r0PijEeSEYZP9NOPUpw" client="_U4GCMPfCEeSwm-RdLQFJCg" supplier="_rHkVEPfCEeSwm-RdLQFJCg"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_B72e8PikEeSEYZP9NOPUpw" client="_9hB5cPijEeSEYZP9NOPUpw" supplier="_ch2o4PfCEeSwm-RdLQFJCg"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_Cx-OoPikEeSEYZP9NOPUpw" client="_9hB5cPijEeSEYZP9NOPUpw" supplier="_e19ZgPfCEeSwm-RdLQFJCg"/>
+    <packagedElement xmi:type="uml:Node" xmi:id="_NCe1IPikEeSEYZP9NOPUpw" name="Support">
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_O7-GUPikEeSEYZP9NOPUpw" name="Redmine" fileName="Artifact1.file">
+        <generalization xmi:type="uml:Generalization" xmi:id="_RAzE0PikEeSEYZP9NOPUpw" general="_ch2o4PfCEeSwm-RdLQFJCg"/>
+      </nestedClassifier>
+    </packagedElement>
+  </packagedElement>
 </uml:Package>

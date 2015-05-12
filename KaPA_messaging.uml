@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_UXGXQPhtEeSwm-RdLQFJCg" name="KaPA-messaging">
+  <packagedElement xmi:type="uml:Component" xmi:id="_dQyUwPhtEeSwm-RdLQFJCg" name="FORGE" useCase="_nc8mwPhtEeSwm-RdLQFJCg _j5Nk0PhuEeSwm-RdLQFJCg">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_nc8mwPhtEeSwm-RdLQFJCg" name="Request joining" subject="_dQyUwPhtEeSwm-RdLQFJCg"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_j5Nk0PhuEeSwm-RdLQFJCg" name="Request unjoining " subject="_dQyUwPhtEeSwm-RdLQFJCg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_gyaocPhtEeSwm-RdLQFJCg" name="Directory" useCase="_16z-gPhtEeSwm-RdLQFJCg _-8CucPhtEeSwm-RdLQFJCg">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_16z-gPhtEeSwm-RdLQFJCg" name="CRUD" subject="_gyaocPhtEeSwm-RdLQFJCg">
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_-8CucPhtEeSwm-RdLQFJCg" name="CRUD" subject="_gyaocPhtEeSwm-RdLQFJCg"/>
+    </ownedUseCase>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_mk6LgPhtEeSwm-RdLQFJCg" name="SD"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_rbk_gPhtEeSwm-RdLQFJCg" name="" memberEnd="_rbk_gfhtEeSwm-RdLQFJCg _rbk_hPhtEeSwm-RdLQFJCg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rbk_gfhtEeSwm-RdLQFJCg" name="sd" type="_mk6LgPhtEeSwm-RdLQFJCg" association="_rbk_gPhtEeSwm-RdLQFJCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rbk_gvhtEeSwm-RdLQFJCg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rbk_g_htEeSwm-RdLQFJCg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rbk_hPhtEeSwm-RdLQFJCg" name="request joining esb" type="_nc8mwPhtEeSwm-RdLQFJCg" association="_rbk_gPhtEeSwm-RdLQFJCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rbk_hfhtEeSwm-RdLQFJCg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rbk_hvhtEeSwm-RdLQFJCg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_3m9XQPhtEeSwm-RdLQFJCg" name="FORGE HelpDesk"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_5uKUUPhtEeSwm-RdLQFJCg" name="" memberEnd="_5uKUUfhtEeSwm-RdLQFJCg _5uKUVPhtEeSwm-RdLQFJCg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5uKUUfhtEeSwm-RdLQFJCg" name="forge helpdesk" type="_3m9XQPhtEeSwm-RdLQFJCg" association="_5uKUUPhtEeSwm-RdLQFJCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5uKUUvhtEeSwm-RdLQFJCg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5uKUU_htEeSwm-RdLQFJCg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5uKUVPhtEeSwm-RdLQFJCg" name="generate esb conf" type="_16z-gPhtEeSwm-RdLQFJCg" association="_5uKUUPhtEeSwm-RdLQFJCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5uKUVfhtEeSwm-RdLQFJCg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5uKUVvhtEeSwm-RdLQFJCg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_9EU-4PhtEeSwm-RdLQFJCg" client="_nc8mwPhtEeSwm-RdLQFJCg" supplier="_3m9XQPhtEeSwm-RdLQFJCg"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_QTmQIPhuEeSwm-RdLQFJCg" name="FORGE ConceptOwner"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ma9I0PhuEeSwm-RdLQFJCg" name="" memberEnd="_ma9I0fhuEeSwm-RdLQFJCg _ma9I1PhuEeSwm-RdLQFJCg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ma9I0fhuEeSwm-RdLQFJCg" name="sd" type="_mk6LgPhtEeSwm-RdLQFJCg" association="_ma9I0PhuEeSwm-RdLQFJCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ma9I0vhuEeSwm-RdLQFJCg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ma9I0_huEeSwm-RdLQFJCg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ma9I1PhuEeSwm-RdLQFJCg" name="request unjoining esb" type="_j5Nk0PhuEeSwm-RdLQFJCg" association="_ma9I0PhuEeSwm-RdLQFJCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ma9I1fhuEeSwm-RdLQFJCg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ma9I1vhuEeSwm-RdLQFJCg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_oGT3YPhuEeSwm-RdLQFJCg" client="_j5Nk0PhuEeSwm-RdLQFJCg" supplier="_3m9XQPhtEeSwm-RdLQFJCg"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wm0a4PilEeSEYZP9NOPUpw" name="" memberEnd="_wm0a4filEeSEYZP9NOPUpw _wm0a5PilEeSEYZP9NOPUpw">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wm0a4filEeSEYZP9NOPUpw" name="forge conceptowner" type="_QTmQIPhuEeSwm-RdLQFJCg" association="_wm0a4PilEeSEYZP9NOPUpw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wm0a4vilEeSEYZP9NOPUpw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wm0a4_ilEeSEYZP9NOPUpw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wm0a5PilEeSEYZP9NOPUpw" name="crud" type="_16z-gPhtEeSwm-RdLQFJCg" association="_wm0a4PilEeSEYZP9NOPUpw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wm0a5filEeSEYZP9NOPUpw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wm0a5vilEeSEYZP9NOPUpw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7EmoYPilEeSEYZP9NOPUpw" name="" memberEnd="_7EmoYfilEeSEYZP9NOPUpw _7EmoZPilEeSEYZP9NOPUpw">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7EmoYfilEeSEYZP9NOPUpw" name="sd" type="_mk6LgPhtEeSwm-RdLQFJCg" association="_7EmoYPilEeSEYZP9NOPUpw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7EmoYvilEeSEYZP9NOPUpw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7EmoY_ilEeSEYZP9NOPUpw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7EmoZPilEeSEYZP9NOPUpw" name="crud" type="_-8CucPhtEeSwm-RdLQFJCg" association="_7EmoYPilEeSEYZP9NOPUpw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7EmoZfilEeSEYZP9NOPUpw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7EmoZvilEeSEYZP9NOPUpw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_-RuEoPilEeSEYZP9NOPUpw" name="Transport" useCase="_ATxb8PimEeSEYZP9NOPUpw">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ATxb8PimEeSEYZP9NOPUpw" name="Send/Receive" subject="_-RuEoPilEeSEYZP9NOPUpw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Dq03UPimEeSEYZP9NOPUpw" name="" memberEnd="_Dq03UfimEeSEYZP9NOPUpw _Dq03VPimEeSEYZP9NOPUpw">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Dq03UfimEeSEYZP9NOPUpw" name="sd" type="_mk6LgPhtEeSwm-RdLQFJCg" association="_Dq03UPimEeSEYZP9NOPUpw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Dq03UvimEeSEYZP9NOPUpw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Dq03U_imEeSEYZP9NOPUpw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Dq03VPimEeSEYZP9NOPUpw" name="send/receive" type="_ATxb8PimEeSEYZP9NOPUpw" association="_Dq03UPimEeSEYZP9NOPUpw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Dq03VfimEeSEYZP9NOPUpw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Dq03VvimEeSEYZP9NOPUpw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Package>

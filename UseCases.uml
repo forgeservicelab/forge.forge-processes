@@ -5,4 +5,7 @@
   <packagedElement xmi:type="uml:Package" href="Roles.uml#_s2mxMFNoEeS-YYOgOGoDmg"/>
   <packagedElement xmi:type="uml:Package" href="ForgeConcept.uml#_Jy5DIGZpEeS36YzHW8mHoQ"/>
   <packagedElement xmi:type="uml:Package" href="ProjectExecutionUc.uml#_lO8sQN3hEeSaksy6j-KdBQ"/>
+  <packagedElement xmi:type="uml:Package" href="KaPA.uml#_AwFyMPSNEeS-1tKGbEVTxw"/>
+  <packagedElement xmi:type="uml:Package" href="ESB.uml#_2gZm4PSTEeS-1tKGbEVTxw"/>
+  <packagedElement xmi:type="uml:Package" href="KaPA_messaging.uml#_UXGXQPhtEeSwm-RdLQFJCg"/>
 </uml:Package>
