@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_TW_cUAK5EeW9mZjPV0prkw" name="model">
+  <ownedComment xmi:id="_Yh2-sAK5EeW9mZjPV0prkw">
+    <body></body>
+  </ownedComment>
+  <packagedElement xmi:type="uml:Node" xmi:id="_WGLmcAK5EeW9mZjPV0prkw" name="Node1"/>
+  <packagedElement xmi:type="uml:Device" xmi:id="_XYUjwAK5EeW9mZjPV0prkw" name="Device1"/>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_X-FjQAK5EeW9mZjPV0prkw" name="Artifact1" fileName="Artifact1.file"/>
+  <packagedElement xmi:type="uml:ExecutionEnvironment" xmi:id="_YOLNsAK5EeW9mZjPV0prkw" name="ExecutionEnvironment1"/>
+  <packagedElement xmi:type="uml:Device" xmi:id="_bi6TsAnyEeWrU4I8B89lJA" name="Device2"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_fFuTIAnyEeWrU4I8B89lJA" name="hmaster02"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_f8qFsAnzEeWrU4I8B89lJA" name="hslave01"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_iyxXMAnzEeWrU4I8B89lJA" name="hslave02"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_jczysAnzEeWrU4I8B89lJA" name="hslave03"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_jyZBIAnzEeWrU4I8B89lJA" name="hslave04"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_kDrlcAnzEeWrU4I8B89lJA" name="hslave05"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_kWsBAAnzEeWrU4I8B89lJA" name="hslave06"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_R3rSkAn0EeWrU4I8B89lJA" name="hslave07"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_SvnnMAn0EeWrU4I8B89lJA" name="hslave08"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_TR84MAn0EeWrU4I8B89lJA" name="hslave09"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_UI4gMAn0EeWrU4I8B89lJA" name="hslave10"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_VD7zMAn0EeWrU4I8B89lJA" name="hslave11"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_VqBi0An0EeWrU4I8B89lJA" name="hslave12"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_sz8rwAn0EeWrU4I8B89lJA" name="monitor01"/>
+  <packagedElement xmi:type="uml:ExecutionEnvironment" xmi:id="_-CATMAn0EeWrU4I8B89lJA" name="ExecutionEnvironment2"/>
+  <packagedElement xmi:type="uml:Device" xmi:id="_ldzlkAqtEeWakNMlPCmKEw" name=""/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_a1cJsQnyEeWrU4I8B89lJA" name="hmaster01">
+    <nestedClassifier xmi:type="uml:Node" xmi:id="_aWLx4QqiEeWakNMlPCmKEw" name="flume"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ExecutionEnvironment" xmi:id="_xL_OgAquEeWakNMlPCmKEw" name="Message Bus" clientDependency="_BJYC0AqwEeWakNMlPCmKEw _FUKrcAq0EeWakNMlPCmKEw _T0eAQArBEeWakNMlPCmKEw _-E5O0AtXEeWpKf_-5ZS66w">
+    <deployment xmi:id="_BJYC0AqwEeWakNMlPCmKEw" name=" Avro" supplier="_a1cJsQnyEeWrU4I8B89lJA" client="_xL_OgAquEeWakNMlPCmKEw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_yR-pYAqyEeWakNMlPCmKEw" name="Avro" supplier="_xL_OgAquEeWakNMlPCmKEw" client="_fJd6sAqiEeWakNMlPCmKEw"/>
+  <packagedElement xmi:type="uml:ExecutionEnvironment" xmi:id="_Xv6DcAqzEeWakNMlPCmKEw" name="Application" clientDependency="_u97pQAqzEeWakNMlPCmKEw _VZBjQArBEeWakNMlPCmKEw">
+    <nestedClassifier xmi:type="uml:Node" xmi:id="_gY884AqzEeWakNMlPCmKEw" name="Host2"/>
+    <nestedClassifier xmi:type="uml:Node" xmi:id="_kJsqoAqzEeWakNMlPCmKEw" name="Host3"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_u97pQAqzEeWakNMlPCmKEw" name="Avro" supplier="_xL_OgAquEeWakNMlPCmKEw" client="_Xv6DcAqzEeWakNMlPCmKEw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_FUKrcAq0EeWakNMlPCmKEw" name="Avro" supplier="_oMXdkAqtEeWakNMlPCmKEw" client="_xL_OgAquEeWakNMlPCmKEw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_T5bgIAq-EeWakNMlPCmKEw" name="???" supplier="_xFuQoAq9EeWakNMlPCmKEw" client="_oMXdkAqtEeWakNMlPCmKEw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_VSd6MAq_EeWakNMlPCmKEw" name="Avro" supplier="_16ntkAq-EeWakNMlPCmKEw" client="_fJd6sAqiEeWakNMlPCmKEw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_WskgsAq_EeWakNMlPCmKEw" name="Avro" supplier="_BSIYYAq_EeWakNMlPCmKEw" client="_16ntkAq-EeWakNMlPCmKEw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_cVYjUAq_EeWakNMlPCmKEw" name="Avro" supplier="_oMXdkAqtEeWakNMlPCmKEw" client="_BSIYYAq_EeWakNMlPCmKEw"/>
+  <packagedElement xmi:type="uml:Device" xmi:id="_xUDVoAq_EeWakNMlPCmKEw" name="Device3"/>
+  <packagedElement xmi:type="uml:Device" xmi:id="_xb97gAq_EeWakNMlPCmKEw" name="Device4"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="__8e-oAq_EeWakNMlPCmKEw" name="Avro" supplier="_xH5wAAq_EeWakNMlPCmKEw" client="_BSIYYAq_EeWakNMlPCmKEw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_dzgRsArAEeWakNMlPCmKEw" name="HDFS blocks" supplier="_1ykvYAq_EeWakNMlPCmKEw" client="_xH5wAAq_EeWakNMlPCmKEw"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_894qEArAEeWakNMlPCmKEw" name="Node2"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_T0eAQArBEeWakNMlPCmKEw" name="Avro" supplier="_oMXdkAqtEeWakNMlPCmKEw" client="_xL_OgAquEeWakNMlPCmKEw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_VZBjQArBEeWakNMlPCmKEw" name="Avro" supplier="_xL_OgAquEeWakNMlPCmKEw" client="_Xv6DcAqzEeWakNMlPCmKEw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_thfYEArBEeWakNMlPCmKEw" name="?" supplier="_2_DUIArAEeWakNMlPCmKEw" client="_oMXdkAqtEeWakNMlPCmKEw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_wzy2UArBEeWakNMlPCmKEw" name="HDFS blocks" supplier="_akq-MArAEeWakNMlPCmKEw" client="_HmgEAArAEeWakNMlPCmKEw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_yNRxwArBEeWakNMlPCmKEw" name="" supplier="_VQ5XcArAEeWakNMlPCmKEw" client="_HmgEAArAEeWakNMlPCmKEw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_3rP2UArBEeWakNMlPCmKEw" name="" supplier="_InmfMArBEeWakNMlPCmKEw" client="_B2Xb8ArBEeWakNMlPCmKEw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_6GqI0ArBEeWakNMlPCmKEw" name="?" supplier="_N8eSIArBEeWakNMlPCmKEw" client="_B2Xb8ArBEeWakNMlPCmKEw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_8gS5sArBEeWakNMlPCmKEw" name="?" supplier="_xFuQoAq9EeWakNMlPCmKEw" client="_97m2kArAEeWakNMlPCmKEw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="__Pj8UArBEeWakNMlPCmKEw" name="?" supplier="_62Ae8Aq9EeWakNMlPCmKEw" client="_97m2kArAEeWakNMlPCmKEw"/>
+  <packagedElement xmi:type="uml:ExecutionEnvironment" xmi:id="_xFuQoAq9EeWakNMlPCmKEw" name="Ad Hoc Analytics" clientDependency="_68gn8AtfEeWpKf_-5ZS66w"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_QiljUArCEeWakNMlPCmKEw" name="?" supplier="_xFuQoAq9EeWakNMlPCmKEw" client="_2_DUIArAEeWakNMlPCmKEw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_UKNxUArCEeWakNMlPCmKEw" name="?" supplier="_62Ae8Aq9EeWakNMlPCmKEw" client="_2_DUIArAEeWakNMlPCmKEw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_slX4oArCEeWakNMlPCmKEw" name="Dependency1" supplier="_xFuQoAq9EeWakNMlPCmKEw" client="_2_DUIArAEeWakNMlPCmKEw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_w8CW4ArCEeWakNMlPCmKEw" name="?" supplier="_xFuQoAq9EeWakNMlPCmKEw" client="_2_DUIArAEeWakNMlPCmKEw"/>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_9IP1EArCEeWakNMlPCmKEw" name="Artifact2" fileName="Artifact2.file"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_-WMO4ArCEeWakNMlPCmKEw" name="?" supplier="_62Ae8Aq9EeWakNMlPCmKEw" client="_2_DUIArAEeWakNMlPCmKEw"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_fJd6sAqiEeWakNMlPCmKEw" name="FORGE Host" clientDependency="_yR-pYAqyEeWakNMlPCmKEw _VSd6MAq_EeWakNMlPCmKEw _8NlZ0AtVEeWpKf_-5ZS66w">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_1Hr48Aq3EeWakNMlPCmKEw" name="Access-Log-Parser" fileName="Artifact1.file"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_Nu_l4Aq4EeWakNMlPCmKEw" name="Apache/Nginx" fileName="Artifact1.file"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_W4yUkAq7EeWakNMlPCmKEw" name="logtail2" fileName="Artifact1.file"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_asZwIAq7EeWakNMlPCmKEw" name="flume-ng avro-client" fileName="Artifact1.file"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_16ntkAq-EeWakNMlPCmKEw" name="monitor01" clientDependency="_WskgsAq_EeWakNMlPCmKEw _GRDC0AtWEeWpKf_-5ZS66w">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_2_GpYAq-EeWakNMlPCmKEw" name="haproxy" fileName="Artifact2.file">
+      <generalization xmi:id="_wVw3QQtVEeWpKf_-5ZS66w" general="_Q2_C0Aq-EeWakNMlPCmKEw"/>
+    </nestedClassifier>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_BSIYYAq_EeWakNMlPCmKEw" name="hmaster01/hmaster02" clientDependency="_cVYjUAq_EeWakNMlPCmKEw __8e-oAq_EeWakNMlPCmKEw _G_HpwAtWEeWpKf_-5ZS66w">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_Q2_C0Aq-EeWakNMlPCmKEw" name="flume" fileName="Artifact1.file"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_8NlZ0AtVEeWpKf_-5ZS66w" name="Generates to" supplier="_xL_OgAquEeWakNMlPCmKEw" client="_fJd6sAqiEeWakNMlPCmKEw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_GRDC0AtWEeWpKf_-5ZS66w" name=" Relays from/to" supplier="_xL_OgAquEeWakNMlPCmKEw" client="_16ntkAq-EeWakNMlPCmKEw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_G_HpwAtWEeWpKf_-5ZS66w" name="Relays from/to" supplier="_xL_OgAquEeWakNMlPCmKEw" client="_BSIYYAq_EeWakNMlPCmKEw"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_xH5wAAq_EeWakNMlPCmKEw" name="hmaster01/hmaster02" clientDependency="_dzgRsArAEeWakNMlPCmKEw _aJwnwAtYEeWpKf_-5ZS66w">
+    <nestedClassifier xmi:type="uml:ExecutionEnvironment" xmi:id="_oMXdkAqtEeWakNMlPCmKEw" name="Hadoop HDFS" clientDependency="_T5bgIAq-EeWakNMlPCmKEw _thfYEArBEeWakNMlPCmKEw _QE0wYAteEeWpKf_-5ZS66w">
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_HmgEAArAEeWakNMlPCmKEw" name="NameNode" clientDependency="_wzy2UArBEeWakNMlPCmKEw _yNRxwArBEeWakNMlPCmKEw" fileName="Artifact2.file"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_VQ5XcArAEeWakNMlPCmKEw" name="DataNode" fileName="Artifact2.file"/>
+    </nestedClassifier>
+    <nestedClassifier xmi:type="uml:ExecutionEnvironment" xmi:id="_2_DUIArAEeWakNMlPCmKEw" name="Hadoop MapReduce" clientDependency="_QiljUArCEeWakNMlPCmKEw _UKNxUArCEeWakNMlPCmKEw _rXODcArCEeWakNMlPCmKEw _slX4oArCEeWakNMlPCmKEw _w8CW4ArCEeWakNMlPCmKEw _-WMO4ArCEeWakNMlPCmKEw _RlJ6sAteEeWpKf_-5ZS66w">
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_B2Xb8ArBEeWakNMlPCmKEw" name="JobTracker" clientDependency="_3rP2UArBEeWakNMlPCmKEw _6GqI0ArBEeWakNMlPCmKEw" fileName="Artifact2.file">
+        <generalization xmi:id="_1QXvUArBEeWakNMlPCmKEw" general="_InmfMArBEeWakNMlPCmKEw"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_InmfMArBEeWakNMlPCmKEw" name="TaskTracker" fileName="Artifact2.file"/>
+      <deployment xmi:id="_rXODcArCEeWakNMlPCmKEw" name="" supplier="_xFuQoAq9EeWakNMlPCmKEw" client="_2_DUIArAEeWakNMlPCmKEw"/>
+    </nestedClassifier>
+    <nestedClassifier xmi:type="uml:ExecutionEnvironment" xmi:id="_62Ae8Aq9EeWakNMlPCmKEw" name="Analytics Engine">
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_5bIqIArCEeWakNMlPCmKEw" name="Spark" fileName="Artifact2.file"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_BjgmkAtfEeWpKf_-5ZS66w" name="Crunch?" fileName="Artifact1.file"/>
+    </nestedClassifier>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_1ykvYAq_EeWakNMlPCmKEw" name="hslave01...hslave10">
+    <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_TiYgkAtXEeWpKf_-5ZS66w" name="Hadoop HDFS">
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_akq-MArAEeWakNMlPCmKEw" name="DataNode" fileName="Artifact1.file"/>
+    </nestedNode>
+    <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_qTMJcAtYEeWpKf_-5ZS66w" name="Hadoop MapReduce">
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_N8eSIArBEeWakNMlPCmKEw" name="TaskTracker" fileName="Artifact2.file"/>
+    </nestedNode>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_-E5O0AtXEeWpKf_-5ZS66w" name="Relays to" supplier="_xH5wAAq_EeWakNMlPCmKEw" client="_xL_OgAquEeWakNMlPCmKEw"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_97m2kArAEeWakNMlPCmKEw" name="hmaster01/hmaster02" clientDependency="_8gS5sArBEeWakNMlPCmKEw __Pj8UArBEeWakNMlPCmKEw"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_FIwZwArBEeWakNMlPCmKEw" name="hslave01...hslave10"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_aJwnwAtYEeWpKf_-5ZS66w" name="Utilizes" supplier="_1ykvYAq_EeWakNMlPCmKEw" client="_xH5wAAq_EeWakNMlPCmKEw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_QE0wYAteEeWpKf_-5ZS66w" name="Utilizes" supplier="_TiYgkAtXEeWpKf_-5ZS66w" client="_oMXdkAqtEeWakNMlPCmKEw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_RlJ6sAteEeWpKf_-5ZS66w" name="Utilizes" supplier="_qTMJcAtYEeWpKf_-5ZS66w" client="_2_DUIArAEeWakNMlPCmKEw"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_0l_gIArCEeWakNMlPCmKEw" name="hmaster01/hmaster02"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_68gn8AtfEeWpKf_-5ZS66w" name="Utilizes" supplier="_xH5wAAq_EeWakNMlPCmKEw" client="_xFuQoAq9EeWakNMlPCmKEw"/>
+  <packagedElement xmi:type="uml:ExecutionEnvironment" xmi:id="_K1O-sQthEeWvTJTKbWHsLg" name="Ad-Hoc Analytics" clientDependency="_NyL4AAthEeWvTJTKbWHsLg">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_MSgN8AthEeWvTJTKbWHsLg" name="?" fileName="Artifact1.file"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_NyL4AAthEeWvTJTKbWHsLg" name="Utilizes" supplier="_xH5wAAq_EeWakNMlPCmKEw" client="_K1O-sQthEeWvTJTKbWHsLg"/>
+</uml:Model>
